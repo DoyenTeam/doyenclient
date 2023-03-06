@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       This is the Doyen App
+      More coming soon...
     </main>
   )
 }
