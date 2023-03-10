@@ -67,7 +67,7 @@ export default function Profile(){
                           aria-hidden="true"
                         />
                         <span className="ml-2 w-0 flex-1 truncate">
-                          resume_back_end_developer.pdf
+                          paper2.pdf
                         </span>
                       </div>
                       <div className="ml-4 flex-shrink-0">
@@ -86,7 +86,7 @@ export default function Profile(){
                           aria-hidden="true"
                         />
                         <span className="ml-2 w-0 flex-1 truncate">
-                          coverletter_back_end_developer.pdf
+                          paper1.pdf
                         </span>
                       </div>
                       <div className="ml-4 flex-shrink-0">
