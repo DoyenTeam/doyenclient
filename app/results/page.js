@@ -1,4 +1,7 @@
+"use client"
+
 import Link from 'next/link';
+import Filters from '../filters/page'
 
 export default function Results(){
     const people = [
@@ -76,7 +79,17 @@ export default function Results(){
           </div>
         </div>
 
-        <ul
+        <div>
+          {/* top of the page */}
+
+          <div className="pt-12 lg:grid lg:grid-cols-3 lg:gap-x-4 xl:grid-cols-4">
+            <aside>
+              <Filters></Filters>
+            </aside>
+
+            {/* Product grid */}
+            <div className="mt-6 lg:col-span-2 lg:mt-0 xl:col-span-3">
+            <ul
           role="list"
           className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-12"
         >
@@ -112,6 +125,9 @@ export default function Results(){
             
           ))}
         </ul>
+            </div>
+          </div>
+        </div>
       </body>
     );
 }
