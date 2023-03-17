@@ -37,8 +37,9 @@ export default function Search() {
                     name="text"
                     type="text"
                     autoComplete="text"
+                    placeholder='e.g. "progeria"'
                     required
-                    className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 pl-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -56,18 +57,19 @@ export default function Search() {
                     name="text"
                     type="text"
                     autoComplete="current-text"
+                    placeholder='e.g. "disease", "gene", "human"'
                     required
-                    className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 pl-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
 
-              <div>
+              <div className="flex flex-col items-center">
                 <Link href={`/results`}>
                   <button
                     type="submit"
                     size="md"
-                    className="flex  justify-center m-auto rounded-md bg-indigo-600 py-2 px-3  font-semibold text-white "
+                    className="h-12 px-4 ml-3 rounded-md bg-indigo-600 px-3 py-2 text-lg font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     Search
                   </button>
