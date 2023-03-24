@@ -2,10 +2,43 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
 import Link from 'next/link'
+import React, { useState, useRef, useEffect } from "react";
+import { XMarkIcon } from "@heroicons/react/24/outline";
+import { Listbox, Transition } from "@headlessui/react";
+import { meshTerms } from './meshTerms';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Search() {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filteredTerms, setFilteredTerms] = useState([]);
+  const [selectedTerms, setSelectedTerms] = useState([]);
+  const searchBarRef = useRef(null);
+
+  useEffect(() => {
+    if (searchTerm.length > 0) {
+      setFilteredTerms(
+        meshTerms.filter((term) =>
+          term.toLowerCase().startsWith(searchTerm.toLowerCase())
+        )
+      );
+    } else {
+      setFilteredTerms([]);
+    }
+  }, [searchTerm]);
+
+  const addTerm = (term) => {
+    if (!selectedTerms.includes(term)) {
+      setSelectedTerms([...selectedTerms, term]);
+    }
+    setSearchTerm("");
+    setFilteredTerms([]);
+  };
+
+  const removeTerm = (termToRemove) => {
+    setSelectedTerms(selectedTerms.filter((term) => term !== termToRemove));
+  };
+
   return (
     <main>
       <div className="flex flex-col w-full justify-center ">
@@ -32,18 +65,66 @@ export default function Search() {
                   Primary Search Term
                 </label>
                 <div className="mt-2">
+                {selectedTerms.map((term) => (
+                  <span className="flex items-center m-1 px-2 py-1 text-sm font-medium text-gray-700 bg-gray-100 rounded">
+                    {term}
+                    <XMarkIcon
+                      className="w-4 h-4 ml-1 text-gray-500 cursor-pointer"
+                      onClick={() => removeTerm(term)}
+                    />
+                  </span>
+                ))}
                   <input
+                    ref={searchBarRef}
                     id="text"
                     name="text"
                     type="text"
                     autoComplete="text"
                     placeholder='e.g. "progeria"'
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
                     required
                     className="block w-full rounded-md border-0 pl-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
+                <Transition
+                  show={filteredTerms.length > 0}
+                  className="absolute w-full mt-1 bg-white border border-gray-300 rounded shadow-lg"
+                  enter="transition ease-out duration-100 transform"
+                  enterFrom="opacity-0 scale-95"
+                  enterTo="opacity-100 scale-100"
+                  leave="transition ease-in duration-75 transform"
+                  leaveFrom="opacity-100 scale-100"
+                  leaveTo="opacity-0 scale-95"
+                  >
+                  <Listbox
+                    as="ul"
+                    value={null}
+                    onChange={addTerm}
+                    className="py-1 overflow-auto text-base leading-6 rounded-md shadow-sm max-h-60 focus:outline-none sm:text-sm sm:leading-5"
+                    >
+                    {filteredTerms.map((term) => (
+                    <Listbox.Option
+                      key={term}
+                      value={term}
+                      as="li"
+                      className={({ active }) =>
+                        `${
+                          active ? "text-white bg-indigo-600" : "text-gray-900"
+                        } cursor-pointer select-none relative py-2 pl-3 pr-9`
+                      }
+                      >
+                      {term}
+                    </Listbox.Option>
+                    ))}
+                    {filteredTerms.length === 0 && (
+                      <li className="py-2 pl-3 pr-9 text-gray-500 cursor-not-allowed">
+                        No words
+                      </li>
+                    )}
+                  </Listbox>
+                </Transition>
               </div>
-
               <div>
                 <label
                   htmlFor="text"
