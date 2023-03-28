@@ -23,7 +23,6 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import {ChevronDownIcon, MagnifyingGlassIcon} from '@heroicons/react/20/solid'
-import Publications from "@/app/results/publications";
 import Search from "@/app/search";
 
 const navigation = [
