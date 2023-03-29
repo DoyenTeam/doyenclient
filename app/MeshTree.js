@@ -102,15 +102,13 @@ export default function MeshTree() {
                                         {sub.subterms.map((subsub) => (
                                             <div className={"flex"}>
                                             <TreeItem nodeId={subsub.id} label={subsub.term}> {[]} </TreeItem>
-                                            <PlusIcon className="flex-none h-5 w-5" aria-hidden="true"/>
                                             </div>
                                         ))}
                                     </TreeItem>
-                                    <PlusIcon className="flex-none h-5 w-5" aria-hidden="true"/>
                                 </div>
                             ))}
-
-                        </TreeItem> <PlusIcon className="flex-none h-5 w-5" aria-hidden="true"/>
+                        </TreeItem>
+                        {/*<PlusIcon className="flex-none h-5 w-5" aria-hidden="true"/>*/}
                     </div>
                 ))}
             </TreeView>
