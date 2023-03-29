@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import React from "react";
 import PDFDownloader from "@/app/results/PDFDownloader";
+import {Document, Page, pdf, StyleSheet, Text} from "@react-pdf/renderer";
+import {saveAs} from "file-saver"
 
 
 async function getPublications() {
@@ -11,16 +13,15 @@ async function getPublications() {
     return data
 }
 
-
-
 export default async function Publications() {
     const experts = await getPublications();
+
 
 
     return (
 
         <div className="mt-6 lg:col-span-2 lg:mt-0 xl:col-span-3">
-            <PDFDownloader experts={experts}/>
+            <PDFDownloader experts={experts}></PDFDownloader>
             <ul
                 role="list"
                 className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-12"
