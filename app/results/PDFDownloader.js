@@ -55,28 +55,30 @@ const styles = StyleSheet.create({
 });
 
 
+function pdfExportDoc(experts) {
+    return (
+        <Document>
+            <Page>
+                <Text style={styles.title}>
+                    Experts Found
+                </Text>
+                <Text style={styles.subtitle}>
+                    Query:
+                </Text>
+                {experts.map((expert) => (
+                    <Text style={styles.text}>
+                        {expert.Name}
+                    </Text>
+                ))}
+            </Page>
+        </Document>
+    )
 
-const pdfExportDoc = (
-    <Document>
-        <Page>
-            <Text style={styles.title}>
-                Experts Found
-            </Text>
-            <Text style={styles.subtitle}>
-                Query:
-            </Text>
-            {/*{experts.map((expert) => (*/}
-            {/*    <Text style={styles.text}>*/}
-            {/*        {expert.Name}*/}
-            {/*    </Text>*/}
-            {/*))}*/}
-        </Page>
-    </Document>
-)
+}
 
-const generatePdfDocument = async () => {
+const generatePdfDocument = async (experts) => {
     const blob = pdf((
-        pdfExportDoc
+        pdfExportDoc(experts)
     )).toBlob();
     // saveAs(blob, "doyen-expert.pdf");
     return blob;
@@ -87,11 +89,9 @@ const saveStuff = (blob) => {
 }
 
 
-
 export default function PDFDownloader({experts}) {
     // For PDF Creation
-    const bl = use(generatePdfDocument())
-
+    const bl = use(generatePdfDocument(experts))
 
 
     // const [instance, updateInstance] = usePDF({document: pdfExportDoc});
