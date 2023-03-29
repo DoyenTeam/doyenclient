@@ -1,6 +1,6 @@
 "use client"
 
-import {Fragment, useState} from 'react'
+import React, {Fragment, useState} from 'react'
 
 import Filters from "@/app/filters";
 
@@ -24,19 +24,13 @@ import {
 } from '@heroicons/react/24/outline'
 import {ChevronDownIcon, MagnifyingGlassIcon} from '@heroicons/react/20/solid'
 import Publications from "@/app/results/Publications";
+import {Document, Page, StyleSheet, Text, usePDF} from "@react-pdf/renderer";
 
 const navigation = [
 
 
     {name: 'Home', href: '/', icon: HomeIcon, current: true},
     {name: 'Previous Exports', href: '#', icon: FolderIcon, current: false},
-]
-const teams = [
-
-
-    {id: 1, name: 'Heroicons', href: '#', initial: 'H', current: false},
-    {id: 2, name: 'Tailwind Labs', href: '#', initial: 'T', current: false},
-    {id: 3, name: 'Workcation', href: '#', initial: 'W', current: false},
 ]
 const userNavigation = [
 
@@ -49,10 +43,15 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
+
+
 export default function Results({children}) {
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
     const [focusDisabledItems, setFocusDisabledItems] = useState(false);
     const [sidebarOpen, setSidebarOpen] = useState(false)
+
+
+
 
 
     return (
@@ -306,6 +305,7 @@ export default function Results({children}) {
                         {children}
                     </div>
                 </main>
+
             </div>
         </div>
 
