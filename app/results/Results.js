@@ -49,10 +49,6 @@ export default function Results({children}) {
     const [focusDisabledItems, setFocusDisabledItems] = useState(false);
     const [sidebarOpen, setSidebarOpen] = useState(false)
 
-
-
-
-
     return (
 
         <div>
