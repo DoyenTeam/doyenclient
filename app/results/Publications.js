@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import {Document, Page, StyleSheet, Text} from "@react-pdf/renderer";
 import React from "react";
 import PDFDownloader from "@/app/results/PDFDownloader";
 

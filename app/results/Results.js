@@ -23,8 +23,7 @@ import {
     XMarkIcon,
 } from '@heroicons/react/24/outline'
 import {ChevronDownIcon, MagnifyingGlassIcon} from '@heroicons/react/20/solid'
-import Publications from "@/app/results/Publications";
-import {Document, Page, StyleSheet, Text, usePDF} from "@react-pdf/renderer";
+
 
 const navigation = [
 
