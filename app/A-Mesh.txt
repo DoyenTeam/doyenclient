@@ -1,0 +1,3216 @@
+Body Regions;A01
+Anatomic Landmarks;A01.111
+Breast;A01.236
+Mammary Glands, Human;A01.236.249
+Nipples;A01.236.500
+Extremities;A01.378
+Amputation Stumps;A01.378.100
+Lower Extremity;A01.378.610
+Ankle;A01.378.610.050
+Buttocks;A01.378.610.100
+Foot;A01.378.610.250
+Forefoot, Human;A01.378.610.250.300
+Metatarsus;A01.378.610.250.300.480
+Toes;A01.378.610.250.300.792
+Hallux;A01.378.610.250.300.792.380
+Heel;A01.378.610.250.510
+Hip;A01.378.610.400
+Knee;A01.378.610.450
+Leg;A01.378.610.500
+Thigh;A01.378.610.750
+Upper Extremity;A01.378.800
+Arm;A01.378.800.075
+Axilla;A01.378.800.090
+Elbow;A01.378.800.420
+Forearm;A01.378.800.585
+Hand;A01.378.800.667
+Fingers;A01.378.800.667.430
+Thumb;A01.378.800.667.430.705
+Metacarpus;A01.378.800.667.572
+Shoulder;A01.378.800.750
+Wrist;A01.378.800.875
+Head;A01.456
+Ear;A01.456.313
+Face;A01.456.505
+Cheek;A01.456.505.173
+Chin;A01.456.505.259
+Eye;A01.456.505.420
+Eyebrows;A01.456.505.420.338
+Eyelids;A01.456.505.420.504
+Eyelashes;A01.456.505.420.504.421
+Forehead;A01.456.505.580
+Mouth;A01.456.505.631
+Lip;A01.456.505.631.515
+Nasolabial Fold;A01.456.505.682
+Nose;A01.456.505.733
+Parotid Region;A01.456.505.750
+Superficial Musculoaponeurotic System;A01.456.505.875
+Scalp;A01.456.810
+Skull Base;A01.456.830
+Cranial Fossa, Anterior;A01.456.830.150
+Cranial Fossa, Middle;A01.456.830.165
+Cranial Fossa, Posterior;A01.456.830.200
+Jugular Foramina;A01.456.830.200.500
+Infratemporal Fossa;A01.456.830.600
+Parapharyngeal Space;A01.456.830.800
+Neck;A01.598
+Parapharyngeal Space;A01.598.250
+Superficial Musculoaponeurotic System;A01.598.500
+Organs at Risk;A01.635
+Perineum;A01.719
+Torso;A01.923
+Abdomen;A01.923.047
+Abdominal Cavity;A01.923.047.025
+Peritoneum;A01.923.047.025.600
+Douglas' Pouch;A01.923.047.025.600.225
+Mesentery;A01.923.047.025.600.451
+Mesocolon;A01.923.047.025.600.451.535
+Omentum;A01.923.047.025.600.573
+Peritoneal Cavity;A01.923.047.025.600.678
+Peritoneal Stomata;A01.923.047.025.600.700
+Retroperitoneal Space;A01.923.047.025.750
+Abdominal Wall;A01.923.047.050
+Groin;A01.923.047.365
+Inguinal Canal;A01.923.047.412
+Umbilicus;A01.923.047.849
+Back;A01.923.176
+Lumbosacral Region;A01.923.176.519
+Sacrococcygeal Region;A01.923.176.780
+Pelvis;A01.923.600
+Lesser Pelvis;A01.923.600.500
+Pelvic Floor;A01.923.600.600
+Thorax;A01.923.761
+Thoracic Cavity;A01.923.761.800
+Mediastinum;A01.923.761.800.500
+Pleural Cavity;A01.923.761.800.650
+Thoracic Wall;A01.923.761.850
+Transplant Donor Site;A01.935
+Transplants;A01.941
+Allografts;A01.941.500
+Allogeneic Cells;A01.941.500.500
+Autografts;A01.941.750
+Bone-Patellar Tendon-Bone Grafts;A01.941.812
+Composite Tissue Allografts;A01.941.843
+Heterografts;A01.941.875
+Isografts;A01.941.937
+Trigger Points;A01.947
+Viscera;A01.960
+Musculoskeletal System;A02
+Aponeurosis;A02.083
+Cartilage;A02.165
+Elastic Cartilage;A02.165.257
+Ear Cartilage;A02.165.257.250
+Laryngeal Cartilages;A02.165.257.625
+Arytenoid Cartilage;A02.165.257.625.083
+Cricoid Cartilage;A02.165.257.625.211
+Epiglottis;A02.165.257.625.411
+Thyroid Cartilage;A02.165.257.625.870
+Fibrocartilage;A02.165.308
+Intervertebral Disc;A02.165.308.410
+Annulus Fibrosus;A02.165.308.410.250
+Nucleus Pulposus;A02.165.308.410.500
+Meniscus;A02.165.308.538
+Menisci, Tibial;A02.165.308.538.500
+Palmar Plate;A02.165.308.575
+Plantar Plate;A02.165.308.650
+Triangular Fibrocartilage;A02.165.308.800
+Hyaline Cartilage;A02.165.407
+Cartilage, Articular;A02.165.407.150
+Costal Cartilage;A02.165.407.325
+Laryngeal Cartilages;A02.165.407.500
+Arytenoid Cartilage;A02.165.407.500.083
+Cricoid Cartilage;A02.165.407.500.211
+Epiglottis;A02.165.407.500.411
+Thyroid Cartilage;A02.165.407.500.870
+Nasal Cartilages;A02.165.407.550
+Fascia;A02.340
+Fascia Lata;A02.340.424
+Tenon Capsule;A02.340.800
+Ligaments;A02.513
+Broad Ligament;A02.513.170
+Ligaments, Articular;A02.513.514
+Anterior Cruciate Ligament;A02.513.514.100
+Collateral Ligaments;A02.513.514.162
+Collateral Ligament, Ulnar;A02.513.514.162.250
+Lateral Ligament, Ankle;A02.513.514.162.500
+Medial Collateral Ligament, Knee;A02.513.514.162.600
+Ligamentum Flavum;A02.513.514.287
+Longitudinal Ligaments;A02.513.514.350
+Patellar Ligament;A02.513.514.475
+Plantar Plate;A02.513.514.538
+Posterior Cruciate Ligament;A02.513.514.600
+Round Ligament of Femur;A02.513.514.800
+Round Ligaments;A02.513.901
+Round Ligament of Femur;A02.513.901.500
+Round Ligament of Liver;A02.513.901.750
+Round Ligament of Uterus;A02.513.901.875
+Muscles;A02.633
+Muscle, Skeletal;A02.633.567
+Abdominal Muscles;A02.633.567.050
+Abdominal Oblique Muscles;A02.633.567.050.375
+Pelvic Floor;A02.633.567.050.750
+Rectus Abdominis;A02.633.567.050.800
+Back Muscles;A02.633.567.175
+Intermediate Back Muscles;A02.633.567.175.500
+Paraspinal Muscles;A02.633.567.175.750
+Superficial Back Muscles;A02.633.567.175.875
+Deltoid Muscle;A02.633.567.300
+Facial Muscles;A02.633.567.400
+Gracilis Muscle;A02.633.567.425
+Hamstring Muscles;A02.633.567.450
+Laryngeal Muscles;A02.633.567.500
+Masticatory Muscles;A02.633.567.600
+Masseter Muscle;A02.633.567.600.500
+Pterygoid Muscles;A02.633.567.600.700
+Temporal Muscle;A02.633.567.600.850
+Neck Muscles;A02.633.567.650
+Oculomotor Muscles;A02.633.567.700
+Palatal Muscles;A02.633.567.750
+Pectoralis Muscles;A02.633.567.775
+Pharyngeal Muscles;A02.633.567.800
+Esophageal Sphincter, Upper;A02.633.567.800.360
+Velopharyngeal Sphincter;A02.633.567.800.680
+Psoas Muscles;A02.633.567.825
+Quadriceps Muscle;A02.633.567.850
+Respiratory Muscles;A02.633.567.900
+Diaphragm;A02.633.567.900.300
+Intercostal Muscles;A02.633.567.900.500
+Rotator Cuff;A02.633.567.912
+Stapedius;A02.633.567.950
+Tensor Tympani;A02.633.567.975
+Muscle, Smooth;A02.633.570
+Esophageal Sphincter, Lower;A02.633.570.210
+Muscle, Smooth, Vascular;A02.633.570.491
+Myometrium;A02.633.570.500
+Myocardium;A02.633.580
+Papillary Muscles;A02.633.580.680
+Skeleton;A02.835
+Bone and Bones;A02.835.232
+Bone-Implant Interface;A02.835.232.022
+Bones of Lower Extremity;A02.835.232.043
+Femur;A02.835.232.043.150
+Femur Head;A02.835.232.043.150.343
+Femur Neck;A02.835.232.043.150.510
+Foot Bones;A02.835.232.043.300
+Metatarsal Bones;A02.835.232.043.300.492
+Tarsal Bones;A02.835.232.043.300.710
+Calcaneus;A02.835.232.043.300.710.300
+Talus;A02.835.232.043.300.710.780
+Toe Phalanges;A02.835.232.043.300.800
+Leg Bones;A02.835.232.043.650
+Fibula;A02.835.232.043.650.321
+Patella;A02.835.232.043.650.624
+Tibia;A02.835.232.043.650.883
+Pelvic Bones;A02.835.232.043.825
+Acetabulum;A02.835.232.043.825.108
+Ilium;A02.835.232.043.825.434
+Ischium;A02.835.232.043.825.548
+Pubic Bone;A02.835.232.043.825.781
+Bones of Upper Extremity;A02.835.232.087
+Arm Bones;A02.835.232.087.090
+Humerus;A02.835.232.087.090.400
+Humeral Head;A02.835.232.087.090.400.400
+Radius;A02.835.232.087.090.700
+Ulna;A02.835.232.087.090.850
+Olecranon Process;A02.835.232.087.090.850.600
+Clavicle;A02.835.232.087.227
+Hand Bones;A02.835.232.087.319
+Carpal Bones;A02.835.232.087.319.150
+Capitate Bone;A02.835.232.087.319.150.150
+Hamate Bone;A02.835.232.087.319.150.400
+Lunate Bone;A02.835.232.087.319.150.500
+Pisiform Bone;A02.835.232.087.319.150.600
+Scaphoid Bone;A02.835.232.087.319.150.750
+Trapezium Bone;A02.835.232.087.319.150.800
+Trapezoid Bone;A02.835.232.087.319.150.805
+Triquetrum Bone;A02.835.232.087.319.150.831
+Finger Phalanges;A02.835.232.087.319.350
+Metacarpal Bones;A02.835.232.087.319.550
+Scapula;A02.835.232.087.783
+Acromion;A02.835.232.087.783.261
+Coracoid Process;A02.835.232.087.783.356
+Glenoid Cavity;A02.835.232.087.783.450
+Diaphyses;A02.835.232.169
+Epiphyses;A02.835.232.251
+Growth Plate;A02.835.232.251.352
+Hyoid Bone;A02.835.232.409
+Rib Cage;A02.835.232.570
+Ribs;A02.835.232.570.500
+Cervical Rib;A02.835.232.570.500.150
+Sternum;A02.835.232.570.750
+Manubrium;A02.835.232.570.750.442
+Xiphoid Bone;A02.835.232.570.750.825
+Sesamoid Bones;A02.835.232.730
+Patella;A02.835.232.730.500
+Skull;A02.835.232.781
+Cranial Fontanelles;A02.835.232.781.175
+Cranial Sutures;A02.835.232.781.200
+Ethmoid Bone;A02.835.232.781.292
+Facial Bones;A02.835.232.781.324
+Jaw;A02.835.232.781.324.502
+Alveolar Process;A02.835.232.781.324.502.125
+Tooth Socket;A02.835.232.781.324.502.125.800
+Dental Arch;A02.835.232.781.324.502.320
+Mandible;A02.835.232.781.324.502.632
+Chin;A02.835.232.781.324.502.632.130
+Mandibular Condyle;A02.835.232.781.324.502.632.600
+Mental Foramen;A02.835.232.781.324.502.632.800
+Maxilla;A02.835.232.781.324.502.645
+Palate, Hard;A02.835.232.781.324.502.660
+Nasal Bone;A02.835.232.781.324.665
+Orbit;A02.835.232.781.324.690
+Turbinates;A02.835.232.781.324.948
+Vomer;A02.835.232.781.324.971
+Zygoma;A02.835.232.781.324.995
+Frontal Bone;A02.835.232.781.375
+Occipital Bone;A02.835.232.781.572
+Foramen Magnum;A02.835.232.781.572.434
+Parietal Bone;A02.835.232.781.651
+Pterygopalatine Fossa;A02.835.232.781.670
+Skull Base;A02.835.232.781.750
+Cranial Fossa, Anterior;A02.835.232.781.750.150
+Cranial Fossa, Middle;A02.835.232.781.750.165
+Cranial Fossa, Posterior;A02.835.232.781.750.400
+Jugular Foramina;A02.835.232.781.750.400.500
+Infratemporal Fossa;A02.835.232.781.750.700
+Parapharyngeal Space;A02.835.232.781.750.850
+Sphenoid Bone;A02.835.232.781.802
+Sella Turcica;A02.835.232.781.802.662
+Temporal Bone;A02.835.232.781.885
+Mastoid;A02.835.232.781.885.444
+Petrous Bone;A02.835.232.781.885.681
+Spine;A02.835.232.834
+Cervical Vertebrae;A02.835.232.834.151
+Axis, Cervical Vertebra;A02.835.232.834.151.383
+Odontoid Process;A02.835.232.834.151.383.668
+Cervical Atlas;A02.835.232.834.151.500
+Coccyx;A02.835.232.834.229
+Intervertebral Disc;A02.835.232.834.432
+Annulus Fibrosus;A02.835.232.834.432.250
+Nucleus Pulposus;A02.835.232.834.432.500
+Lumbar Vertebrae;A02.835.232.834.519
+Sacrum;A02.835.232.834.717
+Spinal Canal;A02.835.232.834.803
+Epidural Space;A02.835.232.834.803.350
+Thoracic Vertebrae;A02.835.232.834.892
+Joints;A02.835.583
+Acromioclavicular Joint;A02.835.583.032
+Atlanto-Axial Joint;A02.835.583.097
+Atlanto-Occipital Joint;A02.835.583.101
+Bursa, Synovial;A02.835.583.156
+Cartilage, Articular;A02.835.583.192
+Elbow Joint;A02.835.583.290
+Foot Joints;A02.835.583.378
+Ankle Joint;A02.835.583.378.062
+Metatarsophalangeal Joint;A02.835.583.378.531
+Plantar Plate;A02.835.583.378.531.500
+Tarsal Joints;A02.835.583.378.831
+Subtalar Joint;A02.835.583.378.831.780
+Toe Joint;A02.835.583.378.900
+Plantar Plate;A02.835.583.378.900.500
+Hand Joints;A02.835.583.405
+Carpal Joints;A02.835.583.405.174
+Carpometacarpal Joints;A02.835.583.405.200
+Finger Joint;A02.835.583.405.350
+Metacarpophalangeal Joint;A02.835.583.405.500
+Palmar Plate;A02.835.583.405.500.900
+Wrist Joint;A02.835.583.405.930
+Triangular Fibrocartilage;A02.835.583.405.930.800
+Hip Joint;A02.835.583.411
+Round Ligament of Femur;A02.835.583.411.500
+Joint Capsule;A02.835.583.443
+Synovial Membrane;A02.835.583.443.800
+Synovial Fluid;A02.835.583.443.800.800
+Knee Joint;A02.835.583.475
+Menisci, Tibial;A02.835.583.475.590
+Patellofemoral Joint;A02.835.583.475.650
+Ligaments, Articular;A02.835.583.512
+Anterior Cruciate Ligament;A02.835.583.512.100
+Collateral Ligaments;A02.835.583.512.162
+Collateral Ligament, Ulnar;A02.835.583.512.162.250
+Lateral Ligament, Ankle;A02.835.583.512.162.500
+Medial Collateral Ligament, Knee;A02.835.583.512.162.600
+Ligamentum Flavum;A02.835.583.512.287
+Longitudinal Ligaments;A02.835.583.512.350
+Palmar Plate;A02.835.583.512.400
+Patellar Ligament;A02.835.583.512.475
+Plantar Plate;A02.835.583.512.538
+Posterior Cruciate Ligament;A02.835.583.512.600
+Round Ligament of Femur;A02.835.583.512.950
+Pubic Symphysis;A02.835.583.656
+Sacroiliac Joint;A02.835.583.707
+Shoulder Joint;A02.835.583.748
+Sternoclavicular Joint;A02.835.583.781
+Sternocostal Joints;A02.835.583.790
+Temporomandibular Joint;A02.835.583.861
+Temporomandibular Joint Disc;A02.835.583.861.900
+Zygapophyseal Joint;A02.835.583.979
+Tendons;A02.880
+Achilles Tendon;A02.880.176
+Hamstring Tendons;A02.880.307
+Patellar Ligament;A02.880.438
+Rotator Cuff;A02.880.700
+Digestive System;A03
+Biliary Tract;A03.159
+Bile Ducts;A03.159.183
+Bile Ducts, Extrahepatic;A03.159.183.079
+Common Bile Duct;A03.159.183.079.300
+Ampulla of Vater;A03.159.183.079.300.950
+Sphincter of Oddi;A03.159.183.079.300.950.600
+Cystic Duct;A03.159.183.079.450
+Hepatic Duct, Common;A03.159.183.079.600
+Bile Ducts, Intrahepatic;A03.159.183.158
+Bile Canaliculi;A03.159.183.158.125
+Gallbladder;A03.159.439
+Gastrointestinal Tract;A03.556
+Intestines;A03.556.124
+Intestinal Mucosa;A03.556.124.369
+Enterocytes;A03.556.124.369.290
+Goblet Cells;A03.556.124.369.320
+Paneth Cells;A03.556.124.369.700
+Intestine, Large;A03.556.124.526
+Anal Canal;A03.556.124.526.070
+Cecum;A03.556.124.526.209
+Appendix;A03.556.124.526.209.290
+Colon;A03.556.124.526.356
+Colon, Ascending;A03.556.124.526.356.333
+Colon, Descending;A03.556.124.526.356.500
+Colon, Sigmoid;A03.556.124.526.356.668
+Colon, Transverse;A03.556.124.526.356.834
+Rectum;A03.556.124.526.767
+Intestine, Small;A03.556.124.684
+Duodenum;A03.556.124.684.124
+Ampulla of Vater;A03.556.124.684.124.236
+Sphincter of Oddi;A03.556.124.684.124.236.572
+Brunner Glands;A03.556.124.684.124.322
+Ileum;A03.556.124.684.249
+Ileocecal Valve;A03.556.124.684.249.400
+Meckel Diverticulum;A03.556.124.684.249.612
+Jejunum;A03.556.124.684.500
+Lower Gastrointestinal Tract;A03.556.249
+Ileum;A03.556.249.124
+Ileocecal Valve;A03.556.249.124.400
+Meckel Diverticulum;A03.556.249.124.612
+Intestine, Large;A03.556.249.249
+Anal Canal;A03.556.249.249.070
+Cecum;A03.556.249.249.209
+Appendix;A03.556.249.249.209.290
+Colon;A03.556.249.249.356
+Colon, Ascending;A03.556.249.249.356.333
+Colon, Descending;A03.556.249.249.356.500
+Colon, Sigmoid;A03.556.249.249.356.668
+Colon, Transverse;A03.556.249.249.356.834
+Rectum;A03.556.249.249.767
+Jejunum;A03.556.249.750
+Mouth;A03.556.500
+Dentition;A03.556.500.379
+Salivary Glands;A03.556.500.760
+Parotid Gland;A03.556.500.760.464
+Salivary Ducts;A03.556.500.760.640
+Salivary Glands, Minor;A03.556.500.760.650
+Sublingual Gland;A03.556.500.760.687
+Submandibular Gland;A03.556.500.760.812
+von Ebner Glands;A03.556.500.760.906
+Tongue;A03.556.500.885
+Lingual Frenum;A03.556.500.885.431
+Taste Buds;A03.556.500.885.779
+Pharynx;A03.556.750
+Upper Gastrointestinal Tract;A03.556.875
+Duodenum;A03.556.875.249
+Ampulla of Vater;A03.556.875.249.160
+Sphincter of Oddi;A03.556.875.249.160.572
+Brunner Glands;A03.556.875.249.322
+Esophagus;A03.556.875.500
+Esophageal Mucosa;A03.556.875.500.180
+Esophageal Sphincter, Upper;A03.556.875.500.360
+Esophagogastric Junction;A03.556.875.500.414
+Esophageal Sphincter, Lower;A03.556.875.500.414.350
+Stomach;A03.556.875.875
+Cardia;A03.556.875.875.163
+Esophagogastric Junction;A03.556.875.875.330
+Esophageal Sphincter, Lower;A03.556.875.875.330.350
+Gastric Fundus;A03.556.875.875.419
+Gastric Mucosa;A03.556.875.875.440
+Chief Cells, Gastric;A03.556.875.875.440.150
+Enterochromaffin Cells;A03.556.875.875.440.250
+Gastrin-Secreting Cells;A03.556.875.875.440.300
+Parietal Cells, Gastric;A03.556.875.875.440.708
+Somatostatin-Secreting Cells;A03.556.875.875.440.854
+Gastric Stump;A03.556.875.875.578
+Pyloric Antrum;A03.556.875.875.716
+Pylorus;A03.556.875.875.799
+Liver;A03.620
+Bile Ducts, Intrahepatic;A03.620.150
+Bile Canaliculi;A03.620.150.125
+Round Ligament of Liver;A03.620.575
+Pancreas;A03.734
+Islets of Langerhans;A03.734.414
+Glucagon-Secreting Cells;A03.734.414.065
+Insulin-Secreting Cells;A03.734.414.131
+Pancreatic Polypeptide-Secreting Cells;A03.734.414.587
+Somatostatin-Secreting Cells;A03.734.414.793
+Pancreas, Exocrine;A03.734.540
+Pancreatic Ducts;A03.734.667
+Ampulla of Vater;A03.734.667.500
+Respiratory System;A04
+Larynx;A04.329
+Glottis;A04.329.364
+Vocal Cords;A04.329.364.737
+Laryngeal Cartilages;A04.329.591
+Arytenoid Cartilage;A04.329.591.085
+Cricoid Cartilage;A04.329.591.211
+Epiglottis;A04.329.591.411
+Thyroid Cartilage;A04.329.591.870
+Laryngeal Mucosa;A04.329.597
+Goblet Cells;A04.329.597.320
+Laryngeal Muscles;A04.329.604
+Lung;A04.411
+Bronchi;A04.411.125
+Bronchioles;A04.411.125.500
+Pulmonary Alveoli;A04.411.715
+Alveolar Epithelial Cells;A04.411.715.100
+Blood-Air Barrier;A04.411.715.200
+Nose;A04.531
+Nasal Bone;A04.531.378
+Nasal Cartilages;A04.531.413
+Nasal Cavity;A04.531.449
+Nasal Mucosa;A04.531.520
+Goblet Cells;A04.531.520.320
+Olfactory Mucosa;A04.531.520.573
+Olfactory Receptor Neurons;A04.531.520.573.580
+Nasal Septum;A04.531.591
+Vomer;A04.531.591.469
+Paranasal Sinuses;A04.531.621
+Ethmoid Sinus;A04.531.621.267
+Frontal Sinus;A04.531.621.387
+Maxillary Sinus;A04.531.621.578
+Sphenoid Sinus;A04.531.621.827
+Turbinates;A04.531.898
+Pharynx;A04.623
+Hypopharynx;A04.623.490
+Pyriform Sinus;A04.623.490.600
+Nasopharynx;A04.623.557
+Adenoids;A04.623.557.500
+Oropharynx;A04.623.603
+Palatine Tonsil;A04.623.603.925
+Pharyngeal Muscles;A04.623.617
+Esophageal Sphincter, Upper;A04.623.617.360
+Velopharyngeal Sphincter;A04.623.617.680
+Pleura;A04.716
+Respiratory Mucosa;A04.760
+Goblet Cells;A04.760.259
+Laryngeal Mucosa;A04.760.520
+Nasal Mucosa;A04.760.600
+Olfactory Mucosa;A04.760.600.640
+Olfactory Receptor Neurons;A04.760.600.640.640
+Trachea;A04.889
+Urogenital System;A05
+Genitalia;A05.360
+Genitalia, Female;A05.360.319
+Adnexa Uteri;A05.360.319.114
+Broad Ligament;A05.360.319.114.170
+Fallopian Tubes;A05.360.319.114.373
+Ovary;A05.360.319.114.630
+Corpus Luteum;A05.360.319.114.630.278
+Luteal Cells;A05.360.319.114.630.278.400
+Ovarian Follicle;A05.360.319.114.630.535
+Follicular Fluid;A05.360.319.114.630.535.150
+Granulosa Cells;A05.360.319.114.630.535.200
+Cumulus Cells;A05.360.319.114.630.535.200.500
+Theca Cells;A05.360.319.114.630.535.400
+Round Ligament of Uterus;A05.360.319.114.815
+Uterus;A05.360.319.679
+Cervix Uteri;A05.360.319.679.256
+Endometrium;A05.360.319.679.490
+Decidua;A05.360.319.679.490.373
+Deciduoma;A05.360.319.679.490.373.500
+Myometrium;A05.360.319.679.690
+Vagina;A05.360.319.779
+Hymen;A05.360.319.779.479
+Vulva;A05.360.319.887
+Bartholin's Glands;A05.360.319.887.220
+Clitoris;A05.360.319.887.436
+Genitalia, Male;A05.360.444
+Bulbourethral Glands;A05.360.444.123
+Ejaculatory Ducts;A05.360.444.251
+Epididymis;A05.360.444.371
+Penis;A05.360.444.492
+Foreskin;A05.360.444.492.362
+Urethra;A05.360.444.492.726
+Prostate;A05.360.444.575
+Scrotum;A05.360.444.661
+Seminal Vesicles;A05.360.444.713
+Spermatic Cord;A05.360.444.777
+Testis;A05.360.444.849
+Leydig Cells;A05.360.444.849.513
+Rete Testis;A05.360.444.849.600
+Seminiferous Tubules;A05.360.444.849.700
+Blood-Testis Barrier;A05.360.444.849.700.349
+Seminiferous Epithelium;A05.360.444.849.700.700
+Sertoli Cells;A05.360.444.849.789
+Vas Deferens;A05.360.444.930
+Germ Cells;A05.360.490
+Ovum;A05.360.490.690
+Oocytes;A05.360.490.690.680
+Polar Bodies;A05.360.490.690.680.500
+Oogonia;A05.360.490.690.700
+Zona Pellucida;A05.360.490.690.950
+Zygote;A05.360.490.690.970
+Spermatozoa;A05.360.490.890
+Sperm Head;A05.360.490.890.820
+Acrosome;A05.360.490.890.820.100
+Sperm Midpiece;A05.360.490.890.830
+Sperm Tail;A05.360.490.890.840
+Spermatids;A05.360.490.890.860
+Spermatocytes;A05.360.490.890.880
+Spermatogonia;A05.360.490.890.900
+Gonads;A05.360.576
+Ovary;A05.360.576.497
+Testis;A05.360.576.782
+Urinary Tract;A05.810
+Kidney;A05.810.453
+Kidney Cortex;A05.810.453.324
+Kidney Glomerulus;A05.810.453.324.359
+Glomerular Filtration Barrier;A05.810.453.324.359.372
+Glomerular Basement Membrane;A05.810.453.324.359.372.400
+Podocytes;A05.810.453.324.359.372.650
+Juxtaglomerular Apparatus;A05.810.453.324.359.520
+Mesangial Cells;A05.810.453.324.359.620
+Glomerular Mesangium;A05.810.453.324.359.620.500
+Kidney Medulla;A05.810.453.466
+Kidney Pelvis;A05.810.453.537
+Kidney Calices;A05.810.453.537.503
+Nephrons;A05.810.453.736
+Kidney Glomerulus;A05.810.453.736.520
+Glomerular Basement Membrane;A05.810.453.736.520.224
+Glomerular Filtration Barrier;A05.810.453.736.520.372
+Juxtaglomerular Apparatus;A05.810.453.736.520.520
+Mesangial Cells;A05.810.453.736.520.620
+Glomerular Mesangium;A05.810.453.736.520.620.500
+Podocytes;A05.810.453.736.520.720
+Kidney Tubules;A05.810.453.736.560
+Bowman Capsule;A05.810.453.736.560.254
+Kidney Tubules, Collecting;A05.810.453.736.560.510
+Kidney Tubules, Distal;A05.810.453.736.560.540
+Kidney Tubules, Proximal;A05.810.453.736.560.570
+Loop of Henle;A05.810.453.736.560.610
+Ureter;A05.810.776
+Urethra;A05.810.876
+Urinary Bladder;A05.810.890
+Endocrine System;A06
+Chromaffin System;A06.224
+Chromaffin Cells;A06.224.161
+Chromaffin Granules;A06.224.161.500
+Enterochromaffin Cells;A06.224.358
+Enterochromaffin-like Cells;A06.224.365
+Para-Aortic Bodies;A06.224.636
+Paraganglia, Chromaffin;A06.224.736
+Endocrine Glands;A06.300
+Adrenal Glands;A06.300.071
+Adrenal Cortex;A06.300.071.140
+Zona Fasciculata;A06.300.071.140.950
+Zona Glomerulosa;A06.300.071.140.960
+Zona Reticularis;A06.300.071.140.970
+Adrenal Medulla;A06.300.071.265
+Gonads;A06.300.312
+Ovary;A06.300.312.497
+Corpus Luteum;A06.300.312.497.278
+Luteal Cells;A06.300.312.497.278.400
+Ovarian Follicle;A06.300.312.497.535
+Follicular Fluid;A06.300.312.497.535.150
+Granulosa Cells;A06.300.312.497.535.300
+Cumulus Cells;A06.300.312.497.535.300.500
+Theca Cells;A06.300.312.497.535.600
+Testis;A06.300.312.782
+Leydig Cells;A06.300.312.782.513
+Islets of Langerhans;A06.300.414
+Glucagon-Secreting Cells;A06.300.414.043
+Insulin-Secreting Cells;A06.300.414.087
+Pancreatic Polypeptide-Secreting Cells;A06.300.414.587
+Somatostatin-Secreting Cells;A06.300.414.793
+Parathyroid Glands;A06.300.560
+Pineal Gland;A06.300.635
+Pituitary-Adrenal System;A06.300.691
+Pituitary Gland;A06.300.747
+Pituitary Gland, Anterior;A06.300.747.500
+Corticotrophs;A06.300.747.500.500
+Gonadotrophs;A06.300.747.500.750
+Lactotrophs;A06.300.747.500.812
+Somatotrophs;A06.300.747.500.937
+Thyrotrophs;A06.300.747.500.968
+Pituitary Gland, Intermediate;A06.300.747.750
+Melanotrophs;A06.300.747.750.500
+Pituitary Gland, Posterior;A06.300.747.875
+Thyroid Gland;A06.300.900
+Enteroendocrine Cells;A06.390
+Enterochromaffin Cells;A06.390.021
+Enterochromaffin-like Cells;A06.390.043
+Gastrin-Secreting Cells;A06.390.065
+Glucagon-Secreting Cells;A06.390.087
+Insulin-Secreting Cells;A06.390.131
+Pancreatic Polypeptide-Secreting Cells;A06.390.650
+Somatostatin-Secreting Cells;A06.390.825
+Neurosecretory Systems;A06.688
+Circumventricular Organs;A06.688.178
+Area Postrema;A06.688.178.500
+Median Eminence;A06.688.178.750
+Pituitary Gland, Posterior;A06.688.178.875
+Subcommissural Organ;A06.688.178.937
+Subfornical Organ;A06.688.178.968
+Glomus Tympanicum;A06.688.267
+Hypothalamo-Hypophyseal System;A06.688.357
+Median Eminence;A06.688.357.500
+Pituitary Gland;A06.688.357.750
+Pituitary Gland, Anterior;A06.688.357.750.500
+Corticotrophs;A06.688.357.750.500.500
+Gonadotrophs;A06.688.357.750.500.750
+Lactotrophs;A06.688.357.750.500.812
+Somatotrophs;A06.688.357.750.500.937
+Thyrotrophs;A06.688.357.750.500.968
+Pituitary Gland, Intermediate;A06.688.357.750.750
+Melanotrophs;A06.688.357.750.750.500
+Pituitary Gland, Posterior;A06.688.357.750.875
+Pineal Gland;A06.688.733
+Cardiovascular System;A07
+Blood Vessels;A07.015
+Adventitia;A07.015.057
+Arteries;A07.015.114
+Aorta;A07.015.114.056
+Aorta, Abdominal;A07.015.114.056.205
+Aorta, Thoracic;A07.015.114.056.372
+Sinus of Valsalva;A07.015.114.056.847
+Arterioles;A07.015.114.060
+Axillary Artery;A07.015.114.085
+Basilar Artery;A07.015.114.106
+Brachial Artery;A07.015.114.139
+Brachiocephalic Trunk;A07.015.114.145
+Bronchial Arteries;A07.015.114.158
+Carotid Arteries;A07.015.114.186
+Carotid Artery, Common;A07.015.114.186.200
+Carotid Artery, External;A07.015.114.186.200.210
+Carotid Artery, Internal;A07.015.114.186.200.230
+Carotid Sinus;A07.015.114.186.456
+Celiac Artery;A07.015.114.207
+Cerebral Arteries;A07.015.114.228
+Anterior Cerebral Artery;A07.015.114.228.100
+Circle of Willis;A07.015.114.228.351
+Middle Cerebral Artery;A07.015.114.228.550
+Posterior Cerebral Artery;A07.015.114.228.700
+Temporal Arteries;A07.015.114.228.868
+Ciliary Arteries;A07.015.114.248
+Coronary Vessels;A07.015.114.269
+Epigastric Arteries;A07.015.114.330
+Femoral Artery;A07.015.114.351
+Gastric Artery;A07.015.114.365
+Gastroepiploic Artery;A07.015.114.379
+Hepatic Artery;A07.015.114.407
+Iliac Artery;A07.015.114.444
+Maxillary Artery;A07.015.114.523
+Meningeal Arteries;A07.015.114.545
+Mesenteric Arteries;A07.015.114.565
+Mesenteric Artery, Inferior;A07.015.114.565.510
+Mesenteric Artery, Superior;A07.015.114.565.755
+Ophthalmic Artery;A07.015.114.622
+Popliteal Artery;A07.015.114.681
+Pulmonary Artery;A07.015.114.715
+Radial Artery;A07.015.114.740
+Renal Artery;A07.015.114.745
+Retinal Artery;A07.015.114.765
+Splenic Artery;A07.015.114.814
+Subclavian Artery;A07.015.114.839
+Thoracic Arteries;A07.015.114.891
+Mammary Arteries;A07.015.114.891.525
+Tibial Arteries;A07.015.114.895
+Ulnar Artery;A07.015.114.920
+Umbilical Arteries;A07.015.114.929
+Uterine Artery;A07.015.114.940
+Vertebral Artery;A07.015.114.955
+Microvessels;A07.015.461
+Arterioles;A07.015.461.080
+Arteriovenous Anastomosis;A07.015.461.085
+Capillaries;A07.015.461.165
+Venules;A07.015.461.920
+Retinal Vessels;A07.015.611
+Retinal Artery;A07.015.611.647
+Retinal Vein;A07.015.611.773
+Tunica Intima;A07.015.700
+Endothelium, Vascular;A07.015.700.500
+Pericytes;A07.015.700.750
+Tunica Media;A07.015.733
+Muscle, Smooth, Vascular;A07.015.733.500
+Vasa Nervorum;A07.015.765
+Vasa Vasorum;A07.015.836
+Veins;A07.015.908
+Axillary Vein;A07.015.908.077
+Azygos Vein;A07.015.908.106
+Brachiocephalic Veins;A07.015.908.130
+Cerebral Veins;A07.015.908.155
+Coronary Vessels;A07.015.908.194
+Coronary Sinus;A07.015.908.194.500
+Cranial Sinuses;A07.015.908.224
+Cavernous Sinus;A07.015.908.224.334
+Superior Sagittal Sinus;A07.015.908.224.667
+Transverse Sinuses;A07.015.908.224.833
+Femoral Vein;A07.015.908.314
+Hepatic Veins;A07.015.908.380
+Iliac Vein;A07.015.908.427
+Jugular Veins;A07.015.908.498
+Popliteal Vein;A07.015.908.641
+Portal System;A07.015.908.670
+Mesenteric Veins;A07.015.908.670.385
+Portal Vein;A07.015.908.670.567
+Splenic Vein;A07.015.908.670.730
+Umbilical Veins;A07.015.908.670.874
+Pulmonary Veins;A07.015.908.713
+Renal Veins;A07.015.908.752
+Retinal Vein;A07.015.908.783
+Saphenous Vein;A07.015.908.819
+Subclavian Vein;A07.015.908.877
+Venae Cavae;A07.015.908.949
+Vena Cava, Inferior;A07.015.908.949.648
+Vena Cava, Superior;A07.015.908.949.815
+Venous Valves;A07.015.908.950
+Venules;A07.015.908.952
+Blood-Air Barrier;A07.020
+Blood-Aqueous Barrier;A07.030
+Blood-Brain Barrier;A07.035
+Blood-Nerve Barrier;A07.037
+Blood-Retinal Barrier;A07.040
+Blood-Testis Barrier;A07.045
+Glomerular Filtration Barrier;A07.500
+Glymphatic System;A07.521
+Heart;A07.541
+Endocardium;A07.541.207
+Fetal Heart;A07.541.278
+Ductus Arteriosus;A07.541.278.395
+Truncus Arteriosus;A07.541.278.930
+Heart Atria;A07.541.358
+Atrial Appendage;A07.541.358.100
+Heart Conduction System;A07.541.409
+Atrioventricular Node;A07.541.409.147
+Bundle of His;A07.541.409.273
+Purkinje Fibers;A07.541.409.683
+Sinoatrial Node;A07.541.409.819
+Heart Septum;A07.541.459
+Atrial Septum;A07.541.459.249
+Endocardial Cushions;A07.541.459.374
+Foramen Ovale;A07.541.459.500
+Ventricular Septum;A07.541.459.750
+Heart Valves;A07.541.510
+Aortic Valve;A07.541.510.110
+Chordae Tendineae;A07.541.510.240
+Mitral Valve;A07.541.510.507
+Papillary Muscles;A07.541.510.619
+Pulmonary Valve;A07.541.510.738
+Tricuspid Valve;A07.541.510.893
+Heart Ventricles;A07.541.560
+Myocardium;A07.541.704
+Myoblasts, Cardiac;A07.541.704.500
+Myocytes, Cardiac;A07.541.704.570
+Papillary Muscles;A07.541.704.750
+Pericardium;A07.541.795
+Pericardial Fluid;A07.541.795.500
+Nervous System;A08
+Central Nervous System;A08.186
+Brain;A08.186.211
+Blood-Brain Barrier;A08.186.211.035
+Brain Stem;A08.186.211.132
+Mesencephalon;A08.186.211.132.659
+Cerebral Peduncle;A08.186.211.132.659.413
+Cerebral Crus;A08.186.211.132.659.413.437
+Substantia Nigra;A08.186.211.132.659.413.656
+Pars Compacta;A08.186.211.132.659.413.656.249
+Pars Reticulata;A08.186.211.132.659.413.656.500
+Tegmentum Mesencephali;A08.186.211.132.659.413.875
+Cerebral Aqueduct;A08.186.211.132.659.413.875.187
+Midbrain Reticular Formation;A08.186.211.132.659.413.875.284
+Pedunculopontine Tegmental Nucleus;A08.186.211.132.659.413.875.284.500
+Oculomotor Nuclear Complex;A08.186.211.132.659.413.875.381
+Edinger-Westphal Nucleus;A08.186.211.132.659.413.875.381.500
+Periaqueductal Gray;A08.186.211.132.659.413.875.595
+Raphe Nuclei;A08.186.211.132.659.413.875.618
+Dorsal Raphe Nucleus;A08.186.211.132.659.413.875.618.249
+Interpeduncular Nucleus;A08.186.211.132.659.413.875.618.436
+Midbrain Raphe Nuclei;A08.186.211.132.659.413.875.618.624
+Red Nucleus;A08.186.211.132.659.413.875.642
+Ventral Tegmental Area;A08.186.211.132.659.413.875.820
+Locus Coeruleus;A08.186.211.132.659.473
+Tectum Mesencephali;A08.186.211.132.659.800
+Inferior Colliculi;A08.186.211.132.659.800.407
+Posterior Cerebellar Commissure;A08.186.211.132.659.800.611
+Pretectal Region;A08.186.211.132.659.800.662
+Subcommissural Organ;A08.186.211.132.659.800.713
+Superior Colliculi;A08.186.211.132.659.800.816
+Reticular Formation;A08.186.211.132.772
+Midbrain Reticular Formation;A08.186.211.132.772.322
+Pedunculopontine Tegmental Nucleus;A08.186.211.132.772.322.500
+Respiratory Center;A08.186.211.132.772.646
+Rhombencephalon;A08.186.211.132.810
+Metencephalon;A08.186.211.132.810.428
+Cerebellum;A08.186.211.132.810.428.200
+Cerebellar Cortex;A08.186.211.132.810.428.200.212
+Cerebellar Golgi Cells;A08.186.211.132.810.428.200.212.150
+Cerebellar Vermis;A08.186.211.132.810.428.200.212.299
+Purkinje Cells;A08.186.211.132.810.428.200.212.600
+Cerebellar Nuclei;A08.186.211.132.810.428.200.337
+Cerebellopontine Angle;A08.186.211.132.810.428.200.462
+Pons;A08.186.211.132.810.428.600
+Barrington's Nucleus;A08.186.211.132.810.428.600.067
+Cochlear Nucleus;A08.186.211.132.810.428.600.135
+Kolliker-Fuse Nucleus;A08.186.211.132.810.428.600.392
+Middle Cerebellar Peduncle;A08.186.211.132.810.428.600.521
+Pontine Tegmentum;A08.186.211.132.810.428.600.650
+Abducens Nucleus;A08.186.211.132.810.428.600.650.249
+Facial Nucleus;A08.186.211.132.810.428.600.650.374
+Locus Coeruleus;A08.186.211.132.810.428.600.650.437
+Parabrachial Nucleus;A08.186.211.132.810.428.600.650.500
+Raphe Nuclei;A08.186.211.132.810.428.600.650.562
+Nucleus Raphe Magnus;A08.186.211.132.810.428.600.650.562.500
+Superior Olivary Complex;A08.186.211.132.810.428.600.650.625
+Trapezoid Body;A08.186.211.132.810.428.600.650.687
+Trigeminal Motor Nucleus;A08.186.211.132.810.428.600.650.718
+Trigeminal Nucleus, Spinal;A08.186.211.132.810.428.600.650.750
+Vestibular Nuclei;A08.186.211.132.810.428.600.800
+Vestibular Nucleus, Lateral;A08.186.211.132.810.428.600.800.800
+Myelencephalon;A08.186.211.132.810.591
+Medulla Oblongata;A08.186.211.132.810.591.500
+Area Postrema;A08.186.211.132.810.591.500.286
+Olivary Nucleus;A08.186.211.132.810.591.500.574
+Raphe Nuclei;A08.186.211.132.810.591.500.662
+Nucleus Raphe Obscurus;A08.186.211.132.810.591.500.662.436
+Nucleus Raphe Pallidus;A08.186.211.132.810.591.500.662.624
+Solitary Nucleus;A08.186.211.132.810.591.500.750
+Trigeminal Nucleus, Spinal;A08.186.211.132.810.591.500.875
+Trigeminal Caudal Nucleus;A08.186.211.132.810.591.500.875.500
+Tectospinal Fibers;A08.186.211.132.810.753
+Trigeminal Nuclei;A08.186.211.132.931
+Trigeminal Motor Nucleus;A08.186.211.132.931.459
+Trigeminal Nucleus, Spinal;A08.186.211.132.931.920
+Trigeminal Caudal Nucleus;A08.186.211.132.931.920.927
+Cerebral Ventricles;A08.186.211.140
+Cerebral Aqueduct;A08.186.211.140.187
+Choroid Plexus;A08.186.211.140.298
+Ependyma;A08.186.211.140.460
+Fourth Ventricle;A08.186.211.140.500
+Lateral Ventricles;A08.186.211.140.650
+Septum Pellucidum;A08.186.211.140.814
+Third Ventricle;A08.186.211.140.840
+Glymphatic System;A08.186.211.150
+Gray Matter;A08.186.211.168
+Limbic System;A08.186.211.180
+Amygdala;A08.186.211.180.090
+Basolateral Nuclear Complex;A08.186.211.180.090.500
+Central Amygdaloid Nucleus;A08.186.211.180.090.750
+Corticomedial Nuclear Complex;A08.186.211.180.090.875
+Periamygdaloid Cortex;A08.186.211.180.090.875.500
+Epithalamus;A08.186.211.180.200
+Habenula;A08.186.211.180.200.360
+Pineal Gland;A08.186.211.180.200.680
+Hippocampus;A08.186.211.180.405
+CA1 Region, Hippocampal;A08.186.211.180.405.099
+CA2 Region, Hippocampal;A08.186.211.180.405.149
+CA3 Region, Hippocampal;A08.186.211.180.405.174
+Dentate Gyrus;A08.186.211.180.405.200
+Mossy Fibers, Hippocampal;A08.186.211.180.405.200.500
+Fornix, Brain;A08.186.211.180.405.600
+Hypothalamus;A08.186.211.180.497
+Hypothalamic Area, Lateral;A08.186.211.180.497.300
+Hypothalamus, Anterior;A08.186.211.180.497.342
+Anterior Hypothalamic Nucleus;A08.186.211.180.497.342.063
+Organum Vasculosum;A08.186.211.180.497.342.231
+Paraventricular Hypothalamic Nucleus;A08.186.211.180.497.342.400
+Preoptic Area;A08.186.211.180.497.342.450
+Suprachiasmatic Nucleus;A08.186.211.180.497.342.625
+Suprachiasmatic Nucleus Neurons;A08.186.211.180.497.342.625.500
+Supraoptic Nucleus;A08.186.211.180.497.342.650
+Hypothalamus, Middle;A08.186.211.180.497.352
+Arcuate Nucleus of Hypothalamus;A08.186.211.180.497.352.081
+Dorsomedial Hypothalamic Nucleus;A08.186.211.180.497.352.270
+Hypothalamo-Hypophyseal System;A08.186.211.180.497.352.435
+Median Eminence;A08.186.211.180.497.352.435.249
+Pituitary Gland;A08.186.211.180.497.352.435.500
+Pituitary Gland, Anterior;A08.186.211.180.497.352.435.500.500
+Corticotrophs;A08.186.211.180.497.352.435.500.500.500
+Gonadotrophs;A08.186.211.180.497.352.435.500.500.750
+Lactotrophs;A08.186.211.180.497.352.435.500.500.812
+Somatotrophs;A08.186.211.180.497.352.435.500.500.937
+Thyrotrophs;A08.186.211.180.497.352.435.500.500.968
+Pituitary Gland, Intermediate;A08.186.211.180.497.352.435.500.750
+Melanotrophs;A08.186.211.180.497.352.435.500.750.500
+Pituitary Gland, Posterior;A08.186.211.180.497.352.435.500.875
+Tuber Cinereum;A08.186.211.180.497.352.870
+Ventromedial Hypothalamic Nucleus;A08.186.211.180.497.352.953
+Hypothalamus, Posterior;A08.186.211.180.497.362
+Mammillary Bodies;A08.186.211.180.497.362.500
+Limbic Lobe;A08.186.211.180.590
+Gyrus Cinguli;A08.186.211.180.590.500
+Parahippocampal Gyrus;A08.186.211.180.590.750
+Entorhinal Cortex;A08.186.211.180.590.750.225
+Periamygdaloid Cortex;A08.186.211.180.590.750.612
+Olfactory Pathways;A08.186.211.180.699
+Parahippocampal Gyrus;A08.186.211.180.710
+Entorhinal Cortex;A08.186.211.180.710.225
+Periamygdaloid Cortex;A08.186.211.180.710.612
+Perforant Pathway;A08.186.211.180.730
+Septum of Brain;A08.186.211.180.750
+Septal Nuclei;A08.186.211.180.750.800
+Septum Pellucidum;A08.186.211.180.750.900
+Substantia Innominata;A08.186.211.180.820
+Prosencephalon;A08.186.211.200
+Diencephalon;A08.186.211.200.317
+Epithalamus;A08.186.211.200.317.200
+Habenula;A08.186.211.200.317.200.360
+Pineal Gland;A08.186.211.200.317.200.620
+Hypothalamus;A08.186.211.200.317.357
+Hypothalamic Area, Lateral;A08.186.211.200.317.357.300
+Hypothalamus, Anterior;A08.186.211.200.317.357.342
+Anterior Hypothalamic Nucleus;A08.186.211.200.317.357.342.063
+Organum Vasculosum;A08.186.211.200.317.357.342.315
+Paraventricular Hypothalamic Nucleus;A08.186.211.200.317.357.342.400
+Preoptic Area;A08.186.211.200.317.357.342.450
+Suprachiasmatic Nucleus;A08.186.211.200.317.357.342.625
+Suprachiasmatic Nucleus Neurons;A08.186.211.200.317.357.342.625.500
+Supraoptic Nucleus;A08.186.211.200.317.357.342.650
+Hypothalamus, Middle;A08.186.211.200.317.357.352
+Arcuate Nucleus of Hypothalamus;A08.186.211.200.317.357.352.081
+Dorsomedial Hypothalamic Nucleus;A08.186.211.200.317.357.352.270
+Hypothalamo-Hypophyseal System;A08.186.211.200.317.357.352.435
+Median Eminence;A08.186.211.200.317.357.352.435.249
+Pituitary Gland;A08.186.211.200.317.357.352.435.500
+Pituitary Gland, Anterior;A08.186.211.200.317.357.352.435.500.500
+Corticotrophs;A08.186.211.200.317.357.352.435.500.500.500
+Gonadotrophs;A08.186.211.200.317.357.352.435.500.500.750
+Lactotrophs;A08.186.211.200.317.357.352.435.500.500.812
+Somatotrophs;A08.186.211.200.317.357.352.435.500.500.937
+Thyrotrophs;A08.186.211.200.317.357.352.435.500.500.968
+Pituitary Gland, Intermediate;A08.186.211.200.317.357.352.435.500.750
+Melanotrophs;A08.186.211.200.317.357.352.435.500.750.500
+Pituitary Gland, Posterior;A08.186.211.200.317.357.352.435.500.875
+Tuber Cinereum;A08.186.211.200.317.357.352.870
+Ventromedial Hypothalamic Nucleus;A08.186.211.200.317.357.352.953
+Hypothalamus, Posterior;A08.186.211.200.317.357.362
+Mammillary Bodies;A08.186.211.200.317.357.362.500
+Optic Chiasm;A08.186.211.200.317.578
+Optic Tract;A08.186.211.200.317.689
+Subthalamus;A08.186.211.200.317.800
+Entopeduncular Nucleus;A08.186.211.200.317.800.240
+Subthalamic Nucleus;A08.186.211.200.317.800.800
+Zona Incerta;A08.186.211.200.317.800.900
+Thalamus;A08.186.211.200.317.826
+Thalamic Nuclei;A08.186.211.200.317.826.701
+Anterior Thalamic Nuclei;A08.186.211.200.317.826.701.080
+Geniculate Bodies;A08.186.211.200.317.826.701.444
+Intralaminar Thalamic Nuclei;A08.186.211.200.317.826.701.460
+Lateral Thalamic Nuclei;A08.186.211.200.317.826.701.485
+Pulvinar;A08.186.211.200.317.826.701.485.600
+Mediodorsal Thalamic Nucleus;A08.186.211.200.317.826.701.490
+Midline Thalamic Nuclei;A08.186.211.200.317.826.701.500
+Posterior Thalamic Nuclei;A08.186.211.200.317.826.701.700
+Ventral Thalamic Nuclei;A08.186.211.200.317.826.701.900
+Telencephalon;A08.186.211.200.885
+Cerebrum;A08.186.211.200.885.287
+Basal Ganglia;A08.186.211.200.885.287.249
+Amygdala;A08.186.211.200.885.287.249.152
+Basolateral Nuclear Complex;A08.186.211.200.885.287.249.152.500
+Central Amygdaloid Nucleus;A08.186.211.200.885.287.249.152.750
+Corticomedial Nuclear Complex;A08.186.211.200.885.287.249.152.875
+Periamygdaloid Cortex;A08.186.211.200.885.287.249.152.875.500
+Claustrum;A08.186.211.200.885.287.249.320
+Corpus Striatum;A08.186.211.200.885.287.249.487
+Globus Pallidus;A08.186.211.200.885.287.249.487.397
+Neostriatum;A08.186.211.200.885.287.249.487.550
+Caudate Nucleus;A08.186.211.200.885.287.249.487.550.184
+High Vocal Center;A08.186.211.200.885.287.249.487.550.484
+Putamen;A08.186.211.200.885.287.249.487.550.784
+Ventral Striatum;A08.186.211.200.885.287.249.487.775
+Nucleus Accumbens;A08.186.211.200.885.287.249.487.775.500
+Olfactory Tubercle;A08.186.211.200.885.287.249.487.775.750
+Islands of Calleja;A08.186.211.200.885.287.249.487.775.750.500
+Substantia Innominata;A08.186.211.200.885.287.249.880
+Basal Nucleus of Meynert;A08.186.211.200.885.287.249.880.100
+Cerebral Cortex;A08.186.211.200.885.287.500
+Frontal Lobe;A08.186.211.200.885.287.500.270
+Motor Cortex;A08.186.211.200.885.287.500.270.548
+Prefrontal Cortex;A08.186.211.200.885.287.500.270.700
+Broca Area;A08.186.211.200.885.287.500.270.700.500
+Hippocampus;A08.186.211.200.885.287.500.345
+CA1 Region, Hippocampal;A08.186.211.200.885.287.500.345.099
+CA2 Region, Hippocampal;A08.186.211.200.885.287.500.345.149
+CA3 Region, Hippocampal;A08.186.211.200.885.287.500.345.174
+Dentate Gyrus;A08.186.211.200.885.287.500.345.200
+Mossy Fibers, Hippocampal;A08.186.211.200.885.287.500.345.200.500
+Fornix, Brain;A08.186.211.200.885.287.500.345.600
+Limbic Lobe;A08.186.211.200.885.287.500.382
+Gyrus Cinguli;A08.186.211.200.885.287.500.382.500
+Parahippocampal Gyrus;A08.186.211.200.885.287.500.382.750
+Entorhinal Cortex;A08.186.211.200.885.287.500.382.750.225
+Periamygdaloid Cortex;A08.186.211.200.885.287.500.382.750.612
+Neocortex;A08.186.211.200.885.287.500.420
+Occipital Lobe;A08.186.211.200.885.287.500.571
+Visual Cortex;A08.186.211.200.885.287.500.571.735
+Olfactory Cortex;A08.186.211.200.885.287.500.620
+Basal Forebrain;A08.186.211.200.885.287.500.620.374
+Organum Vasculosum;A08.186.211.200.885.287.500.620.374.500
+Entorhinal Cortex;A08.186.211.200.885.287.500.620.562
+Olfactory Tubercle;A08.186.211.200.885.287.500.620.656
+Islands of Calleja;A08.186.211.200.885.287.500.620.656.500
+Piriform Cortex;A08.186.211.200.885.287.500.620.750
+Parietal Lobe;A08.186.211.200.885.287.500.670
+Somatosensory Cortex;A08.186.211.200.885.287.500.670.675
+Wernicke Area;A08.186.211.200.885.287.500.670.837
+Sensorimotor Cortex;A08.186.211.200.885.287.500.814
+Auditory Cortex;A08.186.211.200.885.287.500.814.249
+Motor Cortex;A08.186.211.200.885.287.500.814.624
+Olfactory Cortex;A08.186.211.200.885.287.500.814.695
+Basal Forebrain;A08.186.211.200.885.287.500.814.695.249
+Entorhinal Cortex;A08.186.211.200.885.287.500.814.695.374
+Olfactory Tubercle;A08.186.211.200.885.287.500.814.695.500
+Islands of Calleja;A08.186.211.200.885.287.500.814.695.500.500
+Somatosensory Cortex;A08.186.211.200.885.287.500.814.906
+Visual Cortex;A08.186.211.200.885.287.500.814.953
+Temporal Lobe;A08.186.211.200.885.287.500.863
+Auditory Cortex;A08.186.211.200.885.287.500.863.297
+Perirhinal Cortex;A08.186.211.200.885.287.500.863.574
+Wernicke Area;A08.186.211.200.885.287.500.863.850
+Olfactory Cortex;A08.186.211.200.885.287.750
+Basal Forebrain;A08.186.211.200.885.287.750.374
+Entorhinal Cortex;A08.186.211.200.885.287.750.562
+Olfactory Tubercle;A08.186.211.200.885.287.750.656
+Islands of Calleja;A08.186.211.200.885.287.750.656.500
+Piriform Cortex;A08.186.211.200.885.287.750.750
+Diagonal Band of Broca;A08.186.211.200.885.380
+External Capsule;A08.186.211.200.885.382
+Internal Capsule;A08.186.211.200.885.385
+Olfactory Bulb;A08.186.211.200.885.388
+Septum of Brain;A08.186.211.200.885.750
+Septal Nuclei;A08.186.211.200.885.750.800
+Septum Pellucidum;A08.186.211.200.885.750.814
+Telencephalic Commissures;A08.186.211.200.885.800
+Anterior Commissure, Brain;A08.186.211.200.885.800.500
+Corpus Callosum;A08.186.211.200.885.800.750
+White Matter;A08.186.211.204
+Meninges;A08.186.566
+Arachnoid;A08.186.566.166
+Subarachnoid Space;A08.186.566.166.686
+Cisterna Magna;A08.186.566.166.686.351
+Dura Mater;A08.186.566.395
+Subdural Space;A08.186.566.395.687
+Pia Mater;A08.186.566.731
+Spinal Cord;A08.186.854
+Cervical Cord;A08.186.854.126
+Extrapyramidal Tracts;A08.186.854.253
+Pyramidal Tracts;A08.186.854.300
+Gray Matter;A08.186.854.348
+Spinal Cord Lateral Horn;A08.186.854.443
+Spinal Cord Dorsal Horn;A08.186.854.697
+Posterior Horn Cells;A08.186.854.697.500
+Substantia Gelatinosa;A08.186.854.697.500.500
+Spinal Cord Ventral Horn;A08.186.854.729
+Anterior Horn Cells;A08.186.854.729.500
+Spinothalamic Tracts;A08.186.854.761
+White Matter;A08.186.854.880
+Ganglia;A08.340
+Ganglia, Autonomic;A08.340.315
+Ganglia, Parasympathetic;A08.340.315.300
+Ganglia, Sympathetic;A08.340.315.350
+Stellate Ganglion;A08.340.315.350.800
+Superior Cervical Ganglion;A08.340.315.350.850
+Ganglia, Invertebrate;A08.340.352
+Ganglia, Sensory;A08.340.390
+Ganglia, Spinal;A08.340.390.340
+Geniculate Ganglion;A08.340.390.380
+Nodose Ganglion;A08.340.390.550
+Spiral Ganglion;A08.340.390.800
+Trigeminal Ganglion;A08.340.390.850
+Satellite Cells, Perineuronal;A08.340.685
+Nerve Net;A08.511
+Central Pattern Generators;A08.511.500
+Neural Pathways;A08.612
+Afferent Pathways;A08.612.220
+Auditory Pathways;A08.612.220.110
+Olfactory Pathways;A08.612.220.640
+Spinocerebellar Tracts;A08.612.220.725
+Spinothalamic Tracts;A08.612.220.735
+Visceral Afferents;A08.612.220.830
+Visual Pathways;A08.612.220.860
+Efferent Pathways;A08.612.380
+Extrapyramidal Tracts;A08.612.380.239
+Pyramidal Tracts;A08.612.380.730
+Internal Capsule;A08.612.435
+Medial Forebrain Bundle;A08.612.492
+Perforant Pathway;A08.612.600
+Neuroglia;A08.637
+Astrocytes;A08.637.200
+Ependymoglial Cells;A08.637.300
+Microglia;A08.637.400
+Neuropil;A08.637.500
+Neuropil Threads;A08.637.500.550
+Oligodendrocyte Precursor Cells;A08.637.550
+Oligodendroglia;A08.637.600
+Myelin Sheath;A08.637.600.500
+Satellite Cells, Perineuronal;A08.637.685
+Schwann Cells;A08.637.800
+Myelin Sheath;A08.637.800.500
+Neurilemma;A08.637.800.500.550
+Ranvier's Nodes;A08.637.800.500.700
+Neurons;A08.675
+Adrenergic Neurons;A08.675.100
+Adrenergic Fibers;A08.675.100.500
+Cholinergic Neurons;A08.675.127
+Cholinergic Fibers;A08.675.127.500
+Autonomic Fibers, Preganglionic;A08.675.127.500.060
+Parasympathetic Fibers, Postganglionic;A08.675.127.500.700
+Dendrites;A08.675.256
+Dendritic Spines;A08.675.256.200
+Neurites;A08.675.256.500
+Dopaminergic Neurons;A08.675.278
+GABAergic Neurons;A08.675.289
+Grid Cells;A08.675.324
+Interneurons;A08.675.358
+Amacrine Cells;A08.675.358.050
+Cerebellar Golgi Cells;A08.675.358.200
+Commissural Interneurons;A08.675.358.350
+Renshaw Cells;A08.675.358.650
+Retinal Bipolar Cells;A08.675.358.700
+Mirror Neurons;A08.675.500
+Nerve Fibers;A08.675.542
+Adrenergic Fibers;A08.675.542.075
+Sympathetic Fibers, Postganglionic;A08.675.542.075.800
+Autonomic Fibers, Postganglionic;A08.675.542.100
+Parasympathetic Fibers, Postganglionic;A08.675.542.100.700
+Sympathetic Fibers, Postganglionic;A08.675.542.100.800
+Axons;A08.675.542.145
+Axon Initial Segment;A08.675.542.145.250
+Neurites;A08.675.542.145.500
+Presynaptic Terminals;A08.675.542.145.750
+Mossy Fibers, Hippocampal;A08.675.542.145.750.500
+Cholinergic Fibers;A08.675.542.234
+Autonomic Fibers, Preganglionic;A08.675.542.234.060
+Parasympathetic Fibers, Postganglionic;A08.675.542.234.700
+Nerve Fibers, Myelinated;A08.675.542.512
+Myelin Sheath;A08.675.542.512.560
+Neurilemma;A08.675.542.512.560.550
+Ranvier's Nodes;A08.675.542.512.560.700
+Nerve Fibers, Unmyelinated;A08.675.542.756
+Neural Analyzers;A08.675.575
+Neurofibrils;A08.675.609
+Neurofibrillary Tangles;A08.675.609.520
+Neurons, Afferent;A08.675.650
+Hair Cells, Auditory;A08.675.650.250
+Hair Cells, Auditory, Inner;A08.675.650.250.250
+Hair Cells, Auditory, Outer;A08.675.650.250.315
+Hair Cells, Vestibular;A08.675.650.395
+Posterior Horn Cells;A08.675.650.675
+Substantia Gelatinosa;A08.675.650.675.800
+Retinal Neurons;A08.675.650.850
+Amacrine Cells;A08.675.650.850.500
+Photoreceptor Cells;A08.675.650.850.625
+Photoreceptor Cells, Invertebrate;A08.675.650.850.625.660
+Photoreceptor Cells, Vertebrate;A08.675.650.850.625.670
+Photoreceptor Connecting Cilium;A08.675.650.850.625.670.049
+Retinal Cone Photoreceptor Cells;A08.675.650.850.625.670.100
+Retinal Photoreceptor Cell Inner Segment;A08.675.650.850.625.670.237
+Retinal Photoreceptor Cell Outer Segment;A08.675.650.850.625.670.375
+Rod Cell Outer Segment;A08.675.650.850.625.670.375.500
+Retinal Rod Photoreceptor Cells;A08.675.650.850.625.670.650
+Rod Cell Outer Segment;A08.675.650.850.625.670.650.650
+Retinal Bipolar Cells;A08.675.650.850.750
+Retinal Ganglion Cells;A08.675.650.850.875
+Retinal Horizontal Cells;A08.675.650.850.937
+Sensory Receptor Cells;A08.675.650.915
+Chemoreceptor Cells;A08.675.650.915.500
+Neuroepithelial Cells;A08.675.650.915.500.530
+Neuroepithelial Bodies;A08.675.650.915.500.530.550
+Olfactory Receptor Neurons;A08.675.650.915.500.540
+Paraganglia, Nonchromaffin;A08.675.650.915.500.600
+Aortic Bodies;A08.675.650.915.500.600.050
+Carotid Body;A08.675.650.915.500.600.150
+Glomus Jugulare;A08.675.650.915.500.600.350
+Glomus Tympanicum;A08.675.650.915.500.600.360
+Taste Buds;A08.675.650.915.500.800
+Mechanoreceptors;A08.675.650.915.750
+Golgi-Mazzoni Corpuscles;A08.675.650.915.750.300
+Merkel Cells;A08.675.650.915.750.425
+Muscle Spindles;A08.675.650.915.750.500
+Neuroepithelial Cells;A08.675.650.915.750.600
+Hair Cells, Auditory;A08.675.650.915.750.600.350
+Hair Cells, Auditory, Inner;A08.675.650.915.750.600.350.350
+Hair Cells, Auditory, Outer;A08.675.650.915.750.600.350.365
+Hair Cells, Vestibular;A08.675.650.915.750.600.675
+Pacinian Corpuscles;A08.675.650.915.750.700
+Pressoreceptors;A08.675.650.915.750.750
+Pulmonary Stretch Receptors;A08.675.650.915.750.780
+Nociceptors;A08.675.650.915.875
+Photoreceptor Cells;A08.675.650.915.937
+Photoreceptor Cells, Invertebrate;A08.675.650.915.937.650
+Photoreceptor Cells, Vertebrate;A08.675.650.915.937.670
+Photoreceptor Connecting Cilium;A08.675.650.915.937.670.049
+Retinal Cone Photoreceptor Cells;A08.675.650.915.937.670.100
+Retinal Photoreceptor Cell Inner Segment;A08.675.650.915.937.670.237
+Retinal Photoreceptor Cell Outer Segment;A08.675.650.915.937.670.375
+Rod Cell Outer Segment;A08.675.650.915.937.670.375.500
+Retinal Rod Photoreceptor Cells;A08.675.650.915.937.670.650
+Rod Cell Outer Segment;A08.675.650.915.937.670.650.650
+Thermoreceptors;A08.675.650.915.968
+Neurons, Efferent;A08.675.655
+Motor Neurons;A08.675.655.500
+Anterior Horn Cells;A08.675.655.500.050
+Motor Neurons, Gamma;A08.675.655.500.525
+Neuropil;A08.675.703
+Neuropil Threads;A08.675.703.550
+Nissl Bodies;A08.675.712
+Nitrergic Neurons;A08.675.748
+Purkinje Cells;A08.675.784
+Pyramidal Cells;A08.675.790
+Place Cells;A08.675.790.500
+Serotonergic Neurons;A08.675.895
+Suprachiasmatic Nucleus Neurons;A08.675.947
+Neurosecretory Systems;A08.713
+Circumventricular Organs;A08.713.049
+Area Postrema;A08.713.049.500
+Median Eminence;A08.713.049.750
+Pituitary Gland, Posterior;A08.713.049.875
+Subcommissural Organ;A08.713.049.937
+Subfornical Organ;A08.713.049.968
+Corpora Allata;A08.713.100
+Glomus Tympanicum;A08.713.228
+Hypothalamo-Hypophyseal System;A08.713.357
+Median Eminence;A08.713.357.500
+Pituitary Gland;A08.713.357.750
+Pituitary Gland, Anterior;A08.713.357.750.500
+Corticotrophs;A08.713.357.750.500.500
+Gonadotrophs;A08.713.357.750.500.750
+Lactotrophs;A08.713.357.750.500.812
+Somatotrophs;A08.713.357.750.500.937
+Thyrotrophs;A08.713.357.750.500.968
+Pituitary Gland, Intermediate;A08.713.357.750.750
+Melanotrophs;A08.713.357.750.750.500
+Pituitary Gland, Posterior;A08.713.357.750.875
+Pineal Gland;A08.713.733
+Peripheral Nervous System;A08.800
+Autonomic Nervous System;A08.800.050
+Autonomic Pathways;A08.800.050.050
+Autonomic Fibers, Postganglionic;A08.800.050.050.050
+Parasympathetic Fibers, Postganglionic;A08.800.050.050.050.700
+Sympathetic Fibers, Postganglionic;A08.800.050.050.050.800
+Autonomic Fibers, Preganglionic;A08.800.050.050.060
+Celiac Plexus;A08.800.050.050.150
+Facial Nerve;A08.800.050.050.275
+Glossopharyngeal Nerve;A08.800.050.050.337
+Hypogastric Plexus;A08.800.050.050.400
+Myenteric Plexus;A08.800.050.050.500
+Oculomotor Nerve;A08.800.050.050.650
+Splanchnic Nerves;A08.800.050.050.800
+Submucous Plexus;A08.800.050.050.850
+Vagus Nerve;A08.800.050.050.925
+Laryngeal Nerves;A08.800.050.050.925.450
+Recurrent Laryngeal Nerve;A08.800.050.050.925.450.700
+Nodose Ganglion;A08.800.050.050.925.550
+Enteric Nervous System;A08.800.050.150
+Myenteric Plexus;A08.800.050.150.500
+Submucous Plexus;A08.800.050.150.750
+Ganglia, Autonomic;A08.800.050.300
+Ganglia, Parasympathetic;A08.800.050.300.250
+Ganglia, Sympathetic;A08.800.050.300.300
+Stellate Ganglion;A08.800.050.300.300.800
+Superior Cervical Ganglion;A08.800.050.300.300.850
+Parasympathetic Nervous System;A08.800.050.600
+Facial Nerve;A08.800.050.600.149
+Ganglia, Parasympathetic;A08.800.050.600.300
+Glossopharyngeal Nerve;A08.800.050.600.387
+Oculomotor Nerve;A08.800.050.600.475
+Parasympathetic Fibers, Postganglionic;A08.800.050.600.650
+Vagus Nerve;A08.800.050.600.825
+Laryngeal Nerves;A08.800.050.600.825.450
+Recurrent Laryngeal Nerve;A08.800.050.600.825.450.700
+Nodose Ganglion;A08.800.050.600.825.550
+Sympathetic Nervous System;A08.800.050.800
+Ganglia, Sympathetic;A08.800.050.800.300
+Stellate Ganglion;A08.800.050.800.300.800
+Superior Cervical Ganglion;A08.800.050.800.300.850
+Splanchnic Nerves;A08.800.050.800.800
+Vasomotor System;A08.800.050.800.900
+Pressoreceptors;A08.800.050.800.900.700
+Ganglia, Sensory;A08.800.350
+Ganglia, Spinal;A08.800.350.340
+Geniculate Ganglion;A08.800.350.380
+Nodose Ganglion;A08.800.350.550
+Spiral Ganglion;A08.800.350.800
+Trigeminal Ganglion;A08.800.350.850
+Nerve Endings;A08.800.550
+Neuroeffector Junction;A08.800.550.550
+Neuromuscular Junction;A08.800.550.550.550
+Motor Endplate;A08.800.550.550.550.500
+Peripheral Nerves;A08.800.800
+Autonomic Pathways;A08.800.800.060
+Autonomic Fibers, Postganglionic;A08.800.800.060.050
+Parasympathetic Fibers, Postganglionic;A08.800.800.060.050.700
+Sympathetic Fibers, Postganglionic;A08.800.800.060.050.800
+Autonomic Fibers, Preganglionic;A08.800.800.060.060
+Celiac Plexus;A08.800.800.060.150
+Facial Nerve;A08.800.800.060.275
+Glossopharyngeal Nerve;A08.800.800.060.337
+Hypogastric Plexus;A08.800.800.060.400
+Myenteric Plexus;A08.800.800.060.500
+Oculomotor Nerve;A08.800.800.060.650
+Splanchnic Nerves;A08.800.800.060.800
+Submucous Plexus;A08.800.800.060.840
+Vagus Nerve;A08.800.800.060.920
+Laryngeal Nerves;A08.800.800.060.920.450
+Recurrent Laryngeal Nerve;A08.800.800.060.920.450.700
+Nodose Ganglion;A08.800.800.060.920.550
+Blood-Nerve Barrier;A08.800.800.090
+Cranial Nerves;A08.800.800.120
+Abducens Nerve;A08.800.800.120.030
+Accessory Nerve;A08.800.800.120.060
+Facial Nerve;A08.800.800.120.250
+Chorda Tympani Nerve;A08.800.800.120.250.120
+Geniculate Ganglion;A08.800.800.120.250.280
+Glossopharyngeal Nerve;A08.800.800.120.290
+Hypoglossal Nerve;A08.800.800.120.330
+Oculomotor Nerve;A08.800.800.120.600
+Olfactory Nerve;A08.800.800.120.640
+Optic Nerve;A08.800.800.120.680
+Optic Chiasm;A08.800.800.120.680.600
+Optic Disk;A08.800.800.120.680.660
+Trigeminal Nerve;A08.800.800.120.760
+Mandibular Nerve;A08.800.800.120.760.500
+Lingual Nerve;A08.800.800.120.760.500.450
+Maxillary Nerve;A08.800.800.120.760.550
+Ophthalmic Nerve;A08.800.800.120.760.650
+Trigeminal Ganglion;A08.800.800.120.760.825
+Trochlear Nerve;A08.800.800.120.800
+Vagus Nerve;A08.800.800.120.900
+Laryngeal Nerves;A08.800.800.120.900.450
+Recurrent Laryngeal Nerve;A08.800.800.120.900.450.700
+Nodose Ganglion;A08.800.800.120.900.550
+Vestibulocochlear Nerve;A08.800.800.120.910
+Cochlear Nerve;A08.800.800.120.910.120
+Spiral Ganglion;A08.800.800.120.910.120.800
+Vestibular Nerve;A08.800.800.120.910.900
+Schwann Cells;A08.800.800.690
+Myelin Sheath;A08.800.800.690.500
+Neurilemma;A08.800.800.690.500.550
+Ranvier's Nodes;A08.800.800.690.500.700
+Spinal Nerves;A08.800.800.720
+Brachial Plexus;A08.800.800.720.050
+Median Nerve;A08.800.800.720.050.500
+Musculocutaneous Nerve;A08.800.800.720.050.540
+Radial Nerve;A08.800.800.720.050.700
+Ulnar Nerve;A08.800.800.720.050.850
+Cervical Plexus;A08.800.800.720.150
+Phrenic Nerve;A08.800.800.720.150.700
+Lumbosacral Plexus;A08.800.800.720.450
+Femoral Nerve;A08.800.800.720.450.250
+Obturator Nerve;A08.800.800.720.450.600
+Pudendal Nerve;A08.800.800.720.450.680
+Sciatic Nerve;A08.800.800.720.450.760
+Peroneal Nerve;A08.800.800.720.450.760.640
+Tibial Nerve;A08.800.800.720.450.760.820
+Sural Nerve;A08.800.800.720.450.760.820.820
+Spinal Nerve Roots;A08.800.800.720.725
+Cauda Equina;A08.800.800.720.725.150
+Ganglia, Spinal;A08.800.800.720.725.350
+Thoracic Nerves;A08.800.800.720.800
+Intercostal Nerves;A08.800.800.720.800.350
+Sensory Receptor Cells;A08.800.950
+Chemoreceptor Cells;A08.800.950.500
+Neuroepithelial Cells;A08.800.950.500.530
+Neuroepithelial Bodies;A08.800.950.500.530.550
+Olfactory Receptor Neurons;A08.800.950.500.540
+Paraganglia, Nonchromaffin;A08.800.950.500.600
+Aortic Bodies;A08.800.950.500.600.050
+Carotid Body;A08.800.950.500.600.150
+Glomus Jugulare;A08.800.950.500.600.350
+Glomus Tympanicum;A08.800.950.500.600.360
+Taste Buds;A08.800.950.500.800
+Mechanoreceptors;A08.800.950.750
+Golgi-Mazzoni Corpuscles;A08.800.950.750.300
+Merkel Cells;A08.800.950.750.425
+Muscle Spindles;A08.800.950.750.500
+Neuroepithelial Cells;A08.800.950.750.600
+Hair Cells, Auditory;A08.800.950.750.600.350
+Hair Cells, Auditory, Inner;A08.800.950.750.600.350.350
+Hair Cells, Auditory, Outer;A08.800.950.750.600.350.365
+Hair Cells, Vestibular;A08.800.950.750.600.675
+Pacinian Corpuscles;A08.800.950.750.700
+Pressoreceptors;A08.800.950.750.750
+Pulmonary Stretch Receptors;A08.800.950.750.780
+Nociceptors;A08.800.950.875
+Photoreceptor Cells;A08.800.950.937
+Photoreceptor Cells, Invertebrate;A08.800.950.937.650
+Photoreceptor Cells, Vertebrate;A08.800.950.937.670
+Photoreceptor Connecting Cilium;A08.800.950.937.670.049
+Retinal Cone Photoreceptor Cells;A08.800.950.937.670.100
+Retinal Photoreceptor Cell Inner Segment;A08.800.950.937.670.237
+Retinal Photoreceptor Cell Outer Segment;A08.800.950.937.670.375
+Rod Cell Outer Segment;A08.800.950.937.670.375.500
+Retinal Rod Photoreceptor Cells;A08.800.950.937.670.650
+Rod Cell Outer Segment;A08.800.950.937.670.650.650
+Thermoreceptors;A08.800.950.968
+Synapses;A08.850
+Electrical Synapses;A08.850.180
+Neuroeffector Junction;A08.850.550
+Neuromuscular Junction;A08.850.550.550
+Motor Endplate;A08.850.550.550.500
+Presynaptic Terminals;A08.850.700
+Mossy Fibers, Hippocampal;A08.850.700.500
+Synaptic Membranes;A08.850.800
+Post-Synaptic Density;A08.850.800.500
+Synaptic Vesicles;A08.850.840
+Sense Organs;A09
+Ear;A09.246
+Ear, External;A09.246.272
+Ear Auricle;A09.246.272.197
+Ear Canal;A09.246.272.396
+Ear Cartilage;A09.246.272.549
+Tympanic Membrane;A09.246.272.702
+Ear, Inner;A09.246.300
+Cochlea;A09.246.300.246
+Basilar Membrane;A09.246.300.246.125
+Cochlear Aqueduct;A09.246.300.246.280
+Cochlear Duct;A09.246.300.246.292
+Stria Vascularis;A09.246.300.246.292.876
+Tectorial Membrane;A09.246.300.246.292.938
+Organ of Corti;A09.246.300.246.577
+Hair Cells, Auditory;A09.246.300.246.577.325
+Hair Cells, Auditory, Inner;A09.246.300.246.577.325.315
+Hair Cells, Auditory, Outer;A09.246.300.246.577.325.380
+Labyrinth Supporting Cells;A09.246.300.246.577.543
+Round Window, Ear;A09.246.300.246.814
+Scala Tympani;A09.246.300.246.848
+Scala Vestibuli;A09.246.300.246.874
+Spiral Ganglion;A09.246.300.246.900
+Spiral Lamina;A09.246.300.246.930
+Spiral Ligament of Cochlea;A09.246.300.246.965
+Labyrinthine Fluids;A09.246.300.455
+Semicircular Canals;A09.246.300.663
+Semicircular Ducts;A09.246.300.663.500
+Hair Cells, Ampulla;A09.246.300.663.500.500
+Vestibule, Labyrinth;A09.246.300.909
+Oval Window, Ear;A09.246.300.909.551
+Saccule and Utricle;A09.246.300.909.625
+Acoustic Maculae;A09.246.300.909.625.125
+Hair Cells, Vestibular;A09.246.300.909.625.125.340
+Otolithic Membrane;A09.246.300.909.625.125.680
+Vestibular Aqueduct;A09.246.300.909.957
+Endolymphatic Duct;A09.246.300.909.957.360
+Endolymphatic Sac;A09.246.300.909.957.360.701
+Ear, Middle;A09.246.397
+Ear Ossicles;A09.246.397.247
+Incus;A09.246.397.247.362
+Malleus;A09.246.397.247.524
+Stapes;A09.246.397.247.806
+Eustachian Tube;A09.246.397.369
+Glomus Tympanicum;A09.246.397.400
+Stapedius;A09.246.397.727
+Tensor Tympani;A09.246.397.749
+Eye;A09.371
+Anterior Eye Segment;A09.371.060
+Anterior Chamber;A09.371.060.067
+Aqueous Humor;A09.371.060.067.070
+Endothelium, Corneal;A09.371.060.067.318
+Ciliary Body;A09.371.060.160
+Conjunctiva;A09.371.060.200
+Cornea;A09.371.060.217
+Bowman Membrane;A09.371.060.217.113
+Corneal Stroma;A09.371.060.217.228
+Descemet Membrane;A09.371.060.217.271
+Endothelium, Corneal;A09.371.060.217.318
+Epithelium, Corneal;A09.371.060.217.325
+Limbus Corneae;A09.371.060.217.659
+Iris;A09.371.060.450
+Pupil;A09.371.060.450.780
+Lens, Crystalline;A09.371.060.500
+Lens Capsule, Crystalline;A09.371.060.500.155
+Posterior Capsule of the Lens;A09.371.060.500.155.500
+Lens Cortex, Crystalline;A09.371.060.500.225
+Lens Nucleus, Crystalline;A09.371.060.500.670
+Trabecular Meshwork;A09.371.060.932
+Anterior Capsule of the Lens;A09.371.061
+Axial Length, Eye;A09.371.199
+Eyelids;A09.371.337
+Conjunctiva;A09.371.337.168
+Eyelashes;A09.371.337.338
+Meibomian Glands;A09.371.337.614
+Lacrimal Apparatus;A09.371.463
+Nasolacrimal Duct;A09.371.463.640
+Pigment Epithelium of Eye;A09.371.670
+Retinal Pigment Epithelium;A09.371.670.500
+Posterior Eye Segment;A09.371.714
+Vitreous Body;A09.371.714.500
+Retina;A09.371.729
+Blood-Retinal Barrier;A09.371.729.055
+Fundus Oculi;A09.371.729.313
+Macula Lutea;A09.371.729.522
+Fovea Centralis;A09.371.729.522.436
+Optic Disk;A09.371.729.690
+Retinal Neurons;A09.371.729.831
+Amacrine Cells;A09.371.729.831.500
+Photoreceptor Cells;A09.371.729.831.625
+Photoreceptor Cells, Invertebrate;A09.371.729.831.625.660
+Photoreceptor Cells, Vertebrate;A09.371.729.831.625.670
+Photoreceptor Connecting Cilium;A09.371.729.831.625.670.049
+Retinal Cone Photoreceptor Cells;A09.371.729.831.625.670.100
+Retinal Photoreceptor Cell Inner Segment;A09.371.729.831.625.670.237
+Retinal Photoreceptor Cell Outer Segment;A09.371.729.831.625.670.375
+Rod Cell Outer Segment;A09.371.729.831.625.670.375.500
+Retinal Rod Photoreceptor Cells;A09.371.729.831.625.670.650
+Rod Cell Outer Segment;A09.371.729.831.625.670.650.650
+Retinal Bipolar Cells;A09.371.729.831.750
+Retinal Ganglion Cells;A09.371.729.831.875
+Retinal Horizontal Cells;A09.371.729.831.937
+Retinal Pigment Epithelium;A09.371.729.887
+Sclera;A09.371.784
+Tenon Capsule;A09.371.839
+Uvea;A09.371.894
+Blood-Aqueous Barrier;A09.371.894.030
+Choroid;A09.371.894.223
+Bruch Membrane;A09.371.894.223.250
+Ciliary Body;A09.371.894.280
+Iris;A09.371.894.513
+Pupil;A09.371.894.513.780
+Nose;A09.531
+Olfactory Mucosa;A09.531.623
+Olfactory Receptor Neurons;A09.531.623.580
+Vomeronasal Organ;A09.531.940
+Taste Buds;A09.846
+Tissues;A10
+Body Fluid Compartments;A10.082
+Extracellular Space;A10.082.500
+Intracellular Space;A10.082.750
+Connective Tissue;A10.165
+Adipose Tissue;A10.165.114
+Adipose Tissue, Beige;A10.165.114.161
+Adipose Tissue, Brown;A10.165.114.322
+Adipose Tissue, White;A10.165.114.830
+Abdominal Fat;A10.165.114.830.500
+Intra-Abdominal Fat;A10.165.114.830.500.500
+Subcutaneous Fat, Abdominal;A10.165.114.830.500.750
+Subcutaneous Fat;A10.165.114.830.750
+Subcutaneous Fat, Abdominal;A10.165.114.830.750.500
+Adventitia;A10.165.189
+Bone and Bones;A10.165.265
+Bone Matrix;A10.165.265.166
+Bone-Implant Interface;A10.165.265.183
+Bony Callus;A10.165.265.200
+Cancellous Bone;A10.165.265.414
+Cortical Bone;A10.165.265.521
+Haversian System;A10.165.265.521.500
+Periosteum;A10.165.265.746
+Cartilage;A10.165.382
+Elastic Cartilage;A10.165.382.300
+Fibrocartilage;A10.165.382.350
+Intervertebral Disc;A10.165.382.350.050
+Annulus Fibrosus;A10.165.382.350.050.250
+Nucleus Pulposus;A10.165.382.350.050.500
+Meniscus;A10.165.382.350.163
+Menisci, Tibial;A10.165.382.350.163.500
+Palmar Plate;A10.165.382.350.200
+Plantar Plate;A10.165.382.350.400
+Triangular Fibrocartilage;A10.165.382.350.800
+Hyaline Cartilage;A10.165.382.400
+Elastic Tissue;A10.165.400
+Fascia;A10.165.425
+Fascia Lata;A10.165.425.500
+Tenon Capsule;A10.165.425.750
+Granulation Tissue;A10.165.450
+Cicatrix;A10.165.450.300
+Cicatrix, Hypertrophic;A10.165.450.300.125
+Keloid;A10.165.450.300.425
+Acne Keloid;A10.165.450.300.425.125
+Interosseous Membrane;A10.165.560
+Ligaments;A10.165.669
+Broad Ligament;A10.165.669.170
+Ligaments, Articular;A10.165.669.514
+Anterior Cruciate Ligament;A10.165.669.514.100
+Collateral Ligaments;A10.165.669.514.162
+Collateral Ligament, Ulnar;A10.165.669.514.162.250
+Lateral Ligament, Ankle;A10.165.669.514.162.500
+Medial Collateral Ligament, Knee;A10.165.669.514.162.600
+Ligamentum Flavum;A10.165.669.514.287
+Longitudinal Ligaments;A10.165.669.514.350
+Patellar Ligament;A10.165.669.514.475
+Plantar Plate;A10.165.669.514.538
+Posterior Cruciate Ligament;A10.165.669.514.600
+Round Ligament of Femur;A10.165.669.514.800
+Round Ligaments;A10.165.669.901
+Round Ligament of Femur;A10.165.669.901.500
+Round Ligament of Liver;A10.165.669.901.750
+Round Ligament of Uterus;A10.165.669.901.875
+Subcutaneous Tissue;A10.165.887
+Wharton Jelly;A10.165.970
+Epithelium;A10.272
+Basement Membrane;A10.272.220
+Bruch Membrane;A10.272.220.250
+Endothelium;A10.272.491
+Endothelium, Corneal;A10.272.491.318
+Endothelium, Lymphatic;A10.272.491.332
+Endothelium, Vascular;A10.272.491.355
+Pericytes;A10.272.491.677
+Epidermis;A10.272.497
+Hair Follicle;A10.272.497.500
+Epithelium, Corneal;A10.272.510
+Pigment Epithelium of Eye;A10.272.640
+Seminiferous Epithelium;A10.272.700
+Urothelium;A10.272.850
+Exocrine Glands;A10.336
+Bartholin's Glands;A10.336.095
+Bulbourethral Glands;A10.336.197
+Lacrimal Apparatus;A10.336.422
+Mammary Glands, Animal;A10.336.482
+Mammary Glands, Human;A10.336.532
+Pancreas, Exocrine;A10.336.645
+Prostate;A10.336.707
+Salivary Glands;A10.336.779
+Parotid Gland;A10.336.779.464
+Salivary Ducts;A10.336.779.640
+Salivary Glands, Minor;A10.336.779.650
+Sublingual Gland;A10.336.779.687
+Submandibular Gland;A10.336.779.812
+von Ebner Glands;A10.336.779.906
+Sebaceous Glands;A10.336.827
+Meibomian Glands;A10.336.827.600
+Sweat Glands;A10.336.899
+Apocrine Glands;A10.336.899.206
+Eccrine Glands;A10.336.899.480
+Lymphoid Tissue;A10.549
+Adenoids;A10.549.100
+Bursa of Fabricius;A10.549.175
+Lymph Nodes;A10.549.400
+Germinal Center;A10.549.400.500
+Dendritic Cells, Follicular;A10.549.400.500.200
+Sentinel Lymph Node;A10.549.400.750
+Palatine Tonsil;A10.549.580
+Peyer's Patches;A10.549.600
+Spleen;A10.549.700
+Tertiary Lymphoid Structures;A10.549.725
+Thymus Gland;A10.549.750
+Membranes;A10.615
+Basement Membrane;A10.615.179
+Basilar Membrane;A10.615.179.124
+Bruch Membrane;A10.615.179.250
+Descemet Membrane;A10.615.179.437
+Glomerular Basement Membrane;A10.615.179.625
+Extraembryonic Membranes;A10.615.284
+Allantois;A10.615.284.147
+Amnion;A10.615.284.277
+Chorioallantoic Membrane;A10.615.284.375
+Chorion;A10.615.284.473
+Chorionic Villi;A10.615.284.473.200
+Yolk Sac;A10.615.284.981
+Mucous Membrane;A10.615.550
+Esophageal Mucosa;A10.615.550.146
+Gastric Mucosa;A10.615.550.291
+Chief Cells, Gastric;A10.615.550.291.150
+Enterochromaffin Cells;A10.615.550.291.162
+Gastrin-Secreting Cells;A10.615.550.291.300
+Parietal Cells, Gastric;A10.615.550.291.650
+Somatostatin-Secreting Cells;A10.615.550.291.825
+Hymen;A10.615.550.368
+Intestinal Mucosa;A10.615.550.444
+Enterocytes;A10.615.550.444.290
+Goblet Cells;A10.615.550.444.321
+Paneth Cells;A10.615.550.444.700
+Mouth Mucosa;A10.615.550.599
+Respiratory Mucosa;A10.615.550.760
+Laryngeal Mucosa;A10.615.550.760.520
+Goblet Cells;A10.615.550.760.520.320
+Nasal Mucosa;A10.615.550.760.600
+Goblet Cells;A10.615.550.760.600.320
+Olfactory Mucosa;A10.615.550.760.600.640
+Olfactory Receptor Neurons;A10.615.550.760.600.640.640
+Serous Membrane;A10.615.789
+Pericardium;A10.615.789.470
+Pericardial Fluid;A10.615.789.470.500
+Peritoneum;A10.615.789.596
+Pleura;A10.615.789.736
+Muscles;A10.690
+Muscle, Smooth;A10.690.467
+Muscle, Smooth, Vascular;A10.690.467.491
+Myometrium;A10.690.467.500
+Muscle, Striated;A10.690.552
+Muscle, Skeletal;A10.690.552.500
+Hamstring Muscles;A10.690.552.500.250
+Muscle Fibers, Skeletal;A10.690.552.500.500
+Muscle Fibers, Fast-Twitch;A10.690.552.500.500.600
+Muscle Fibers, Slow-Twitch;A10.690.552.500.500.700
+Sarcoplasmic Reticulum;A10.690.552.500.500.850
+Muscle Spindles;A10.690.552.500.750
+Myocardium;A10.690.552.750
+Myoblasts, Cardiac;A10.690.552.750.500
+Myocytes, Cardiac;A10.690.552.750.570
+Myofibrils;A10.690.552.875
+Sarcomeres;A10.690.552.875.700
+Nerve Tissue;A10.755
+Ependyma;A10.755.260
+Myelin Sheath;A10.755.503
+Neurilemma;A10.755.503.550
+Ranvier's Nodes;A10.755.503.700
+Organoids;A10.802
+Parenchymal Tissue;A10.806
+Peritoneal Stomata;A10.810
+Margins of Excision;A10.830
+Surgically-Created Structures;A10.850
+Colonic Pouches;A10.850.200
+Skeletal Muscle Ventricle;A10.850.700
+Surgical Flaps;A10.850.710
+Free Tissue Flaps;A10.850.710.500
+Myocutaneous Flap;A10.850.710.625
+Perforator Flap;A10.850.710.750
+Surgical Stomas;A10.850.720
+Urinary Reservoirs, Continent;A10.850.750
+Cells;A11
+Acinar Cells;A11.031
+Allogeneic Cells;A11.047
+Antibody-Producing Cells;A11.063
+B-Lymphocytes;A11.063.438
+B-Lymphocyte Subsets;A11.063.438.450
+B-Lymphocytes, Regulatory;A11.063.438.450.300
+Plasma Cells;A11.063.438.725
+Antigen-Presenting Cells;A11.066
+Dendritic Cells;A11.066.270
+Langerhans Cells;A11.066.270.500
+Dendritic Cells, Follicular;A11.066.275
+Blood Cells;A11.118
+Blood Platelets;A11.118.188
+Erythrocytes;A11.118.290
+Erythrocyte Membrane;A11.118.290.270
+Erythrocytes, Abnormal;A11.118.290.330
+Acanthocytes;A11.118.290.330.100
+Erythrocyte Inclusions;A11.118.290.330.315
+Heinz Bodies;A11.118.290.330.315.335
+Megaloblasts;A11.118.290.330.531
+Spherocytes;A11.118.290.330.802
+Reticulocytes;A11.118.290.760
+Hemocytes;A11.118.480
+Leukocytes;A11.118.637
+Granulocytes;A11.118.637.415
+Basophils;A11.118.637.415.120
+Eosinophils;A11.118.637.415.345
+Neutrophils;A11.118.637.415.583
+Leukocytes, Mononuclear;A11.118.637.555
+Cytokine-Induced Killer Cells;A11.118.637.555.283
+Killer Cells, Lymphokine-Activated;A11.118.637.555.283.500
+Monocytes, Activated Killer;A11.118.637.555.283.750
+T-Lymphocytes, Cytotoxic;A11.118.637.555.283.875
+Lymphocytes;A11.118.637.555.567
+Killer Cells, Natural;A11.118.637.555.567.537
+Killer Cells, Lymphokine-Activated;A11.118.637.555.567.537.500
+Lymphocyte Subsets;A11.118.637.555.567.550
+B-Lymphocyte Subsets;A11.118.637.555.567.550.450
+B-Lymphocytes, Regulatory;A11.118.637.555.567.550.450.300
+T-Lymphocyte Subsets;A11.118.637.555.567.550.500
+Intraepithelial Lymphocytes;A11.118.637.555.567.550.500.050
+Mucosal-Associated Invariant T Cells;A11.118.637.555.567.550.500.100
+T-Lymphocytes, Cytotoxic;A11.118.637.555.567.550.500.200
+T-Lymphocytes, Helper-Inducer;A11.118.637.555.567.550.500.400
+Th1 Cells;A11.118.637.555.567.550.500.400.900
+Th2 Cells;A11.118.637.555.567.550.500.400.905
+Th17 Cells;A11.118.637.555.567.550.500.400.915
+T-Lymphocytes, Regulatory;A11.118.637.555.567.550.500.700
+B-Lymphocytes;A11.118.637.555.567.562
+B-Lymphocyte Subsets;A11.118.637.555.567.562.200
+B-Lymphocytes, Regulatory;A11.118.637.555.567.562.200.300
+Plasma Cells;A11.118.637.555.567.562.725
+Precursor Cells, B-Lymphoid;A11.118.637.555.567.562.800
+T-Lymphocytes;A11.118.637.555.567.569
+CD4-Positive T-Lymphocytes;A11.118.637.555.567.569.200
+T-Lymphocytes, Helper-Inducer;A11.118.637.555.567.569.200.400
+Th1 Cells;A11.118.637.555.567.569.200.400.900
+Th2 Cells;A11.118.637.555.567.569.200.400.905
+Th17 Cells;A11.118.637.555.567.569.200.400.915
+T-Lymphocytes, Regulatory;A11.118.637.555.567.569.200.700
+CD8-Positive T-Lymphocytes;A11.118.637.555.567.569.220
+T-Lymphocytes, Cytotoxic;A11.118.637.555.567.569.220.200
+Natural Killer T-Cells;A11.118.637.555.567.569.290
+Precursor Cells, T-Lymphoid;A11.118.637.555.567.569.360
+Thymocytes;A11.118.637.555.567.569.360.800
+T-Lymphocyte Subsets;A11.118.637.555.567.569.500
+Intraepithelial Lymphocytes;A11.118.637.555.567.569.500.050
+Mucosal-Associated Invariant T Cells;A11.118.637.555.567.569.500.100
+T-Lymphocytes, Cytotoxic;A11.118.637.555.567.569.500.200
+T-Lymphocytes, Helper-Inducer;A11.118.637.555.567.569.500.400
+Th1 Cells;A11.118.637.555.567.569.500.400.900
+Th2 Cells;A11.118.637.555.567.569.500.400.905
+Th17 Cells;A11.118.637.555.567.569.500.400.915
+T-Lymphocytes, Regulatory;A11.118.637.555.567.569.500.700
+Lymphocytes, Null;A11.118.637.555.567.622
+Lymphocytes, Tumor-Infiltrating;A11.118.637.555.567.650
+Monocytes;A11.118.637.555.652
+Monocytes, Activated Killer;A11.118.637.555.652.500
+Bone Marrow Cells;A11.148
+Endothelial Progenitor Cells;A11.148.174
+Granulocytes;A11.148.350
+Granulocyte Precursor Cells;A11.148.350.350
+Hematopoietic Stem Cells;A11.148.378
+Lymphoid Progenitor Cells;A11.148.378.294
+Precursor Cells, B-Lymphoid;A11.148.378.294.374
+Precursor Cells, T-Lymphoid;A11.148.378.294.750
+Thymocytes;A11.148.378.294.750.800
+Myeloid Progenitor Cells;A11.148.378.590
+Granulocyte-Macrophage Progenitor Cells;A11.148.378.590.675
+Granulocyte Precursor Cells;A11.148.378.590.675.500
+Monocyte-Macrophage Precursor Cells;A11.148.378.590.675.750
+Megakaryocyte-Erythroid Progenitor Cells;A11.148.378.590.837
+Erythroid Precursor Cells;A11.148.378.590.837.250
+Erythroblasts;A11.148.378.590.837.250.200
+Megaloblasts;A11.148.378.590.837.250.200.500
+Megakaryocyte Progenitor Cells;A11.148.378.590.837.625
+Megakaryocytes;A11.148.479
+Monocytes;A11.148.580
+Monocyte-Macrophage Precursor Cells;A11.148.580.500
+Reticulocytes;A11.148.790
+Cells, Cultured;A11.251
+Cell Line;A11.251.210
+3T3 Cells;A11.251.210.100
+BALB 3T3 Cells;A11.251.210.100.080
+NIH 3T3 Cells;A11.251.210.100.550
+Swiss 3T3 Cells;A11.251.210.100.775
+3T3-L1 Cells;A11.251.210.100.775.800
+Cell Line, Transformed;A11.251.210.172
+COS Cells;A11.251.210.172.500
+HEK293 Cells;A11.251.210.172.750
+RAW 264.7 Cells;A11.251.210.172.875
+Cell Line, Tumor;A11.251.210.190
+A549 Cells;A11.251.210.190.080
+Caco-2 Cells;A11.251.210.190.160
+HCT116 Cells;A11.251.210.190.380
+HeLa Cells;A11.251.210.190.400
+KB Cells;A11.251.210.190.400.500
+HL-60 Cells;A11.251.210.190.465
+HT29 Cells;A11.251.210.190.475
+Jurkat Cells;A11.251.210.190.495
+K562 Cells;A11.251.210.190.510
+MCF-7 Cells;A11.251.210.190.630
+PC-3 Cells;A11.251.210.190.690
+PC12 Cells;A11.251.210.190.750
+THP-1 Cells;A11.251.210.190.815
+U937 Cells;A11.251.210.190.880
+CHO Cells;A11.251.210.200
+L Cells;A11.251.210.505
+LLC-PK1 Cells;A11.251.210.520
+Madin Darby Canine Kidney Cells;A11.251.210.827
+Sf9 Cells;A11.251.210.891
+Vero Cells;A11.251.210.955
+Clone Cells;A11.251.353
+Hybridomas;A11.251.353.485
+Cytokine-Induced Killer Cells;A11.251.476
+Feeder Cells;A11.251.538
+Hybrid Cells;A11.251.600
+Hybridomas;A11.251.600.485
+Spheroids, Cellular;A11.251.800
+Tumor Cells, Cultured;A11.251.860
+Cell Line, Tumor;A11.251.860.180
+A549 Cells;A11.251.860.180.080
+Caco-2 Cells;A11.251.860.180.160
+HCT116 Cells;A11.251.860.180.380
+HeLa Cells;A11.251.860.180.400
+KB Cells;A11.251.860.180.400.500
+Hep G2 Cells;A11.251.860.180.432
+HL-60 Cells;A11.251.860.180.465
+HT29 Cells;A11.251.860.180.475
+Jurkat Cells;A11.251.860.180.495
+K562 Cells;A11.251.860.180.510
+PC12 Cells;A11.251.860.180.750
+THP-1 Cells;A11.251.860.180.815
+U937 Cells;A11.251.860.180.880
+Embryonal Carcinoma Stem Cells;A11.251.860.590
+Cells, Immobilized;A11.270
+Cellular Structures;A11.284
+Cell Body;A11.284.074
+Cell Membrane;A11.284.149
+Bacterial Outer Membrane;A11.284.149.083
+Cell Membrane Structures;A11.284.149.165
+Cell-Matrix Junctions;A11.284.149.165.165
+Costameres;A11.284.149.165.165.142
+Focal Adhesions;A11.284.149.165.165.285
+Hemidesmosomes;A11.284.149.165.165.360
+Coated Pits, Cell-Membrane;A11.284.149.165.175
+Caveolae;A11.284.149.165.175.160
+Glycocalyx;A11.284.149.165.355
+Intercellular Junctions;A11.284.149.165.420
+Adherens Junctions;A11.284.149.165.420.020
+Desmosomes;A11.284.149.165.420.297
+Gap Junctions;A11.284.149.165.420.471
+Electrical Synapses;A11.284.149.165.420.471.180
+Immunological Synapses;A11.284.149.165.420.548
+Plasmodesmata;A11.284.149.165.420.625
+Synapses;A11.284.149.165.420.780
+Electrical Synapses;A11.284.149.165.420.780.180
+Neuroeffector Junction;A11.284.149.165.420.780.550
+Neuromuscular Junction;A11.284.149.165.420.780.550.550
+Motor Endplate;A11.284.149.165.420.780.550.550.500
+Presynaptic Terminals;A11.284.149.165.420.780.700
+Synaptic Membranes;A11.284.149.165.420.780.800
+Post-Synaptic Density;A11.284.149.165.420.780.800.500
+Tight Junctions;A11.284.149.165.420.820
+Membrane Microdomains;A11.284.149.165.570
+Caveolae;A11.284.149.165.570.160
+Myelin Sheath;A11.284.149.165.600
+Nuclear Envelope;A11.284.149.165.630
+Nuclear Lamina;A11.284.149.165.630.500
+Phycobilisomes;A11.284.149.165.695
+Ranvier's Nodes;A11.284.149.165.760
+Erythrocyte Membrane;A11.284.149.356
+Intracellular Membranes;A11.284.149.450
+Mitochondrial Membranes;A11.284.149.450.349
+Nuclear Envelope;A11.284.149.450.700
+Purple Membrane;A11.284.149.648
+Sarcolemma;A11.284.149.707
+Synaptic Membranes;A11.284.149.844
+Cell Surface Extensions;A11.284.180
+Axons;A11.284.180.075
+Axon Initial Segment;A11.284.180.075.125
+Growth Cones;A11.284.180.075.249
+Cellulosomes;A11.284.180.120
+Cilia;A11.284.180.165
+Dendrites;A11.284.180.225
+Dendritic Spines;A11.284.180.225.169
+Growth Cones;A11.284.180.225.340
+Fimbriae, Bacterial;A11.284.180.285
+Flagella;A11.284.180.290
+Sperm Tail;A11.284.180.290.835
+Microvilli;A11.284.180.565
+Neurites;A11.284.180.610
+Growth Cones;A11.284.180.610.345
+Pili, Sex;A11.284.180.690
+Podosomes;A11.284.180.695
+Pseudopodia;A11.284.180.700
+Stereocilia;A11.284.180.800
+Telopodes;A11.284.180.900
+Cell Wall;A11.284.183
+Cell Wall Skeleton;A11.284.183.200
+Chromosomes;A11.284.187
+Chromosomes, Archaeal;A11.284.187.167
+Chromosomes, Artificial;A11.284.187.178
+Chromosomes, Artificial, Bacterial;A11.284.187.178.170
+Chromosomes, Artificial, Mammalian;A11.284.187.178.190
+Chromosomes, Artificial, Human;A11.284.187.178.190.117
+Chromosomes, Artificial, P1 Bacteriophage;A11.284.187.178.195
+Chromosomes, Artificial, Yeast;A11.284.187.178.200
+Chromosomes, Bacterial;A11.284.187.190
+Chromosomes, Artificial, Bacterial;A11.284.187.190.170
+Chromosomes, Fungal;A11.284.187.360
+Chromosomes, Artificial, Yeast;A11.284.187.360.800
+Chromosomes, Insect;A11.284.187.440
+Polytene Chromosomes;A11.284.187.440.500
+Chromosomes, Mammalian;A11.284.187.520
+Chromosomes, Artificial, Mammalian;A11.284.187.520.190
+Chromosomes, Artificial, Human;A11.284.187.520.190.117
+Chromosomes, Human;A11.284.187.520.300
+Chromosomes, Artificial, Human;A11.284.187.520.300.117
+Chromosomes, Human, 1-3;A11.284.187.520.300.235
+Chromosomes, Human, Pair 1;A11.284.187.520.300.235.240
+Chromosomes, Human, Pair 2;A11.284.187.520.300.235.245
+Chromosomes, Human, Pair 3;A11.284.187.520.300.235.250
+Chromosomes, Human, 4-5;A11.284.187.520.300.280
+Chromosomes, Human, Pair 4;A11.284.187.520.300.280.285
+Chromosomes, Human, Pair 5;A11.284.187.520.300.280.290
+Chromosomes, Human, 6-12 and X;A11.284.187.520.300.325
+Chromosomes, Human, Pair 6;A11.284.187.520.300.325.330
+Chromosomes, Human, Pair 7;A11.284.187.520.300.325.335
+Chromosomes, Human, Pair 8;A11.284.187.520.300.325.340
+Chromosomes, Human, Pair 9;A11.284.187.520.300.325.345
+Philadelphia Chromosome;A11.284.187.520.300.325.345.500
+Chromosomes, Human, Pair 10;A11.284.187.520.300.325.350
+Chromosomes, Human, Pair 11;A11.284.187.520.300.325.355
+Chromosomes, Human, Pair 12;A11.284.187.520.300.325.360
+Chromosomes, Human, X;A11.284.187.520.300.325.680
+Chromosomes, Human, 13-15;A11.284.187.520.300.370
+Chromosomes, Human, Pair 13;A11.284.187.520.300.370.375
+Chromosomes, Human, Pair 14;A11.284.187.520.300.370.380
+Chromosomes, Human, Pair 15;A11.284.187.520.300.370.385
+Chromosomes, Human, 16-18;A11.284.187.520.300.415
+Chromosomes, Human, Pair 16;A11.284.187.520.300.415.420
+Chromosomes, Human, Pair 17;A11.284.187.520.300.415.425
+Chromosomes, Human, Pair 18;A11.284.187.520.300.415.430
+Chromosomes, Human, 19-20;A11.284.187.520.300.460
+Chromosomes, Human, Pair 19;A11.284.187.520.300.460.465
+Chromosomes, Human, Pair 20;A11.284.187.520.300.460.470
+Chromosomes, Human, 21-22 and Y;A11.284.187.520.300.505
+Chromosomes, Human, Pair 21;A11.284.187.520.300.505.510
+Chromosomes, Human, Pair 22;A11.284.187.520.300.505.515
+Philadelphia Chromosome;A11.284.187.520.300.505.515.500
+Chromosomes, Human, Y;A11.284.187.520.300.505.757
+Chromosomes, Plant;A11.284.187.560
+Isochromosomes;A11.284.187.570
+Ring Chromosomes;A11.284.187.788
+Sex Chromosomes;A11.284.187.865
+Pseudoautosomal Regions;A11.284.187.865.400
+Sex Chromatin;A11.284.187.865.800
+X Chromosome;A11.284.187.865.982
+Chromosomes, Human, X;A11.284.187.865.982.500
+Y Chromosome;A11.284.187.865.983
+Chromosomes, Human, Y;A11.284.187.865.983.500
+Extracellular Space;A11.284.295
+Extracellular Fluid;A11.284.295.260
+Extracellular Matrix;A11.284.295.310
+Glomerular Basement Membrane;A11.284.295.310.279
+Microfibrils;A11.284.295.310.560
+Zona Pellucida;A11.284.295.310.990
+Extracellular Traps;A11.284.295.495
+Extracellular Vesicles;A11.284.295.588
+Cell-Derived Microparticles;A11.284.295.588.500
+Exosomes;A11.284.295.588.750
+Periplasm;A11.284.295.680
+Inclusion Bodies;A11.284.420
+Erythrocyte Inclusions;A11.284.420.204
+Heinz Bodies;A11.284.420.204.335
+Inclusion Bodies, Viral;A11.284.420.390
+Intranuclear Inclusion Bodies;A11.284.420.400
+Lewy Bodies;A11.284.420.460
+Mallory Bodies;A11.284.420.500
+Intracellular Space;A11.284.430
+Cell Nucleus;A11.284.430.106
+Cell Nucleus Structures;A11.284.430.106.279
+Intranuclear Space;A11.284.430.106.279.345
+Cell Nucleolus;A11.284.430.106.279.345.175
+Chromosomes;A11.284.430.106.279.345.190
+Chromosome Structures;A11.284.430.106.279.345.190.160
+Centromere;A11.284.430.106.279.345.190.160.165
+Kinetochores;A11.284.430.106.279.345.190.160.165.500
+Chromatids;A11.284.430.106.279.345.190.160.175
+Chromatin;A11.284.430.106.279.345.190.160.180
+Euchromatin;A11.284.430.106.279.345.190.160.180.270
+Chromosomal Puffs;A11.284.430.106.279.345.190.160.180.270.500
+Heterochromatin;A11.284.430.106.279.345.190.160.180.383
+Sex Chromatin;A11.284.430.106.279.345.190.160.180.383.800
+Nucleosomes;A11.284.430.106.279.345.190.160.180.625
+Nucleolus Organizer Region;A11.284.430.106.279.345.190.160.650
+Synaptonemal Complex;A11.284.430.106.279.345.190.160.830
+Telomere;A11.284.430.106.279.345.190.160.845
+Polytene Chromosomes;A11.284.430.106.279.345.190.580
+Chromosomal Puffs;A11.284.430.106.279.345.190.580.500
+Coiled Bodies;A11.284.430.106.279.345.195
+Gemini of Coiled Bodies;A11.284.430.106.279.345.447
+Nuclear Matrix;A11.284.430.106.279.345.700
+Nuclear Lamina;A11.284.430.106.279.345.700.700
+Spliceosomes;A11.284.430.106.279.345.850
+Nuclear Envelope;A11.284.430.106.279.692
+Nuclear Lamina;A11.284.430.106.279.692.314
+Nuclear Pore;A11.284.430.106.279.692.630
+Macronucleus;A11.284.430.106.550
+Micronuclei, Chromosome-Defective;A11.284.430.106.570
+Micronucleus, Germline;A11.284.430.106.575
+Cytoplasm;A11.284.430.214
+Cytoplasmic Structures;A11.284.430.214.190
+Cytoplasmic Granules;A11.284.430.214.190.500
+Chromaffin Granules;A11.284.430.214.190.500.207
+Melanosomes;A11.284.430.214.190.500.560
+Microbodies;A11.284.430.214.190.500.585
+Glyoxysomes;A11.284.430.214.190.500.585.250
+Peroxisomes;A11.284.430.214.190.500.585.600
+Nissl Bodies;A11.284.430.214.190.500.610
+Weibel-Palade Bodies;A11.284.430.214.190.500.950
+Cytoskeleton;A11.284.430.214.190.750
+Actin Cytoskeleton;A11.284.430.214.190.750.050
+Filamins;A11.284.430.214.190.750.050.414
+Stress Fibers;A11.284.430.214.190.750.050.830
+Intermediate Filaments;A11.284.430.214.190.750.410
+Microtubule-Organizing Center;A11.284.430.214.190.750.585
+Basal Bodies;A11.284.430.214.190.750.585.079
+Centrosome;A11.284.430.214.190.750.585.160
+Centrioles;A11.284.430.214.190.750.585.160.130
+Spindle Pole Bodies;A11.284.430.214.190.750.585.580
+Microtubules;A11.284.430.214.190.750.602
+Axoneme;A11.284.430.214.190.750.602.309
+Neuropil Threads;A11.284.430.214.190.750.602.620
+Myofibrils;A11.284.430.214.190.750.620
+Neurofibrils;A11.284.430.214.190.750.640
+Neurofibrillary Tangles;A11.284.430.214.190.750.640.520
+Spindle Apparatus;A11.284.430.214.190.750.820
+Spindle Poles;A11.284.430.214.190.750.820.500
+Centrosome;A11.284.430.214.190.750.820.500.500
+Centrioles;A11.284.430.214.190.750.820.500.500.130
+Spindle Pole Bodies;A11.284.430.214.190.750.820.500.750
+Organelles;A11.284.430.214.190.875
+Bacterial Chromatophores;A11.284.430.214.190.875.080
+Cell Nucleus;A11.284.430.214.190.875.117
+Macronucleus;A11.284.430.214.190.875.117.550
+Micronuclei, Chromosome-Defective;A11.284.430.214.190.875.117.570
+Micronucleus, Germline;A11.284.430.214.190.875.117.575
+Cytoplasmic Vesicles;A11.284.430.214.190.875.190
+Cytoplasmic Granules;A11.284.430.214.190.875.190.190
+Chromaffin Granules;A11.284.430.214.190.875.190.190.207
+Melanosomes;A11.284.430.214.190.875.190.190.560
+Microbodies;A11.284.430.214.190.875.190.190.755
+Glyoxysomes;A11.284.430.214.190.875.190.190.755.250
+Peroxisomes;A11.284.430.214.190.875.190.190.755.600
+Weibel-Palade Bodies;A11.284.430.214.190.875.190.190.950
+Lysosomes;A11.284.430.214.190.875.190.550
+Acrosome;A11.284.430.214.190.875.190.550.040
+Phagosomes;A11.284.430.214.190.875.190.700
+Autophagosomes;A11.284.430.214.190.875.190.700.500
+Transport Vesicles;A11.284.430.214.190.875.190.880
+Coated Vesicles;A11.284.430.214.190.875.190.880.180
+Caveolae;A11.284.430.214.190.875.190.880.180.160
+Clathrin-Coated Vesicles;A11.284.430.214.190.875.190.880.180.170
+COP-Coated Vesicles;A11.284.430.214.190.875.190.880.180.180
+Endosomes;A11.284.430.214.190.875.190.880.337
+Multivesicular Bodies;A11.284.430.214.190.875.190.880.337.500
+Exosomes;A11.284.430.214.190.875.190.880.495
+Secretory Vesicles;A11.284.430.214.190.875.190.880.810
+Synaptic Vesicles;A11.284.430.214.190.875.190.880.830
+Vacuoles;A11.284.430.214.190.875.190.920
+Endoplasmic Reticulum;A11.284.430.214.190.875.248
+Endoplasmic Reticulum, Rough;A11.284.430.214.190.875.248.300
+Nissl Bodies;A11.284.430.214.190.875.248.300.610
+Endoplasmic Reticulum, Smooth;A11.284.430.214.190.875.248.310
+Sarcoplasmic Reticulum;A11.284.430.214.190.875.248.310.800
+Golgi Apparatus;A11.284.430.214.190.875.336
+trans-Golgi Network;A11.284.430.214.190.875.336.850
+Lipid Droplets;A11.284.430.214.190.875.393
+Magnetosomes;A11.284.430.214.190.875.450
+Mitochondria;A11.284.430.214.190.875.564
+Mitochondria, Liver;A11.284.430.214.190.875.564.461
+Mitochondria, Muscle;A11.284.430.214.190.875.564.627
+Mitochondria, Heart;A11.284.430.214.190.875.564.627.603
+Mitochondrial Ribosomes;A11.284.430.214.190.875.564.755
+Submitochondrial Particles;A11.284.430.214.190.875.564.882
+Plastids;A11.284.430.214.190.875.700
+Apicoplasts;A11.284.430.214.190.875.700.069
+Chloroplasts;A11.284.430.214.190.875.700.140
+Thylakoids;A11.284.430.214.190.875.700.140.800
+Ribosomes;A11.284.430.214.190.875.811
+Mitochondrial Ribosomes;A11.284.430.214.190.875.811.370
+Polyribosomes;A11.284.430.214.190.875.811.740
+Endoplasmic Reticulum, Rough;A11.284.430.214.190.875.811.740.300
+Nissl Bodies;A11.284.430.214.190.875.811.740.300.610
+Ribosome Subunits;A11.284.430.214.190.875.811.870
+Ribosomal Protein L10;A11.284.430.214.190.875.811.870.350
+Ribosome Subunits, Large;A11.284.430.214.190.875.811.870.700
+Ribosome Subunits, Large, Archaeal;A11.284.430.214.190.875.811.870.700.349
+Ribosome Subunits, Large, Bacterial;A11.284.430.214.190.875.811.870.700.700
+Ribosome Subunits, Large, Eukaryotic;A11.284.430.214.190.875.811.870.700.750
+Ribosome Subunits, Small;A11.284.430.214.190.875.811.870.750
+Ribosome Subunits, Small, Archaeal;A11.284.430.214.190.875.811.870.750.349
+Ribosome Subunits, Small, Bacterial;A11.284.430.214.190.875.811.870.750.700
+Ribosome Subunits, Small, Eukaryotic;A11.284.430.214.190.875.811.870.750.750
+Sarcomeres;A11.284.430.214.190.875.820
+Vault Ribonucleoprotein Particles;A11.284.430.214.190.875.930
+Cytosol;A11.284.430.214.200
+Intracellular Fluid;A11.284.430.429
+Cytosol;A11.284.430.429.200
+Subcellular Fractions;A11.284.835
+Cell-Free System;A11.284.835.168
+Intracellular Fluid;A11.284.835.450
+Cytosol;A11.284.835.450.200
+Intracellular Membranes;A11.284.835.514
+Mitochondrial Membranes;A11.284.835.514.349
+Nuclear Envelope;A11.284.835.514.700
+Nuclear Lamina;A11.284.835.514.700.500
+Microsomes;A11.284.835.540
+Microsomes, Liver;A11.284.835.540.541
+Mitochondria;A11.284.835.626
+Mitochondria, Liver;A11.284.835.626.461
+Mitochondria, Muscle;A11.284.835.626.627
+Mitochondria, Heart;A11.284.835.626.627.603
+Submitochondrial Particles;A11.284.835.626.882
+Synaptosomes;A11.284.835.859
+Trichomes;A11.284.917
+Chromaffin Cells;A11.299
+PC12 Cells;A11.299.500
+Connective Tissue Cells;A11.329
+Adipocytes;A11.329.114
+Adipocytes, Beige;A11.329.114.125
+Adipocytes, Brown;A11.329.114.249
+Adipocytes, White;A11.329.114.500
+Chondrocytes;A11.329.171
+Fibroblasts;A11.329.228
+3T3 Cells;A11.329.228.100
+BALB 3T3 Cells;A11.329.228.100.080
+NIH 3T3 Cells;A11.329.228.100.550
+Swiss 3T3 Cells;A11.329.228.100.775
+3T3-L1 Cells;A11.329.228.100.775.800
+Cancer-Associated Fibroblasts;A11.329.228.105
+Corneal Keratocytes;A11.329.228.109
+COS Cells;A11.329.228.220
+L Cells;A11.329.228.505
+Mesangial Cells;A11.329.228.950
+Myofibroblasts;A11.329.228.975
+Macrophages;A11.329.372
+Epithelioid Cells;A11.329.372.300
+Foam Cells;A11.329.372.368
+Giant Cells, Foreign-Body;A11.329.372.376
+Giant Cells, Langhans;A11.329.372.380
+Histiocytes;A11.329.372.385
+Kupffer Cells;A11.329.372.588
+Macrophages, Alveolar;A11.329.372.600
+Macrophages, Peritoneal;A11.329.372.630
+Osteoclasts;A11.329.372.700
+Mast Cells;A11.329.427
+Odontoblasts;A11.329.522
+Osteoblasts;A11.329.629
+Osteocytes;A11.329.629.500
+Stromal Cells;A11.329.830
+Mesenchymal Stem Cells;A11.329.830.500
+Telocytes;A11.329.830.750
+Telopodes;A11.329.830.750.500
+Synoviocytes;A11.329.835
+Tenocytes;A11.329.840
+Theca Cells;A11.329.850
+Endocrine Cells;A11.382
+APUD Cells;A11.382.249
+Corticotrophs;A11.382.500
+Enteroendocrine Cells;A11.382.625
+Enterochromaffin Cells;A11.382.625.031
+Enterochromaffin-like Cells;A11.382.625.047
+Gastrin-Secreting Cells;A11.382.625.055
+Glucagon-Secreting Cells;A11.382.625.064
+Insulin-Secreting Cells;A11.382.625.092
+Pancreatic Polypeptide-Secreting Cells;A11.382.625.900
+Somatostatin-Secreting Cells;A11.382.625.950
+Gonadotrophs;A11.382.750
+Granulosa Cells;A11.382.812
+Cumulus Cells;A11.382.812.500
+Lactotrophs;A11.382.875
+Leydig Cells;A11.382.906
+Luteal Cells;A11.382.921
+Melanotrophs;A11.382.937
+Neuroendocrine Cells;A11.382.944
+Sertoli Cells;A11.382.952
+Somatotrophs;A11.382.968
+Thyrotrophs;A11.382.984
+Trophoblasts;A11.382.992
+Epidermal Cells;A11.409
+Keratinocytes;A11.409.500
+Melanocytes;A11.409.750
+Melanosomes;A11.409.750.560
+Merkel Cells;A11.409.875
+Epithelial Cells;A11.436
+A549 Cells;A11.436.054
+Alveolar Epithelial Cells;A11.436.081
+Ameloblasts;A11.436.107
+Atypical Squamous Cells of the Cervix;A11.436.123
+Caco-2 Cells;A11.436.140
+Chief Cells, Gastric;A11.436.150
+CHO Cells;A11.436.155
+Chromatophores;A11.436.265
+Melanophores;A11.436.265.531
+Melanosomes;A11.436.265.531.560
+Corticotrophs;A11.436.267
+Dendritic Cells;A11.436.270
+Langerhans Cells;A11.436.270.545
+Endothelial Cells;A11.436.275
+Endothelial Progenitor Cells;A11.436.275.182
+Hemangioblasts;A11.436.275.365
+Human Umbilical Vein Endothelial Cells;A11.436.275.682
+Podosomes;A11.436.275.841
+Enterocytes;A11.436.290
+Enteroendocrine Cells;A11.436.294
+Enterochromaffin Cells;A11.436.294.031
+Enterochromaffin-like Cells;A11.436.294.047
+Gastrin-Secreting Cells;A11.436.294.055
+Glucagon-Secreting Cells;A11.436.294.064
+Insulin-Secreting Cells;A11.436.294.092
+Pancreatic Polypeptide-Secreting Cells;A11.436.294.900
+Somatostatin-Secreting Cells;A11.436.294.950
+Goblet Cells;A11.436.298
+Gonadotrophs;A11.436.319
+Granulosa Cells;A11.436.329
+Cumulus Cells;A11.436.329.500
+HEK293 Cells;A11.436.334
+HeLa Cells;A11.436.340
+KB Cells;A11.436.340.500
+Hepatocytes;A11.436.348
+Hep G2 Cells;A11.436.348.500
+HT29 Cells;A11.436.365
+Keratinocytes;A11.436.397
+Labyrinth Supporting Cells;A11.436.495
+Lactotrophs;A11.436.507
+Leydig Cells;A11.436.513
+LLC-PK1 Cells;A11.436.520
+Luteal Cells;A11.436.566
+Madin Darby Canine Kidney Cells;A11.436.589
+Melanocytes;A11.436.613
+Melanosomes;A11.436.613.560
+Melanotrophs;A11.436.636
+Merkel Cells;A11.436.660
+Neuroepithelial Cells;A11.436.690
+Neuroepithelial Bodies;A11.436.690.550
+Paneth Cells;A11.436.700
+Parietal Cells, Gastric;A11.436.708
+PC-3 Cells;A11.436.714
+Podocytes;A11.436.720
+Sertoli Cells;A11.436.837
+Somatotrophs;A11.436.896
+Thyroid Epithelial Cells;A11.436.911
+Thyrotrophs;A11.436.925
+Vero Cells;A11.436.955
+Erythroid Cells;A11.443
+Erythrocytes;A11.443.240
+Erythrocytes, Abnormal;A11.443.240.330
+Acanthocytes;A11.443.240.330.100
+Megaloblasts;A11.443.240.330.531
+Spherocytes;A11.443.240.330.802
+Erythroid Precursor Cells;A11.443.240.497
+Erythroblasts;A11.443.240.497.200
+Megaloblasts;A11.443.240.497.200.500
+K562 Cells;A11.443.240.497.480
+Reticulocytes;A11.443.240.665
+Eukaryotic Cells;A11.450
+Germ Cells;A11.497
+Embryonic Germ Cells;A11.497.124
+Germ Cells, Plant;A11.497.248
+Ovum;A11.497.497
+Oocytes;A11.497.497.600
+Polar Bodies;A11.497.497.600.500
+Oogonia;A11.497.497.650
+Zona Pellucida;A11.497.497.900
+Zygote;A11.497.497.950
+Spermatozoa;A11.497.760
+Sperm Head;A11.497.760.400
+Acrosome;A11.497.760.400.100
+Sperm Midpiece;A11.497.760.450
+Sperm Tail;A11.497.760.500
+Spermatids;A11.497.760.600
+Spermatocytes;A11.497.760.700
+Spermatogonia;A11.497.760.800
+Giant Cells;A11.500
+Giant Cells, Foreign-Body;A11.500.376
+Giant Cells, Langhans;A11.500.380
+Hepatic Stellate Cells;A11.561
+Mesophyll Cells;A11.600
+Muscle Cells;A11.620
+Interstitial Cells of Cajal;A11.620.124
+Muscle Fibers, Skeletal;A11.620.249
+Muscle Fibers, Fast-Twitch;A11.620.249.400
+Muscle Fibers, Slow-Twitch;A11.620.249.700
+Myofibrils;A11.620.249.850
+Sarcomeres;A11.620.249.850.700
+Myocytes, Cardiac;A11.620.500
+Myofibrils;A11.620.500.500
+Sarcomeres;A11.620.500.500.700
+Myocytes, Smooth Muscle;A11.620.520
+Myofibroblasts;A11.620.520.500
+Myeloid Cells;A11.627
+Granulocytes;A11.627.340
+Basophils;A11.627.340.120
+Eosinophils;A11.627.340.345
+Granulocyte Precursor Cells;A11.627.340.360
+HL-60 Cells;A11.627.340.360.500
+Neutrophils;A11.627.340.583
+Macrophages;A11.627.482
+Epithelioid Cells;A11.627.482.300
+Foam Cells;A11.627.482.368
+Giant Cells, Foreign-Body;A11.627.482.376
+Giant Cells, Langhans;A11.627.482.380
+Histiocytes;A11.627.482.385
+Kupffer Cells;A11.627.482.588
+Macrophages, Alveolar;A11.627.482.600
+Macrophages, Peritoneal;A11.627.482.630
+Monocyte-Macrophage Precursor Cells;A11.627.482.665
+U937 Cells;A11.627.482.665.500
+Osteoclasts;A11.627.482.700
+Monocytes;A11.627.624
+Monocyte-Macrophage Precursor Cells;A11.627.624.249
+U937 Cells;A11.627.624.249.500
+Monocytes, Activated Killer;A11.627.624.500
+Myeloid Progenitor Cells;A11.627.635
+Granulocyte-Macrophage Progenitor Cells;A11.627.635.675
+Granulocyte Precursor Cells;A11.627.635.675.500
+Monocyte-Macrophage Precursor Cells;A11.627.635.675.750
+U937 Cells;A11.627.635.675.750.500
+Myeloid-Derived Suppressor Cells;A11.627.817
+Neoplastic Cells, Circulating;A11.642
+Neuroglia;A11.650
+Astrocytes;A11.650.200
+Ependymoglial Cells;A11.650.300
+Microglia;A11.650.400
+Neuropil;A11.650.500
+Neuropil Threads;A11.650.500.550
+Oligodendrocyte Precursor Cells;A11.650.550
+Oligodendroglia;A11.650.600
+Myelin Sheath;A11.650.600.500
+Satellite Cells, Perineuronal;A11.650.775
+Schwann Cells;A11.650.800
+Myelin Sheath;A11.650.800.500
+Neurilemma;A11.650.800.500.550
+Ranvier's Nodes;A11.650.800.500.700
+Neurons;A11.671
+Adrenergic Neurons;A11.671.050
+Axons;A11.671.137
+Axon Initial Segment;A11.671.137.170
+Growth Cones;A11.671.137.340
+Mossy Fibers, Hippocampal;A11.671.137.560
+Presynaptic Terminals;A11.671.137.750
+Cholinergic Neurons;A11.671.188
+Cholinergic Fibers;A11.671.188.500
+Autonomic Fibers, Preganglionic;A11.671.188.500.060
+Parasympathetic Fibers, Postganglionic;A11.671.188.500.700
+Dendrites;A11.671.240
+Dendritic Spines;A11.671.240.169
+Growth Cones;A11.671.240.340
+Dopaminergic Neurons;A11.671.270
+GABAergic Neurons;A11.671.285
+Grid Cells;A11.671.322
+Interneurons;A11.671.358
+Amacrine Cells;A11.671.358.050
+Cerebellar Golgi Cells;A11.671.358.131
+Commissural Interneurons;A11.671.358.212
+Renshaw Cells;A11.671.358.375
+Retinal Bipolar Cells;A11.671.358.700
+Mirror Neurons;A11.671.487
+Nerve Fibers;A11.671.501
+Adrenergic Fibers;A11.671.501.075
+Sympathetic Fibers, Postganglionic;A11.671.501.075.800
+Autonomic Fibers, Postganglionic;A11.671.501.100
+Parasympathetic Fibers, Postganglionic;A11.671.501.100.700
+Sympathetic Fibers, Postganglionic;A11.671.501.100.800
+Axons;A11.671.501.145
+Axon Initial Segment;A11.671.501.145.250
+Neurites;A11.671.501.145.500
+Presynaptic Terminals;A11.671.501.145.750
+Mossy Fibers, Hippocampal;A11.671.501.145.750.500
+Cholinergic Fibers;A11.671.501.234
+Autonomic Fibers, Preganglionic;A11.671.501.234.060
+Parasympathetic Fibers, Postganglionic;A11.671.501.234.700
+Nerve Fibers, Myelinated;A11.671.501.512
+Myelin Sheath;A11.671.501.512.560
+Neurilemma;A11.671.501.512.560.550
+Ranvier's Nodes;A11.671.501.512.560.700
+Nerve Fibers, Unmyelinated;A11.671.501.756
+Nerve Fibers, Myelinated;A11.671.514
+Myelin Sheath;A11.671.514.553
+Ranvier's Nodes;A11.671.514.553.640
+Neurites;A11.671.543
+Neurofibrils;A11.671.573
+Neurofibrillary Tangles;A11.671.573.520
+Neurons, Afferent;A11.671.650
+Hair Cells, Auditory;A11.671.650.250
+Hair Cells, Auditory, Inner;A11.671.650.250.250
+Hair Cells, Auditory, Outer;A11.671.650.250.315
+Hair Cells, Vestibular;A11.671.650.395
+Posterior Horn Cells;A11.671.650.675
+Substantia Gelatinosa;A11.671.650.675.800
+Retinal Neurons;A11.671.650.850
+Amacrine Cells;A11.671.650.850.500
+Photoreceptor Cells;A11.671.650.850.625
+Photoreceptor Cells, Invertebrate;A11.671.650.850.625.660
+Photoreceptor Cells, Vertebrate;A11.671.650.850.625.670
+Photoreceptor Connecting Cilium;A11.671.650.850.625.670.049
+Retinal Cone Photoreceptor Cells;A11.671.650.850.625.670.100
+Retinal Photoreceptor Cell Inner Segment;A11.671.650.850.625.670.237
+Retinal Photoreceptor Cell Outer Segment;A11.671.650.850.625.670.375
+Rod Cell Outer Segment;A11.671.650.850.625.670.375.500
+Retinal Rod Photoreceptor Cells;A11.671.650.850.625.670.650
+Rod Cell Outer Segment;A11.671.650.850.625.670.650.650
+Retinal Bipolar Cells;A11.671.650.850.750
+Retinal Ganglion Cells;A11.671.650.850.875
+Retinal Horizontal Cells;A11.671.650.850.937
+Sensory Receptor Cells;A11.671.650.915
+Chemoreceptor Cells;A11.671.650.915.500
+Neuroepithelial Cells;A11.671.650.915.500.530
+Neuroepithelial Bodies;A11.671.650.915.500.530.550
+Olfactory Receptor Neurons;A11.671.650.915.500.540
+Paraganglia, Nonchromaffin;A11.671.650.915.500.600
+Aortic Bodies;A11.671.650.915.500.600.050
+Carotid Body;A11.671.650.915.500.600.150
+Glomus Jugulare;A11.671.650.915.500.600.350
+Glomus Tympanicum;A11.671.650.915.500.600.360
+Taste Buds;A11.671.650.915.500.800
+Mechanoreceptors;A11.671.650.915.750
+Golgi-Mazzoni Corpuscles;A11.671.650.915.750.300
+Merkel Cells;A11.671.650.915.750.425
+Muscle Spindles;A11.671.650.915.750.500
+Neuroepithelial Cells;A11.671.650.915.750.600
+Hair Cells, Auditory;A11.671.650.915.750.600.350
+Hair Cells, Auditory, Inner;A11.671.650.915.750.600.350.350
+Hair Cells, Auditory, Outer;A11.671.650.915.750.600.350.365
+Hair Cells, Vestibular;A11.671.650.915.750.600.675
+Pacinian Corpuscles;A11.671.650.915.750.700
+Pressoreceptors;A11.671.650.915.750.750
+Pulmonary Stretch Receptors;A11.671.650.915.750.780
+Nociceptors;A11.671.650.915.875
+Photoreceptor Cells;A11.671.650.915.937
+Photoreceptor Cells, Invertebrate;A11.671.650.915.937.650
+Photoreceptor Cells, Vertebrate;A11.671.650.915.937.670
+Photoreceptor Connecting Cilium;A11.671.650.915.937.670.049
+Retinal Cone Photoreceptor Cells;A11.671.650.915.937.670.100
+Retinal Photoreceptor Cell Inner Segment;A11.671.650.915.937.670.237
+Retinal Photoreceptor Cell Outer Segment;A11.671.650.915.937.670.375
+Rod Cell Outer Segment;A11.671.650.915.937.670.375.500
+Retinal Rod Photoreceptor Cells;A11.671.650.915.937.670.650
+Rod Cell Outer Segment;A11.671.650.915.937.670.650.650
+Thermoreceptors;A11.671.650.915.968
+Neurons, Efferent;A11.671.655
+Motor Neurons;A11.671.655.500
+Anterior Horn Cells;A11.671.655.500.050
+Motor Neurons, Gamma;A11.671.655.500.525
+Neuropil;A11.671.685
+Neuropil Threads;A11.671.685.550
+Nissl Bodies;A11.671.693
+Nitrergic Neurons;A11.671.738
+Purkinje Cells;A11.671.784
+Pyramidal Cells;A11.671.790
+Place Cells;A11.671.790.500
+Serotonergic Neurons;A11.671.895
+Suprachiasmatic Nucleus Neurons;A11.671.947
+Oxyphil Cells;A11.690
+Pancreatic Stellate Cells;A11.700
+Pericytes;A11.710
+Phagocytes;A11.733
+Macrophages;A11.733.397
+Epithelioid Cells;A11.733.397.300
+Foam Cells;A11.733.397.368
+Giant Cells, Foreign-Body;A11.733.397.376
+Giant Cells, Langhans;A11.733.397.380
+Histiocytes;A11.733.397.385
+Kupffer Cells;A11.733.397.588
+Macrophages, Alveolar;A11.733.397.600
+Macrophages, Peritoneal;A11.733.397.630
+RAW 264.7 Cells;A11.733.397.815
+Monocytes;A11.733.547
+Monocytes, Activated Killer;A11.733.547.500
+Neutrophils;A11.733.689
+Plant Cells;A11.750
+Prokaryotic Cells;A11.760
+Protoplasts;A11.789
+Reed-Sternberg Cells;A11.828
+Spheroplasts;A11.868
+Spores;A11.870
+Spores, Bacterial;A11.870.700
+Spores, Fungal;A11.870.710
+Spores, Protozoan;A11.870.740
+Oocysts;A11.870.740.600
+Sporozoites;A11.870.740.600.800
+Schizonts;A11.870.740.800
+Merozoites;A11.870.740.800.500
+Trophozoites;A11.870.740.900
+Stem Cells;A11.872
+Adult Stem Cells;A11.872.040
+Adult Germline Stem Cells;A11.872.040.250
+Induced Pluripotent Stem Cells;A11.872.040.500
+Fetal Stem Cells;A11.872.220
+Hematopoietic Stem Cells;A11.872.378
+Hemangioblasts;A11.872.378.270
+Lymphoid Progenitor Cells;A11.872.378.294
+Precursor Cells, B-Lymphoid;A11.872.378.294.500
+Precursor Cells, T-Lymphoid;A11.872.378.294.750
+Thymocytes;A11.872.378.294.750.800
+Myeloid Progenitor Cells;A11.872.378.590
+Granulocyte-Macrophage Progenitor Cells;A11.872.378.590.635
+Granulocyte Precursor Cells;A11.872.378.590.635.500
+Monocyte-Macrophage Precursor Cells;A11.872.378.590.635.875
+Megakaryocyte-Erythroid Progenitor Cells;A11.872.378.590.817
+Erythroid Precursor Cells;A11.872.378.590.817.250
+Megakaryocyte Progenitor Cells;A11.872.378.590.817.625
+Peripheral Blood Stem Cells;A11.872.378.795
+Multipotent Stem Cells;A11.872.590
+Mesenchymal Stem Cells;A11.872.590.500
+Myoblasts;A11.872.620
+Myoblasts, Cardiac;A11.872.620.470
+Myoblasts, Skeletal;A11.872.620.500
+Satellite Cells, Skeletal Muscle;A11.872.620.500.700
+Myoblasts, Smooth Muscle;A11.872.620.510
+Neoplastic Stem Cells;A11.872.650
+Embryonal Carcinoma Stem Cells;A11.872.650.500
+Neural Stem Cells;A11.872.653
+Oligodendrocyte Precursor Cells;A11.872.653.500
+Oogonial Stem Cells;A11.872.677
+Pluripotent Stem Cells;A11.872.700
+Embryonic Stem Cells;A11.872.700.250
+Blastomeres;A11.872.700.250.130
+Embryoid Bodies;A11.872.700.250.260
+Embryonal Carcinoma Stem Cells;A11.872.700.250.500
+Embryonic Germ Cells;A11.872.700.250.625
+Human Embryonic Stem Cells;A11.872.700.250.750
+Mouse Embryonic Stem Cells;A11.872.700.250.875
+Induced Pluripotent Stem Cells;A11.872.700.500
+Side-Population Cells;A11.872.785
+Totipotent Stem Cells;A11.872.870
+Thymocytes;A11.900
+Fluids and Secretions;A12
+Amniotic Fluid;A12.098
+Bodily Secretions;A12.200
+Bile;A12.200.087
+Cerumen;A12.200.147
+Colostrum;A12.200.194
+Dander;A12.200.250
+Gastric Juice;A12.200.307
+Gastric Acid;A12.200.307.603
+Intestinal Secretions;A12.200.390
+Milk;A12.200.455
+Milk, Human;A12.200.467
+Mucus;A12.200.503
+Cervix Mucus;A12.200.503.339
+Pancreatic Juice;A12.200.567
+Saliva;A12.200.666
+Sebum;A12.200.702
+Semen;A12.200.732
+Smegma;A12.200.769
+Sputum;A12.200.808
+Sweat;A12.200.849
+Tears;A12.200.882
+Venoms;A12.200.935
+Vernix Caseosa;A12.200.946
+Body Fluids;A12.207
+Ascitic Fluid;A12.207.119
+Blood;A12.207.152
+Fetal Blood;A12.207.152.200
+Plasma;A12.207.152.693
+Platelet-Rich Plasma;A12.207.152.693.600
+Platelet-Rich Fibrin;A12.207.152.693.600.500
+Serum;A12.207.152.846
+Immune Sera;A12.207.152.846.500
+Antilymphocyte Serum;A12.207.152.846.500.203
+Body Fluid Compartments;A12.207.180
+Body Water;A12.207.200
+Extracellular Fluid;A12.207.270
+Aqueous Humor;A12.207.270.040
+Cerebrospinal Fluid;A12.207.270.210
+Extravascular Lung Water;A12.207.270.300
+Follicular Fluid;A12.207.270.340
+Labyrinthine Fluids;A12.207.270.517
+Endolymph;A12.207.270.517.324
+Perilymph;A12.207.270.517.678
+Lymph;A12.207.270.606
+Chyle;A12.207.270.606.350
+Pericardial Fluid;A12.207.270.651
+Plasma;A12.207.270.695
+Platelet-Rich Plasma;A12.207.270.695.600
+Platelet-Rich Fibrin;A12.207.270.695.600.500
+Synovial Fluid;A12.207.270.847
+Intracellular Fluid;A12.207.515
+Nipple Discharge;A12.207.824
+Nipple Aspirate Fluid;A12.207.824.500
+Urine;A12.207.927
+Exudates and Transudates;A12.383
+Cyst Fluid;A12.383.200
+Dentinal Fluid;A12.383.250
+Gingival Crevicular Fluid;A12.383.500
+Subretinal Fluid;A12.383.800
+Feces;A12.459
+Meconium;A12.459.529
+Melena;A12.459.764
+Gastrointestinal Contents;A12.519
+Hyalin;A12.580
+Milk;A12.790
+Buttermilk;A12.790.250
+Kefir;A12.790.375
+Koumiss;A12.790.438
+Milk, Human;A12.790.500
+Milk Proteins;A12.790.520
+Whey Proteins;A12.790.520.500
+Whey;A12.790.760
+Whey Proteins;A12.790.760.500
+Animal Structures;A13
+Air Sacs;A13.048
+Anal Sacs;A13.073
+Animal Fins;A13.075
+Animal Fur;A13.078
+Animal Scales;A13.079
+Animal Shells;A13.080
+Arthropod Antennae;A13.093
+Sensilla;A13.093.500
+Beak;A13.114
+Bursa of Fabricius;A13.163
+Cloaca;A13.223
+Comb and Wattles;A13.242
+Compound Eye, Arthropod;A13.246
+Corpora Allata;A13.250
+Crop, Avian;A13.265
+Egg Shell;A13.316
+Electric Organ;A13.332
+Embryo, Nonmammalian;A13.350
+Chick Embryo;A13.350.150
+Chorioallantoic Membrane;A13.350.575
+Fat Body;A13.365
+Feathers;A13.370
+Forelimb;A13.395
+Carpus, Animal;A13.395.248
+Wings, Animal;A13.395.823
+Ganglia, Invertebrate;A13.408
+Gills;A13.421
+Gizzard, Non-avian;A13.433
+Harderian Gland;A13.445
+Head Kidney;A13.449
+Hemolymph;A13.453
+Hepatopancreas;A13.463
+High Vocal Center;A13.468
+Hindlimb;A13.473
+Stifle;A13.473.683
+Tarsus, Animal;A13.473.821
+Hoof and Claw;A13.491
+Horns;A13.507
+Antlers;A13.507.288
+Imaginal Discs;A13.518
+Interrenal Gland;A13.530
+Lateral Line System;A13.564
+Malpighian Tubules;A13.574
+Mammary Glands, Animal;A13.589
+Metrial Gland;A13.600
+Mushroom Bodies;A13.641
+Nematocyst;A13.655
+Nictitating Membrane;A13.660
+Optic Lobe, Nonmammalian;A13.686
+Oviducts;A13.706
+Fallopian Tubes;A13.706.500
+Perianal Glands;A13.734
+Photoreceptor Cells, Invertebrate;A13.750
+Salt Gland;A13.811
+Scent Glands;A13.820
+Stomach, Avian;A13.853
+Gizzard, Avian;A13.853.355
+Proventriculus;A13.853.710
+Stomach, Ruminant;A13.869
+Abomasum;A13.869.106
+Omasum;A13.869.524
+Reticulum;A13.869.697
+Rumen;A13.869.804
+Tail;A13.895
+Ultimobranchial Body;A13.939
+Vibrissae;A13.950
+Wool;A13.970
+Stomatognathic System;A14
+Cheek;A14.194
+Facial Muscles;A14.363
+Jaw;A14.521
+Alveolar Process;A14.521.125
+Tooth Socket;A14.521.125.800
+Dental Arch;A14.521.320
+Mandible;A14.521.632
+Chin;A14.521.632.300
+Mandibular Condyle;A14.521.632.600
+Mental Foramen;A14.521.632.800
+Maxilla;A14.521.645
+Palate;A14.521.658
+Palate, Hard;A14.521.658.660
+Masticatory Muscles;A14.530
+Masseter Muscle;A14.530.630
+Pterygoid Muscles;A14.530.790
+Temporal Muscle;A14.530.940
+Mouth;A14.549
+Dentition;A14.549.167
+Dentition, Mixed;A14.549.167.229
+Dentition, Permanent;A14.549.167.237
+Periodontium;A14.549.167.646
+Alveolar Process;A14.549.167.646.094
+Tooth Socket;A14.549.167.646.094.800
+Dental Cementum;A14.549.167.646.267
+Epithelial Attachment;A14.549.167.646.374
+Gingiva;A14.549.167.646.480
+Periapical Tissue;A14.549.167.646.700
+Periodontal Ligament;A14.549.167.646.771
+Tooth;A14.549.167.860
+Bicuspid;A14.549.167.860.150
+Cuspid;A14.549.167.860.200
+Incisor;A14.549.167.860.425
+Molar;A14.549.167.860.525
+Molar, Third;A14.549.167.860.525.500
+Tooth, Deciduous;A14.549.167.860.700
+Natal Teeth;A14.549.167.860.700.500
+Tooth, Unerupted;A14.549.167.860.715
+Tooth Components;A14.549.167.900
+Dental Cementum;A14.549.167.900.250
+Dental Enamel;A14.549.167.900.255
+Dental Pellicle;A14.549.167.900.255.500
+Dental Pulp;A14.549.167.900.260
+Dental Pulp Cavity;A14.549.167.900.265
+Dentin;A14.549.167.900.280
+Dentin, Secondary;A14.549.167.900.280.280
+Tooth Cervix;A14.549.167.900.700
+Tooth Crown;A14.549.167.900.710
+Tooth Germ;A14.549.167.900.720
+Dental Papilla;A14.549.167.900.720.250
+Dental Sac;A14.549.167.900.720.255
+Enamel Organ;A14.549.167.900.720.265
+Tooth Root;A14.549.167.900.750
+Tooth Apex;A14.549.167.900.750.700
+Lip;A14.549.336
+Labial Frenum;A14.549.336.505
+Mouth Floor;A14.549.441
+Mouth Mucosa;A14.549.512
+Palate;A14.549.617
+Palatal Muscles;A14.549.617.623
+Palate, Hard;A14.549.617.660
+Palate, Soft;A14.549.617.780
+Uvula;A14.549.617.780.729
+Salivary Glands;A14.549.760
+Parotid Gland;A14.549.760.464
+Salivary Ducts;A14.549.760.640
+Salivary Glands, Minor;A14.549.760.650
+Sublingual Gland;A14.549.760.687
+Submandibular Gland;A14.549.760.812
+von Ebner Glands;A14.549.760.906
+Tongue;A14.549.885
+Lingual Frenum;A14.549.885.431
+Taste Buds;A14.549.885.779
+Pharynx;A14.724
+Hypopharynx;A14.724.490
+Nasopharynx;A14.724.557
+Adenoids;A14.724.557.500
+Oropharynx;A14.724.603
+Palatine Tonsil;A14.724.603.925
+Pharyngeal Muscles;A14.724.617
+Esophageal Sphincter, Upper;A14.724.617.360
+Velopharyngeal Sphincter;A14.724.617.680
+Temporomandibular Joint;A14.907
+Temporomandibular Joint Disc;A14.907.900
+Hemic and Immune Systems;A15
+Blood;A15.145
+Blood Cells;A15.145.229
+Blood Buffy Coat;A15.145.229.093
+Blood Platelets;A15.145.229.188
+Erythrocytes;A15.145.229.334
+Erythrocyte Membrane;A15.145.229.334.270
+Erythrocytes, Abnormal;A15.145.229.334.330
+Acanthocytes;A15.145.229.334.330.100
+Erythrocyte Inclusions;A15.145.229.334.330.340
+Heinz Bodies;A15.145.229.334.330.340.335
+Megaloblasts;A15.145.229.334.330.531
+Spherocytes;A15.145.229.334.330.802
+Reticulocytes;A15.145.229.334.760
+Hemocytes;A15.145.229.480
+Leukocytes;A15.145.229.637
+Granulocytes;A15.145.229.637.415
+Basophils;A15.145.229.637.415.120
+Eosinophils;A15.145.229.637.415.345
+Neutrophils;A15.145.229.637.415.583
+Leukocytes, Mononuclear;A15.145.229.637.555
+Cytokine-Induced Killer Cells;A15.145.229.637.555.283
+Killer Cells, Lymphokine-Activated;A15.145.229.637.555.283.500
+Monocytes, Activated Killer;A15.145.229.637.555.283.750
+T-Lymphocytes, Cytotoxic;A15.145.229.637.555.283.875
+Lymphocytes;A15.145.229.637.555.567
+Killer Cells, Natural;A15.145.229.637.555.567.537
+Killer Cells, Lymphokine-Activated;A15.145.229.637.555.567.537.500
+Lymphocyte Subsets;A15.145.229.637.555.567.550
+B-Lymphocyte Subsets;A15.145.229.637.555.567.550.450
+B-Lymphocytes, Regulatory;A15.145.229.637.555.567.550.450.300
+T-Lymphocyte Subsets;A15.145.229.637.555.567.550.500
+Intraepithelial Lymphocytes;A15.145.229.637.555.567.550.500.050
+Mucosal-Associated Invariant T Cells;A15.145.229.637.555.567.550.500.100
+T-Lymphocytes, Cytotoxic;A15.145.229.637.555.567.550.500.200
+T-Lymphocytes, Helper-Inducer;A15.145.229.637.555.567.550.500.400
+Th1 Cells;A15.145.229.637.555.567.550.500.400.500
+Th2 Cells;A15.145.229.637.555.567.550.500.400.750
+Th17 Cells;A15.145.229.637.555.567.550.500.400.770
+T-Lymphocytes, Regulatory;A15.145.229.637.555.567.550.500.700
+B-Lymphocytes;A15.145.229.637.555.567.562
+B-Lymphocyte Subsets;A15.145.229.637.555.567.562.200
+B-Lymphocytes, Regulatory;A15.145.229.637.555.567.562.200.300
+Plasma Cells;A15.145.229.637.555.567.562.725
+T-Lymphocytes;A15.145.229.637.555.567.569
+CD4-Positive T-Lymphocytes;A15.145.229.637.555.567.569.200
+T-Lymphocytes, Helper-Inducer;A15.145.229.637.555.567.569.200.400
+Th1 Cells;A15.145.229.637.555.567.569.200.400.500
+Th2 Cells;A15.145.229.637.555.567.569.200.400.750
+Th17 Cells;A15.145.229.637.555.567.569.200.400.770
+T-Lymphocytes, Regulatory;A15.145.229.637.555.567.569.200.700
+CD8-Positive T-Lymphocytes;A15.145.229.637.555.567.569.220
+T-Lymphocytes, Cytotoxic;A15.145.229.637.555.567.569.220.200
+Natural Killer T-Cells;A15.145.229.637.555.567.569.360
+T-Lymphocyte Subsets;A15.145.229.637.555.567.569.500
+Intraepithelial Lymphocytes;A15.145.229.637.555.567.569.500.050
+Mucosal-Associated Invariant T Cells;A15.145.229.637.555.567.569.500.100
+T-Lymphocytes, Cytotoxic;A15.145.229.637.555.567.569.500.200
+T-Lymphocytes, Helper-Inducer;A15.145.229.637.555.567.569.500.400
+Th1 Cells;A15.145.229.637.555.567.569.500.400.500
+Th2 Cells;A15.145.229.637.555.567.569.500.400.750
+Th17 Cells;A15.145.229.637.555.567.569.500.400.770
+T-Lymphocytes, Regulatory;A15.145.229.637.555.567.569.500.700
+Lymphocytes, Null;A15.145.229.637.555.567.584
+Lymphocytes, Tumor-Infiltrating;A15.145.229.637.555.567.650
+Monocytes;A15.145.229.637.555.652
+Monocytes, Activated Killer;A15.145.229.637.555.652.500
+Fetal Blood;A15.145.300
+Plasma;A15.145.693
+Platelet-Rich Plasma;A15.145.693.600
+Platelet-Rich Fibrin;A15.145.693.600.500
+Serum;A15.145.846
+Hematopoietic System;A15.378
+Bone Marrow Cells;A15.378.316
+Granulocytes;A15.378.316.340
+Granulocyte Precursor Cells;A15.378.316.340.350
+Hematopoietic Stem Cells;A15.378.316.378
+Lymphoid Progenitor Cells;A15.378.316.378.550
+Myeloid Progenitor Cells;A15.378.316.378.590
+Granulocyte-Macrophage Progenitor Cells;A15.378.316.378.590.675
+Granulocyte Precursor Cells;A15.378.316.378.590.675.500
+Monocyte-Macrophage Precursor Cells;A15.378.316.378.590.675.750
+Megakaryocyte-Erythroid Progenitor Cells;A15.378.316.378.590.837
+Erythroid Precursor Cells;A15.378.316.378.590.837.250
+Erythroblasts;A15.378.316.378.590.837.250.200
+Megaloblasts;A15.378.316.378.590.837.250.200.500
+Megakaryocyte Progenitor Cells;A15.378.316.378.590.837.625
+Megakaryocytes;A15.378.316.479
+Monocytes;A15.378.316.580
+Reticulocytes;A15.378.316.790
+Immune System;A15.382
+Antibody-Producing Cells;A15.382.032
+B-Lymphocytes;A15.382.032.438
+B-Lymphocyte Subsets;A15.382.032.438.450
+B-Lymphocytes, Regulatory;A15.382.032.438.450.300
+Plasma Cells;A15.382.032.438.725
+Antigen-Presenting Cells;A15.382.066
+Dendritic Cells;A15.382.066.270
+Langerhans Cells;A15.382.066.270.500
+Dendritic Cells, Follicular;A15.382.066.275
+Bone Marrow;A15.382.216
+Enterochromaffin Cells;A15.382.250
+Immunological Synapses;A15.382.370
+Leukocytes;A15.382.490
+Granulocytes;A15.382.490.315
+Basophils;A15.382.490.315.120
+Eosinophils;A15.382.490.315.251
+Neutrophils;A15.382.490.315.583
+Leukocytes, Mononuclear;A15.382.490.555
+Cytokine-Induced Killer Cells;A15.382.490.555.283
+Killer Cells, Lymphokine-Activated;A15.382.490.555.283.500
+Monocytes, Activated Killer;A15.382.490.555.283.750
+T-Lymphocytes, Cytotoxic;A15.382.490.555.283.875
+Lymphocytes;A15.382.490.555.567
+Killer Cells, Natural;A15.382.490.555.567.537
+Killer Cells, Lymphokine-Activated;A15.382.490.555.567.537.500
+Lymphocyte Subsets;A15.382.490.555.567.550
+B-Lymphocyte Subsets;A15.382.490.555.567.550.300
+T-Lymphocyte Subsets;A15.382.490.555.567.550.500
+Intraepithelial Lymphocytes;A15.382.490.555.567.550.500.050
+Mucosal-Associated Invariant T Cells;A15.382.490.555.567.550.500.100
+T-Lymphocytes, Cytotoxic;A15.382.490.555.567.550.500.200
+T-Lymphocytes, Helper-Inducer;A15.382.490.555.567.550.500.400
+Th1 Cells;A15.382.490.555.567.550.500.400.900
+Th2 Cells;A15.382.490.555.567.550.500.400.905
+Th17 Cells;A15.382.490.555.567.550.500.400.915
+T-Lymphocytes, Regulatory;A15.382.490.555.567.550.500.700
+B-Lymphocytes;A15.382.490.555.567.562
+B-Lymphocyte Subsets;A15.382.490.555.567.562.450
+B-Lymphocytes, Regulatory;A15.382.490.555.567.562.450.300
+Plasma Cells;A15.382.490.555.567.562.725
+T-Lymphocytes;A15.382.490.555.567.569
+CD4-Positive T-Lymphocytes;A15.382.490.555.567.569.200
+T-Lymphocytes, Helper-Inducer;A15.382.490.555.567.569.200.400
+Th1 Cells;A15.382.490.555.567.569.200.400.900
+Th2 Cells;A15.382.490.555.567.569.200.400.905
+Th17 Cells;A15.382.490.555.567.569.200.400.915
+T-Lymphocytes, Regulatory;A15.382.490.555.567.569.200.700
+CD8-Positive T-Lymphocytes;A15.382.490.555.567.569.220
+T-Lymphocytes, Cytotoxic;A15.382.490.555.567.569.220.200
+Jurkat Cells;A15.382.490.555.567.569.440
+Natural Killer T-Cells;A15.382.490.555.567.569.470
+T-Lymphocyte Subsets;A15.382.490.555.567.569.500
+Intraepithelial Lymphocytes;A15.382.490.555.567.569.500.050
+Mucosal-Associated Invariant T Cells;A15.382.490.555.567.569.500.100
+T-Lymphocytes, Cytotoxic;A15.382.490.555.567.569.500.200
+T-Lymphocytes, Helper-Inducer;A15.382.490.555.567.569.500.400
+Th1 Cells;A15.382.490.555.567.569.500.400.900
+Th2 Cells;A15.382.490.555.567.569.500.400.905
+Th17 Cells;A15.382.490.555.567.569.500.400.915
+T-Lymphocytes, Regulatory;A15.382.490.555.567.569.500.700
+Lymphocytes, Null;A15.382.490.555.567.622
+Lymphocytes, Tumor-Infiltrating;A15.382.490.555.567.650
+Monocytes;A15.382.490.555.652
+Monocytes, Activated Killer;A15.382.490.555.652.500
+Lymphatic System;A15.382.520
+Glymphatic System;A15.382.520.075
+Lymph;A15.382.520.150
+Chyle;A15.382.520.150.350
+Lymphatic Vessels;A15.382.520.301
+Endothelium, Lymphatic;A15.382.520.301.500
+Thoracic Duct;A15.382.520.301.750
+Lymphoid Tissue;A15.382.520.604
+Adenoids;A15.382.520.604.100
+Bursa of Fabricius;A15.382.520.604.114
+Lymph Nodes;A15.382.520.604.412
+Germinal Center;A15.382.520.604.412.500
+Dendritic Cells, Follicular;A15.382.520.604.412.500.200
+Sentinel Lymph Node;A15.382.520.604.412.750
+Palatine Tonsil;A15.382.520.604.580
+Peyer's Patches;A15.382.520.604.600
+Spleen;A15.382.520.604.700
+Tertiary Lymphoid Structures;A15.382.520.604.725
+Thymus Gland;A15.382.520.604.750
+Mast Cells;A15.382.652
+Mononuclear Phagocyte System;A15.382.670
+Dendritic Cells;A15.382.670.260
+Langerhans Cells;A15.382.670.260.500
+Macrophages;A15.382.670.522
+Epithelioid Cells;A15.382.670.522.300
+Foam Cells;A15.382.670.522.368
+Giant Cells, Foreign-Body;A15.382.670.522.376
+Giant Cells, Langhans;A15.382.670.522.380
+Histiocytes;A15.382.670.522.385
+Kupffer Cells;A15.382.670.522.588
+Macrophages, Alveolar;A15.382.670.522.600
+Macrophages, Peritoneal;A15.382.670.522.630
+Monocytes;A15.382.670.547
+Monocytes, Activated Killer;A15.382.670.547.500
+Phagocytes;A15.382.680
+Macrophages;A15.382.680.397
+Epithelioid Cells;A15.382.680.397.300
+Foam Cells;A15.382.680.397.368
+Giant Cells, Foreign-Body;A15.382.680.397.376
+Giant Cells, Langhans;A15.382.680.397.380
+Histiocytes;A15.382.680.397.385
+Kupffer Cells;A15.382.680.397.588
+Macrophages, Alveolar;A15.382.680.397.600
+Macrophages, Peritoneal;A15.382.680.397.630
+Monocytes;A15.382.680.547
+Monocytes, Activated Killer;A15.382.680.547.500
+Neutrophils;A15.382.680.689
+Embryonic Structures;A16
+Blastomeres;A16.094
+Branchial Region;A16.142
+Cleavage Stage, Ovum;A16.166
+Cloaca;A16.178
+Embryo, Mammalian;A16.254
+Blastocyst;A16.254.500
+Blastocyst Inner Cell Mass;A16.254.500.533
+Trophoblasts;A16.254.500.766
+Extraembryonic Membranes;A16.254.750
+Allantois;A16.254.750.147
+Amnion;A16.254.750.277
+Chorion;A16.254.750.473
+Chorionic Villi;A16.254.750.473.200
+Yolk Sac;A16.254.750.981
+Embryo, Nonmammalian;A16.331
+Blastoderm;A16.331.024
+Blastodisc;A16.331.042
+Blastula;A16.331.099
+Chick Embryo;A16.331.200
+Chorioallantoic Membrane;A16.331.400
+Yolk Sac;A16.331.800
+Fetus;A16.378
+Aborted Fetus;A16.378.099
+Amniotic Fluid;A16.378.149
+Fetal Blood;A16.378.200
+Fetal Heart;A16.378.303
+Ductus Arteriosus;A16.378.303.395
+Endocardial Cushions;A16.378.303.662
+Truncus Arteriosus;A16.378.303.930
+Meconium;A16.378.529
+Umbilical Cord;A16.378.693
+Umbilical Arteries;A16.378.693.641
+Umbilical Veins;A16.378.693.807
+Vernix Caseosa;A16.378.857
+Gastrula;A16.441
+Germ Layers;A16.504
+Ectoderm;A16.504.273
+Endoderm;A16.504.407
+Mesoderm;A16.504.660
+Pericytes;A16.504.660.600
+Somites;A16.504.660.750
+Gestational Sac;A16.535
+Gubernaculum;A16.551
+Limb Buds;A16.567
+Mesonephros;A16.599
+Morula;A16.615
+Mullerian Ducts;A16.623
+Neural Crest;A16.627
+Neural Plate;A16.629
+Neural Tube;A16.630
+Notochord;A16.660
+Organizers, Embryonic;A16.675
+Ovum;A16.690
+Egg Yolk;A16.690.325
+Vitelline Membrane;A16.690.886
+Zona Pellucida;A16.690.900
+Placenta;A16.710
+Chorionic Villi;A16.710.189
+Decidua;A16.710.289
+Deciduoma;A16.710.289.500
+Trophoblasts;A16.710.802
+Primitive Streak;A16.830
+Pronephros;A16.835
+Head Kidney;A16.835.400
+Urachus;A16.890
+Vitelline Duct;A16.920
+Wolffian Ducts;A16.935
+Zygote;A16.950
+Integumentary System;A17
+Animal Scales;A17.100
+Hair;A17.360
+Animal Fur;A17.360.148
+Eyebrows;A17.360.296
+Eyelashes;A17.360.421
+Hair Follicle;A17.360.710
+Wool;A17.360.855
+Nails;A17.600
+Skin;A17.815
+Dermis;A17.815.180
+Acellular Dermis;A17.815.180.040
+Epidermis;A17.815.250
+Hair Follicle;A17.815.250.500
+Sebaceous Glands;A17.815.805
+Sweat Glands;A17.815.830
+Apocrine Glands;A17.815.830.206
+Eccrine Glands;A17.815.830.480
+Plant Structures;A18
+Chromosomes, Plant;A18.005
+Plant Components, Aerial;A18.024
+Flowering Tops;A18.024.249
+Flowers;A18.024.249.500
+Germ Cells, Plant;A18.024.249.500.249
+Ovule;A18.024.249.500.249.249
+Pollen;A18.024.249.500.249.500
+Pollen Tube;A18.024.249.500.249.500.500
+Inflorescence;A18.024.249.500.624
+Fruit;A18.024.500
+Nuts;A18.024.500.500
+Seeds;A18.024.500.750
+Cotyledon;A18.024.500.750.333
+Edible Grain;A18.024.500.750.500
+Endosperm;A18.024.500.750.666
+Plant Epidermis;A18.024.750
+Plant Bark;A18.024.750.200
+Plant Stomata;A18.024.750.650
+Trichomes;A18.024.750.825
+Plant Leaves;A18.024.812
+Mesophyll Cells;A18.024.812.324
+Plant Stomata;A18.024.812.650
+Pulvinus;A18.024.812.700
+Plant Shoots;A18.024.875
+Cotyledon;A18.024.875.500
+Hypocotyl;A18.024.875.750
+Meristem;A18.024.875.875
+Cambium;A18.024.875.875.500
+Plant Stems;A18.024.937
+Hypocotyl;A18.024.937.249
+Meristem;A18.024.937.500
+Rhizome;A18.024.937.750
+Plant Roots;A18.400
+Meristem;A18.400.500
+Cambium;A18.400.500.299
+Plant Root Cap;A18.400.500.600
+Mycorrhizae;A18.400.525
+Plant Tubers;A18.400.625
+Rhizome;A18.400.750
+Root Nodules, Plant;A18.400.875
+Plant Vascular Bundle;A18.450
+Phloem;A18.450.250
+Xylem;A18.450.500
+Wood;A18.450.500.500
+Seedlings;A18.550
+Hypocotyl;A18.550.500
+Sporangia;A18.560
+Fungal Structures;A19
+Chromosomes, Fungal;A19.311
+Chromosomes, Artificial, Yeast;A19.311.800
+Fruiting Bodies, Fungal;A19.374
+Spores, Fungal;A19.374.500
+Fungal Capsules;A19.530
+Mycelium;A19.687
+Hyphae;A19.687.400
+Mycorrhizae;A19.690
+Sporangia;A19.800
+Bacterial Structures;A20
+Bacterial Capsules;A20.186
+Bacterial Chromatophores;A20.374
+Bacterial Outer Membrane;A20.484
+Biofilms;A20.593
+Extracellular Polymeric Substance Matrix;A20.593.500
+Chromosomes, Bacterial;A20.812
+Chromosomes, Artificial, Bacterial;A20.812.170
+Fimbriae, Bacterial;A20.843
+Magnetosomes;A20.859
+Pili, Sex;A20.867
+Purple Membrane;A20.871
+Ribosome Subunits, Large, Bacterial;A20.873
+Ribosome Subunits, Small, Bacterial;A20.874
+Viral Structures;A21
+Occlusion Bodies, Viral;A21.125
+Virion;A21.249
+Nucleocapsid;A21.249.500
+Capsid;A21.249.500.250
