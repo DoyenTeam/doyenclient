@@ -93,7 +93,7 @@ export default function SearchBar() {
         />
       </div>
       <Transition
-        show={filteredTerms.length > 0}
+        show={filteredTerms.length > 0 || searchTerm.length > 0}
         className="absolute w-full mt-1 bg-white border border-gray-300 rounded shadow-lg z-[100]"
         enter="transition ease-out duration-100 transform"
         enterFrom="opacity-0 scale-95"
@@ -108,6 +108,16 @@ export default function SearchBar() {
           onChange={addTerm}
           className="py-1 overflow-auto text-base leading-6 rounded-md shadow-sm max-h-60 focus:outline-none sm:text-sm sm:leading-5"
         >
+          {searchTerm && (
+            <Listbox.Option
+              value={searchTerm}
+              as="li"
+              className="cursor-pointer select-none relative py-2 pl-3 pr-9 text-gray-900"
+              onClick={() => addTerm(searchTerm)}
+            >
+              {searchTerm}
+            </Listbox.Option>
+          )}
           <List
             height={filteredTerms.length >= 0 ? 200 : 0}
             itemCount={filteredTerms.length}
@@ -117,7 +127,7 @@ export default function SearchBar() {
           >
             {Row}
           </List>
-          {filteredTerms.length === 0 && (
+          {filteredTerms.length === 0 && !searchTerm && (
             <li className="py-2 pl-3 pr-9 text-gray-500 cursor-not-allowed">
               No words
             </li>
