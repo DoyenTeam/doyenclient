@@ -73,14 +73,12 @@ function pdfExportDoc(experts) {
             </Page>
         </Document>
     )
-
 }
 
 const generatePdfDocument = async (experts) => {
     const blob = pdf((
         pdfExportDoc(experts)
     )).toBlob();
-    // saveAs(blob, "doyen-expert.pdf");
     return blob;
 };
 
