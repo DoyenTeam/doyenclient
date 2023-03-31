@@ -58,12 +58,6 @@ export default function Search() {
           <div className="bg-white py-8 px-4  sm:rounded-lg sm:px-10">
             <div className="space-y-6">
               <div>
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium leading-6 text-gray-900"
-                >
-                  Primary Search Term
-                </label>
                 <div className="mt-2">
                 {selectedTerms.map((term) => (
                   <span className="flex items-center m-1 px-2 py-1 text-sm font-medium text-gray-700 bg-gray-100 rounded">
