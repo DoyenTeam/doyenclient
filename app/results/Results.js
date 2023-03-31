@@ -1,49 +1,35 @@
 "use client"
 
+import Link from 'next/link';
 import React, {Fragment, useState} from 'react'
-
-
 import Filters from "@/app/filters";
+import {Dialog, Menu, Transition} from '@headlessui/react'
+import {
+    Bars3Icon,
+    Cog6ToothIcon,
+    FolderIcon,
+    HomeIcon,
+    XMarkIcon,
+} from '@heroicons/react/24/outline';
+import {ChevronDownIcon} from '@heroicons/react/20/solid'
+import SearchBar from '../SearchBar';
 
 const addToQuery = () => {
     console.log("clicked on the button")
 }
 
-
-import {Dialog, Menu, Transition} from '@headlessui/react'
-import {
-    Bars3Icon,
-    BellIcon,
-    CalendarIcon,
-    ChartPieIcon,
-    Cog6ToothIcon,
-    DocumentDuplicateIcon,
-    FolderIcon,
-    HomeIcon,
-    UsersIcon,
-    XMarkIcon,
-} from '@heroicons/react/24/outline'
-import {ChevronDownIcon, MagnifyingGlassIcon} from '@heroicons/react/20/solid'
-
-
 const navigation = [
-
-
     {name: 'Home', href: '/', icon: HomeIcon, current: true},
     {name: 'Previous Exports', href: '#', icon: FolderIcon, current: false},
-]
+];
 const userNavigation = [
-
-
     {name: 'Your profile', href: '#'},
     {name: 'Sign out', href: '#'},
-]
+];
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
-
-
 
 export default function Results({children}) {
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
@@ -51,7 +37,6 @@ export default function Results({children}) {
     const [sidebarOpen, setSidebarOpen] = useState(false)
 
     return (
-
         <div>
             <Transition.Root show={sidebarOpen} as={Fragment}>
                 <Dialog as="div" className="relative z-50 lg:hidden" onClose={setSidebarOpen}>
@@ -199,7 +184,6 @@ export default function Results({children}) {
                             </li>
                             <li>
                                 <div className="text-xs font-semibold leading-6 text-gray-400">Filters</div>
-
                             </li>
                             <Filters></Filters>
                         </ul>
@@ -223,25 +207,21 @@ export default function Results({children}) {
                         {/* Separator */}
                         <div className="h-6 w-px bg-gray-200 lg:hidden" aria-hidden="true"/>
 
-                        <div className="flex flex-1 gap-x-4 self-stretch lg:gap-x-6">
-                            <form className="relative flex flex-1" action="#" method="GET">
-                                <label htmlFor="search-field" className="sr-only">
-                                    Search
-                                </label>
-                                <MagnifyingGlassIcon
-                                    className="pointer-events-none absolute inset-y-0 left-0 h-full w-5 text-gray-400"
-                                    aria-hidden="true"
-                                />
-                                <input
-                                    id="search-field"
-                                    className="block h-full w-full border-0 py-0 pl-8 pr-0 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm"
-                                    placeholder="Search..."
-                                    type="search"
-                                    name="search"
-                                />
-                            </form>
+                        <div className="flex flex-1 gap-x-4 lg:gap-x-6">
+                            <div className="flex-grow items-center">
+                                <SearchBar className="relative w-full"></SearchBar>
+                            </div>
+                            <Link href="/results">
+                                <button
+                                    type="button"
+                                    size="md"
+                                    className="h-10 px-4 ml-1 mb-3 mt-2 rounded-md bg-indigo-600 px-3 py-2 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                    onClick={addToQuery}
+                                >
+                                    New Search
+                                </button>
+                            </Link>
                             <div className="flex items-center gap-x-4 lg:gap-x-6">
-
 
                                 {/* Separator */}
                                 <div className="hidden lg:block lg:h-6 lg:w-px lg:bg-gray-200" aria-hidden="true"/>
@@ -256,11 +236,11 @@ export default function Results({children}) {
                                             alt=""
                                         />
                                         <span className="hidden lg:flex lg:items-center">
-                        <span className="ml-4 text-sm font-semibold leading-6 text-gray-900" aria-hidden="true">
-                          Alan Pham
-                        </span>
-                        <ChevronDownIcon className="ml-2 h-5 w-5 text-gray-400" aria-hidden="true"/>
-                      </span>
+                                            <span className="ml-4 text-sm font-semibold leading-6 text-gray-900" aria-hidden="true">
+                                                Alan Pham
+                                            </span>
+                                            <ChevronDownIcon className="ml-2 h-5 w-5 text-gray-400" aria-hidden="true"/>
+                                        </span>
                                     </Menu.Button>
                                     <Transition
                                         as={Fragment}
@@ -304,34 +284,5 @@ export default function Results({children}) {
 
             </div>
         </div>
-
-
-        // <div>
-        //     {/* Static sidebar for desktop */}
-        //     <div className="hidden lg:py-1 lg:inset-y-2 lg:flex lg:w-64 lg:flex-col">
-        //         {/* Sidebar component */}
-        //         <div className="flex flex-grow flex-col overflow-y-auto border-r border-gray-200 bg-white pt-5">
-        //             <form className="hidden lg:block py-1">
-        //                 <Filters></Filters>
-        //                 <div className={"py-6 px-4"}>
-        //                     <h1 className={"font-bold"}>MeSH Terms</h1>
-        //                     <div className={"py-3 px-4"}>
-        //                         <MeshTree></MeshTree>
-        //                     </div>
-        //                 </div>
-        //             </form>
-        //         </div>
-        //     </div>
-        //     <div className="flex flex-1 flex-col lg:pl-64">
-        //         <main className="flex-1">
-        //             <div className="py-6">
-        //                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        //                     hello
-        //                 </div>
-        //             </div>
-        //         </main>
-        //     </div>
-        // </div>
     )
 }
-
