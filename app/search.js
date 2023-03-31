@@ -31,18 +31,6 @@ export default function Search() {
                 </label>
                   <SearchBar></SearchBar>
               </div>
-
-              <div className="flex flex-col items-center">
-                <Link href={`/results`}>
-                  <button
-                    type="submit"
-                    size="md"
-                    className="h-12 px-4 ml-3 rounded-md bg-indigo-600 px-3 py-2 text-lg font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                  >
-                    Search
-                  </button>
-                </Link>
-              </div>
             </div>
 
             <div className="mt-6">

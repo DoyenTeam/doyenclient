@@ -13,14 +13,21 @@ async function getPublications() {
     return data
 }
 
-export default async function Publications() {
+export default async function Publications({searchTerm}) {
     const experts = await getPublications();
+    console.log("HELLLO ZZZ")
+    console.log(searchTerm)
 
 
 
     return (
 
-        <div className="mt-6 lg:col-span-2 lg:mt-0 xl:col-span-3">
+        <div className="mt-6 py-2 lg:col-span-2 lg:mt-0 xl:col-span-3">
+            <div className="min-w-0 flex-1">
+                <h2 className="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
+                    Current Query: {searchTerm}
+                </h2>
+            </div>
             <PDFDownloader experts={experts}></PDFDownloader>
             <ul
                 role="list"

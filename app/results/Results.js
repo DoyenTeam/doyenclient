@@ -13,6 +13,7 @@ import {
 } from '@heroicons/react/24/outline';
 import {ChevronDownIcon} from '@heroicons/react/20/solid'
 import SearchBar from '../SearchBar';
+import {useSearchParams} from "next/navigation";
 
 const addToQuery = () => {
     console.log("clicked on the button")
@@ -35,6 +36,7 @@ export default function Results({children}) {
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
     const [focusDisabledItems, setFocusDisabledItems] = useState(false);
     const [sidebarOpen, setSidebarOpen] = useState(false)
+
 
     return (
         <div>
