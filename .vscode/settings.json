@@ -1,0 +1,4 @@
+{
+    "debug.showInlineBreakpointCandidates": true,
+    "editor.maxTokenizationLineLength": 2000000
+}
