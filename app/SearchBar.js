@@ -132,38 +132,48 @@ export default function SearchBar() {
                         className="flex-grow min-w-0 rounded-md border-0 pl-0 py-0.5 text-gray-900 bg-transparent placeholder:text-gray-400 focus:outline-none sm:text-sm sm:leading-6"
                     />
                 </div>
-                <Transition
-                    show={filteredTerms.length > 0}
-                    className="absolute w-full mt-1 bg-white border border-gray-300 rounded shadow-lg z-[100]"
-                    enter="transition ease-out duration-100 transform"
-                    enterFrom="opacity-0 scale-95"
-                    enterTo="opacity-100 scale-100"
-                    leave="transition ease-in duration-75 transform"
-                    leaveFrom="opacity-100 scale-100"
-                    leaveTo="opacity-0 scale-95"
+              <Transition
+                  show={filteredTerms.length > 0 || searchTerm.length > 0}
+                  className="absolute w-full mt-1 bg-white border border-gray-300 rounded shadow-lg z-[100]"
+                  enter="transition ease-out duration-100 transform"
+                  enterFrom="opacity-0 scale-95"
+                  enterTo="opacity-100 scale-100"
+                  leave="transition ease-in duration-75 transform"
+                  leaveFrom="opacity-100 scale-100"
+                  leaveTo="opacity-0 scale-95"
+              >
+                <Listbox
+                    as="ul"
+                    value={null}
+                    onChange={addTerm}
+                    className="py-1 overflow-auto text-base leading-6 rounded-md shadow-sm max-h-60 focus:outline-none sm:text-sm sm:leading-5"
                 >
-                    <Listbox
-                        as="ul"
-                        value={null}
-                        onChange={addTerm}
-                        className="py-1 overflow-auto text-base leading-6 rounded-md shadow-sm max-h-60 focus:outline-none sm:text-sm sm:leading-5"
-                    >
-                        <List
-                            height={filteredTerms.length >= 0 ? 200 : 0}
-                            itemCount={filteredTerms.length}
-                            itemSize={35}
-                            width="100%"
-                            itemData={{...filteredTerms, addTerm}}
-                        >
-                            {Row}
-                        </List>
-                        {filteredTerms.length === 0 && (
-                            <li className="py-2 pl-3 pr-9 text-gray-500 cursor-not-allowed">
-                                No words
-                            </li>
-                        )}
-                    </Listbox>
-                </Transition>
+                  {searchTerm && (
+                      <Listbox.Option
+                          value={searchTerm}
+                          as="li"
+                          className="cursor-pointer select-none relative py-2 pl-3 pr-9 text-gray-900"
+                          onClick={() => addTerm(searchTerm)}
+                      >
+                        {searchTerm}
+                      </Listbox.Option>
+                  )}
+                  <List
+                      height={filteredTerms.length >= 0 ? 200 : 0}
+                      itemCount={filteredTerms.length}
+                      itemSize={35}
+                      width="100%"
+                      itemData={{ ...filteredTerms, addTerm }}
+                  >
+                    {Row}
+                  </List>
+                  {filteredTerms.length === 0 && !searchTerm && (
+                      <li className="py-2 pl-3 pr-9 text-gray-500 cursor-not-allowed">
+                        No words
+                      </li>
+                  )}
+                </Listbox>
+              </Transition>
             </div>
             {(pathname === "/") &&
                 <div className="flex py-2 flex-col items-center">
