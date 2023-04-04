@@ -5,18 +5,16 @@ import {Document, Page, pdf, StyleSheet, Text} from "@react-pdf/renderer";
 import {saveAs} from "file-saver"
 
 
-async function getPublications() {
+async function getPublications(keyWords) {
     console.log("publications being fetched...")
-    const res = await fetch('https://doyen-api.azurewebsites.net/api/experts/search?keywords=health&limit=50&offset=0')
+    const res = await fetch(`https://doyen-api.azurewebsites.net/api/experts/search?keywords=${keyWords}&limit=50&offset=0`)
     const data = await res.json()
     console.log(data)
     return data
 }
 
 export default async function Publications({searchTerm}) {
-    const experts = await getPublications();
-    console.log("HELLLO ZZZ")
-    console.log(searchTerm)
+    const experts = await getPublications(searchTerm);
 
 
 
