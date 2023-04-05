@@ -7,13 +7,19 @@ import {saveAs} from "file-saver"
 
 async function getPublications(keyWords) {
     console.log("publications being fetched...")
-    const res = await fetch(`https://doyen-api.azurewebsites.net/api/experts/search?keywords=${keyWords}&limit=50&offset=0`)
+    const res = await fetch(
+        `https://doyen-api.azurewebsites.net/api/experts/search?keywords=${keyWords}&limit=50&offset=0`,
+        {
+            next : {revalidate: 20}
+        })
     const data = await res.json()
     console.log(data)
     return data
 }
 
 export default async function Publications({searchTerm}) {
+    console.log("THESE ARE THE SEARCH TERMS")
+    console.log(searchTerm)
     const experts = await getPublications(searchTerm);
 
 
@@ -22,7 +28,7 @@ export default async function Publications({searchTerm}) {
 
         <div className="mt-6 py-2 lg:col-span-2 lg:mt-0 xl:col-span-3">
             <div className="min-w-0 flex-1">
-                <h2 className="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
+                <h2 className="text-2xl py-2 font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
                     Current Query: {searchTerm}
                 </h2>
             </div>
