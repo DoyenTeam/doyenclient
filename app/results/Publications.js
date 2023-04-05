@@ -29,7 +29,7 @@ export default async function Publications({searchTerm}) {
         <div className="mt-6 py-2 lg:col-span-2 lg:mt-0 xl:col-span-3">
             <div className="min-w-0 flex-1">
                 <h2 className="text-2xl py-2 font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
-                    Current Query: {searchTerm}
+                    {/*Current Query: {searchTerm}*/}
                 </h2>
             </div>
             <PDFDownloader experts={experts}></PDFDownloader>
