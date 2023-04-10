@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import React, {Fragment, useState} from 'react'
-import Filters from "@/app/filters";
+import Filters from "@/app/Filters";
 import {Dialog, Menu, Transition} from '@headlessui/react'
 import {
     Bars3Icon,
@@ -213,16 +213,6 @@ export default function Results({children}) {
                             <div className="flex-grow items-center">
                                 <SearchBar className="relative w-full"></SearchBar>
                             </div>
-                            <Link href="/results">
-                                <button
-                                    type="button"
-                                    size="md"
-                                    className="h-10 px-4 ml-1 mb-3 mt-2 rounded-md bg-indigo-600 px-3 py-2 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                                    onClick={addToQuery}
-                                >
-                                    New Search
-                                </button>
-                            </Link>
                             <div className="flex items-center gap-x-4 lg:gap-x-6">
 
                                 {/* Separator */}

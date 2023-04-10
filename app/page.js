@@ -1,7 +1,7 @@
 "use client"
 
 import {Fragment, useState} from 'react'
-import Filters from "@/app/filters";
+import Filters from "@/app/Filters";
 import {Dialog, Menu, Transition} from '@headlessui/react'
 import {
   Bars3Icon,
@@ -12,7 +12,7 @@ import {
   XMarkIcon
 } from '@heroicons/react/24/outline'
 import {ChevronDownIcon} from '@heroicons/react/20/solid'
-import Search from "@/app/search";
+import Search from "@/app/Search";
 
 const navigation = [
   {name: 'Home', href: '/', icon: HomeIcon, current: true},

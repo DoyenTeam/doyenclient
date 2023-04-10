@@ -1,3 +1,6 @@
+
+
+
 class TrieNode {
     constructor() {
         this.children = {};
@@ -5,6 +8,10 @@ class TrieNode {
     }
 }
 
+/**
+ * The trie component is used for searching the large amount of Mesh terms. This will mainly be used for the
+ * autocomplete feature in the search bar.
+ */
 export default class Trie {
     constructor() {
         this.root = new TrieNode();

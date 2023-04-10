@@ -1,6 +1,10 @@
 import React from "react";
 import SearchBar from './SearchBar';
 
+
+/**
+ * The Search component represents the search bar and accompanying sign in buttons for the home page.
+ */
 export default function Search() {
 
   return (
@@ -19,11 +23,11 @@ export default function Search() {
         </div>
 
         <div className="mt-8 w-full">
-          <div className="bg-white py-8 px-4  sm:rounded-lg sm:px-10">
+          <div className="bg-white py-8 px-2  sm:rounded-lg sm:px-10">
             <div className="space-y-6">
               <div>
                 <label
-                  htmlFor="email"
+                  htmlFor="search-terms"
                   className="block text-sm font-medium leading-6 text-gray-900"
                 >
                   Primary Search Terms

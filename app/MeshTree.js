@@ -9,8 +9,8 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import TreeItem from "@mui/lab/TreeItem"
 import {useState} from "react";
 import {PlusIcon} from "@heroicons/react/20/solid";
-import {stuff} from "@/app/terms";
-import {meshTreeData} from "@/app/meshTreeData";
+import {termsTester} from "@/app/terms";
+import {meshTreeData} from "@/app/MeshTreeData";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')

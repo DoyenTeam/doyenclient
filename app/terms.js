@@ -1,4 +1,10 @@
-export const stuff = [
+/**
+ * Represents a testing component for a mesh terms that can be shown in a tree structure. This if for development
+ * purposes only.
+ * @constructor
+ */
+
+export const termsTester = [
   {
     id: '[A]',
     term: 'Anatomy [A]',

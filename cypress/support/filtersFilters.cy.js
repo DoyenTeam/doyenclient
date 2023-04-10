@@ -1,5 +1,5 @@
 import React from 'react';
-import Filters, { filters } from '../../app/filters';
+import Filters, { filters } from '../../app/Filters';
 
 describe('<Filters />', () => {
   beforeEach(() => {

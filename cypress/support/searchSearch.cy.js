@@ -1,5 +1,5 @@
 import React from 'react';
-import Search from '../../app/search';
+import Search from '../../app/Search';
 import SearchBar from '../../app/SearchBar';
 
 describe('<Search />', () => {

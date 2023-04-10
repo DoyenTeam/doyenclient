@@ -4,7 +4,7 @@ import React, {useState, useRef, useEffect, useCallback} from "react";
 import {FixedSizeList as List} from "react-window";
 import {XMarkIcon} from "@heroicons/react/24/outline";
 import {Listbox, Transition} from "@headlessui/react";
-import {meshTerms} from './meshTerms';
+import {meshTerms} from './MeshTerms';
 import {debounce} from "lodash";
 import Trie from "./Trie";
 import Link from "next/link";
@@ -14,6 +14,13 @@ import {useSearchParams, usePathname, useRouter} from 'next/navigation'
 const trie = new Trie();
 meshTerms.forEach((term) => trie.insert(term.toLowerCase()));
 
+
+/**
+ * Represents a row in the auto complete feature
+ * @param {object} data - all of the data being used for mesh terms
+ * @param {int} index - index of the element that the author need autocompletion for
+ * @param {object} style - css styling for the row on the UI
+ */
 function Row({data, index, style}) {
     const term = data[index];
     const addTerm = data.addTerm;
@@ -36,17 +43,23 @@ function Row({data, index, style}) {
     );
 }
 
+/**
+ * The search bar is the main interactive component of doyen. It uses a trie to create an autocomplete feature.
+ * This component can be found in the /results and / pages.
+ */
 export default function SearchBar() {
     const searchParams = useSearchParams()
     const pathname = usePathname()
     const router = useRouter()
+
+    // state hooks used to keep track of current data from user.
     const [searchTerm, setSearchTerm] = useState("");
     const [filteredTerms, setFilteredTerms] = useState([]);
     const [selectedTerms, setSelectedTerms] = useState([]);
     const searchBarRef = useRef(null);
-    let searchQuery = "";
-    const stuff = "yeah"
 
+
+    // update the current autocompletion UI every time a letter is typed into the bar
     useEffect(() => {
         if (searchTerm.length > 0) {
             setFilteredTerms(
@@ -57,6 +70,7 @@ export default function SearchBar() {
         }
     }, [searchTerm]);
 
+    // makes sure to update UI at the correct timing, otherwise JS will show a bug
     const debouncedSetSearchTerm = debounce((value) => {
         setSearchTerm(value)
     }, 10);
@@ -65,10 +79,10 @@ export default function SearchBar() {
         debouncedSetSearchTerm(e.target.value);
     };
 
+    // once the user chooses a term from the dropdown UI, this will add it to the state hook
     const addTerm = useCallback((term) => {
         if (!selectedTerms.includes(term)) {
             setSelectedTerms([...selectedTerms, term]);
-            // updateSearchQuery()
         }
         setSearchTerm("");
         setFilteredTerms([]);
@@ -76,20 +90,9 @@ export default function SearchBar() {
 
     const removeTerm = (termToRemove) => {
         setSelectedTerms(selectedTerms.filter((term) => term !== termToRemove));
-        // updateSearchQuery()
     };
 
-    // const updateSearchQuery = () => {
-    //     let currQuery = ""
-    //     selectedTerms.map((term) => {
-    //         currQuery = term + " " + currQuery
-    //     })
-    //     searchQuery = currQuery
-    //
-    //     console.log("THIS IS THE SEARCH QUERY CURRENTLY: ")
-    //     console.log(searchQuery)
-    // }
-
+    // used when the user presser "search", this will send the parameters to the results page as a query string
     const onSearch = (event) => {
         event.preventDefault()
 
@@ -103,11 +106,12 @@ export default function SearchBar() {
         router.push(`/results?q=${encodeURI(currQuery)}`)
     }
 
+    // the following tailwind css styling create the search bar and the connects the appropriate hooks
     return (
         <form onSubmit={onSearch}>
-            <div className="relative">
+            <div className="">
                 <div
-                    className="mt-2 flex items-center bg-white rounded-md border-0 pl-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600">
+                    className="mt-2 flex flex-grow items-center bg-white rounded-md border-0 pl-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600">
                     <div className="flex flex-wrap items-center">
                         {selectedTerms.map((term) => (
                             <span
@@ -174,18 +178,18 @@ export default function SearchBar() {
                   )}
                 </Listbox>
               </Transition>
+                {(pathname === "/") &&
+                    <div className="flex py-2 flex-col items-center">
+                        <button
+                            type="submit"
+                            size="md"
+                            className="h-12 px-4 ml-3 rounded-md bg-indigo-600 px-3 py-2 text-lg font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                        >
+                            Search
+                        </button>
+                    </div>
+                }
             </div>
-            {(pathname === "/") &&
-                <div className="flex py-2 flex-col items-center">
-                    <button
-                        type="submit"
-                        size="md"
-                        className="h-12 px-4 ml-3 rounded-md bg-indigo-600 px-3 py-2 text-lg font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                    >
-                        Search
-                    </button>
-                </div>
-            }
         </form>
     );
 }
