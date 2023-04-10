@@ -1,6 +1,4 @@
 import {Dialog, Disclosure, Transition} from "@headlessui/react";
-import {Fragment} from "react";
-import {XMarkIcon} from "@heroicons/react/24/outline";
 import {MinusIcon, PlusIcon} from "@heroicons/react/20/solid";
 import MeshTree from "@/app/MeshTree";
 
@@ -42,7 +40,10 @@ export const filters = [
     },
 ]
 
-
+/**
+ * The filters component uses the hardcoded data from the above objects to show a series of check boxes that the user
+ * can select.
+ */
 export default function Filters() {
     return (
       <div>

@@ -1,3 +1,7 @@
+
+/**
+ * A small sample from the mesh tree structure. Only the first two layers are present.
+ */
 export const meshTreeData = [{
     "term": "Anatomy", "id": "A", "subterms": [{
         "term": "Body Regions",

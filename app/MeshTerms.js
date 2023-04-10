@@ -13,6 +13,10 @@ formattedArray.forEach((item, index) => {
 console.log(formattedOutput);
 */
 
+/**
+ * A list of all possible mesh terms.
+ */
+
 export const meshTerms = [
     "Body Regions",
     "Anatomic Landmarks",

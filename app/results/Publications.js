@@ -5,6 +5,9 @@ import {Document, Page, pdf, StyleSheet, Text} from "@react-pdf/renderer";
 import {saveAs} from "file-saver"
 
 
+/**
+ * This async function fetches the data from doyen's API and returns it as a json
+ */
 async function getPublications(keyWords) {
     console.log("publications being fetched...")
     const res = await fetch(
@@ -17,12 +20,13 @@ async function getPublications(keyWords) {
     return data
 }
 
+
+/**
+ * A server-side component that calls the doyen API for data.
+ * @param {object} searchTerm - a mechanism from next.js that allows to easily get the query string from the page's URL
+ */
 export default async function Publications({searchTerm}) {
-    console.log("THESE ARE THE SEARCH TERMS")
-    console.log(searchTerm)
     const experts = await getPublications(searchTerm);
-
-
 
     return (
 

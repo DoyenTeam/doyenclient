@@ -5,7 +5,9 @@ import React from "react";
 import {saveAs} from 'file-saver';
 import {use} from 'react';
 
-
+/**
+ * This is the basic styling provided by react-pdf. TODO: change it according to the client's needs
+ */
 const styles = StyleSheet.create({
     body: {
         paddingTop: 35,
@@ -54,7 +56,9 @@ const styles = StyleSheet.create({
     },
 });
 
-
+/**
+ * Create a PDF document that is then rendered when the download button is clicked by the user.
+ */
 function pdfExportDoc(experts) {
     return (
         <Document>
@@ -86,15 +90,14 @@ const saveStuff = (blob) => {
     saveAs(blob, "doyen-expert.pdf")
 }
 
-
+/**
+ * The downloader allows the user to obtain a pdf with all the results from the query to the doyen API. This
+ * component is used in the Publications component. Because of its interactivity it is a client component, however,
+ * it uses async functions since pdf's can take some time to create.
+ */
 export default function PDFDownloader({experts}) {
     // For PDF Creation
     const bl = use(generatePdfDocument(experts))
-
-
-    // const [instance, updateInstance] = usePDF({document: pdfExportDoc});
-    // if (instance.loading) return <div>Loading PDF...</div>;
-    // if (instance.error) return <div>Something went wrong: {error}</div>;
 
     return (
         <div>
@@ -107,16 +110,6 @@ export default function PDFDownloader({experts}) {
                     </svg>
                     <span>Export List</span>
                 </button>
-                {/*<PDFDownloadLink document={pdfExportDoc} fileName={"Doyen-Export.pdf"}>*/}
-                {/*    <button*/}
-                {/*        className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">*/}
-                {/*        <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg"*/}
-                {/*             viewBox="0 0 20 20">*/}
-                {/*            <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/>*/}
-                {/*        </svg>*/}
-                {/*        <span>Export List</span>*/}
-                {/*    </button>*/}
-                {/*</PDFDownloadLink>*/}
             </div>
         </div>
     )
