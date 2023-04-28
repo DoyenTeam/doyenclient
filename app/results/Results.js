@@ -213,7 +213,7 @@ export default function Results({children}) {
 
                         <div className="flex flex-1 gap-x-4 lg:gap-x-6">
                             <div className="flex-grow items-center">
-                                <SearchBar className="relative w-full"></SearchBar>
+                                {/* <SearchBar className="relative w-full"></SearchBar> */}
                             </div>
                             <div className="flex items-center gap-x-4 lg:gap-x-6">
 
