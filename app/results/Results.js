@@ -23,7 +23,6 @@ const navigation = [
     {name: 'Previous Exports', href: '#', icon: FolderIcon, current: false},
 ];
 const userNavigation = [
-    {name: 'Your profile', href: '#'},
     {name: 'Sign out', href: '#'},
 ];
 
