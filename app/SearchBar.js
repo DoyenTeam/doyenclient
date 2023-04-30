@@ -31,11 +31,11 @@ function Row({data, index, style}) {
             value={term}
             as="li"
             style={style}
-            className={({active}) =>
+            className={({active, selected}) =>
                 `${
-                    active ? "text-white bg-indigo-600" : "text-gray-900"
-                } cursor-pointer select-none relative py-2 pl-3 pr-9`
-            }
+                    active ? "text-white bg-indigo-600" : selected ? "text-gray-900 bg-gray-50" : "text-gray-900"
+                } cursor-pointer select-none relative py-2 pl-3 pr-9 hover:bg-gray-50`
+             }
             onClick={() => addTerm(term)}
         >
             {term}
