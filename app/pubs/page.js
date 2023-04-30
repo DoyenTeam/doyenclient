@@ -1,3 +1,7 @@
+/**
+ * This is a duplication of results/Publications.js and is intended for developer testing only. 
+ */
+
 import Link from 'next/link';
 import {PDFDownloadLink} from "@react-pdf/renderer";
 

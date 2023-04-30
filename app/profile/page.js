@@ -1,3 +1,7 @@
+/**
+ * This component renders a profile page for an expert, presenting various details like name, research area, institution, location, and publications, along with `Save`, `Export`, and `Back` buttons. It's currently a work-in progress
+ */
+
 import { PaperClipIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link';
 

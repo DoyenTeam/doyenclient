@@ -1,5 +1,9 @@
 /*
-// function to parse MeSH terms from XML file: 
+
+This component has commented out functions to fetch and parse MeSH terms from an XML file and export a list of unique terms.
+
+// `fetchXMLFile`: async function takes a URL as input, fetches the content, and returns it as text.
+// `parseNameStrings`: async function fetches XML content using `fetchXMLFile` function, and parses the content using `DOMParser`. It iterates over an array of tag names (`['DescriptorName', 'ConceptName']`) and extracts the text content of the 'String' nodes under each tag name. The result is an object with keys as tag names and values as arrays of text content.
 
 import { useEffect } from "react";
 import { DOMParser } from "xmldom";

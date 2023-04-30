@@ -1,3 +1,8 @@
+
+/**
+ * Filters component displays a set of filters that users can use to narrow down search results displayed on the page. The filters are organized into three sections: 'Publications', 'Expertise', and 'Institution', each with a set of options.
+ */
+
 "use client"
 
 import { PlusIcon } from '@heroicons/react/20/solid'

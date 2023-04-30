@@ -1,7 +1,18 @@
+/**
+ * This component creates a series of expandable filter sections, each with a set of checkboxes based on the pre-defined options in the `filters` constant. 
+ * It also renders a `MeshTree` component for the "mesh" filter option.
+ */
+
 import {Dialog, Disclosure, Transition} from "@headlessui/react";
 import {MinusIcon, PlusIcon} from "@heroicons/react/20/solid";
 import MeshTree from "@/app/MeshTree";
 
+
+/**
+ * Array of objects that define the available filter options for different categories. 
+ * Each object has an id, name, and options array containing objects with value, label, and checked properties.
+
+ */
 export const filters = [
     {
         id: 'publications',
@@ -41,8 +52,9 @@ export const filters = [
 ]
 
 /**
- * The filters component uses the hardcoded data from the above objects to show a series of check boxes that the user
- * can select.
+ * `Filters` Component function renders filter sections using  data defined in the above constant. It iterates over the array and creates a toggleable `Disclosure` component for each filter section.
+ * Inside `Disclosure`, `Disclosure.Button` displays filter section's name and an icon (MinusIcon or PlusIcon) based on the section's state (expanded or collapsed).
+ * `Disclosure.Panel` contains the actual filter options as checkboxes. It iterates over `section.options` array and creates a checkbox input and a label for each option. For "mesh" id option, it renders the `MeshTree` component instead of a checkbox.
  */
 export default function Filters() {
     return (

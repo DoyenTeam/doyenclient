@@ -1,10 +1,15 @@
+/**
+ * This component displays a table of expert information based on the JSON data received from the API. The component takes two props: `experts` (an array of expert objects) and `searchTerm` (the term used to search for experts). The table provides pagination, sortable columns, and links to view relevant publications on PubMed.
+ */
+
 "use client"
 
 import React, { useState, useMemo } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserGraduate, faExternalLinkAlt, faFaceFrown } from "@fortawesome/free-solid-svg-icons";
 
-// Function to sort 'Relevancy Score' & '# of Relevant Publications' columns by ascending or descending order 
+// Function to sort data based on the provided `config` object. It returns an object containing the sorted items, a `requestSort` function to handle sorting requests, and the current `sortConfig`. It currently sorts 'Relevancy Score' & '# of Relevant Publications' columns by ascending or descending order.
+
 function useSortableData(items, config = null) {
     const [sortConfig, setSortConfig] = useState(config);
 
@@ -31,29 +36,44 @@ function useSortableData(items, config = null) {
 
 // Builds and displays a table of the JSON data received from the API
 export default function Table({experts, searchTerm}) {
+    // hook to manage sorting the `experts` array.
     const { items, requestSort, sortConfig } = useSortableData(experts, {
         key: "RelevancySum",
         direction: "descending",
     });
+    // state to manage pagination
     const [currentPage, setCurrentPage] = useState(1);
+    // items per page
     const itemsPerPage = 10;
     const totalPages = Math.ceil(items.length / itemsPerPage);
     const currentItems = items.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
 
+    /**
+     * function to update `currentPage` state
+     */
     const handleClick = (pageNumber) => {
         setCurrentPage(pageNumber);
     };
 
+    /**
+     * function to open a new tab with PubMed URL for the expert's publications.
+     */
     const handleClickPubMed = (url) => {
         window.open(url, "_blank");
     };
 
+    /**
+     * component to render sorting arrows for each sortable column in the table.
+     */
     const Arrow = ({ active, direction }) => (
         <span className={`${active ? "text-indigo-600" : "text-gray-300"} inline-block`}>
           {direction === "ascending" ? "▲" : "▼"}
         </span>
     );
 
+    /**
+     * function to display message to user if there are no search results to display in the table.
+     */
     const renderEmptyMessage = () => (
         <div className="flex flex-col items-center justify-center mt-10 pt-40">
             <FontAwesomeIcon icon={faFaceFrown} className="text-8xl text-indigo-500 mb-10" />
@@ -62,6 +82,11 @@ export default function Table({experts, searchTerm}) {
             </p>
         </div>
     );
+
+    /**
+     * Displays a sortable, paginated table of experts and their information. 
+     * It allows users to sort the table by expert score and the # of relevant publications, and provides a link to view publications on PubMed.
+     */
 
     return (
         <div className="py-2 lg:col-span-2 lg:mt-0 xl:col-span-3">
