@@ -1,6 +1,7 @@
 import React from "react";
 import SearchBar from './SearchBar';
 import {signIn} from "next-auth/react";
+import Head from 'next/head';
 
 //used to obtain the session from firebase and next-auth
 import { useSession } from "next-auth/react";
@@ -16,6 +17,11 @@ export default function Search() {
 
   return (
     <main>
+      <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet" />
+      </Head>
       <div className="flex flex-col w-full justify-center ">
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
           <img
@@ -23,10 +29,16 @@ export default function Search() {
             src="./logo.png"
             alt="Doyen"
           />
-          <p className="mt-2 text-center text-sm text-gray-600">
+          <div className="mt-2 text-center text-sm text-gray-600">
             {" "}
-            <a className="font-medium text-gray-600">Search for an Expert</a>
-          </p>
+            <p 
+              className="text-5xl font-bold text-indigo-600 doyen-font pb-1"
+              style={{ fontFamily: "'Belleza', sans-serif !important" }}
+              >
+                Doyen
+              </p>
+            <p className="text-md font-medium text-gray-600">Search for an Expert</p>
+          </div>
         </div>
 
         <div className="mt-8 w-full">

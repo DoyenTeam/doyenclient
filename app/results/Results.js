@@ -147,7 +147,7 @@ export default function Results({children}) {
             </Transition.Root>
 
             {/* Static sidebar for desktop */}
-            <div className="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
+            <div className="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-50 lg:flex-col">
                 {/* Sidebar component */}
                 <div className="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white px-6 pb-4">
                     <div className="flex h-16 shrink-0 items-center">
@@ -186,15 +186,15 @@ export default function Results({children}) {
                                 </ul>
                             </li>
                             <li>
-                                <div className="text-xs font-semibold leading-6 text-gray-400">Filters</div>
+                                <div className="text-xs font-semibold leading-6 text-gray-400"></div>
                             </li>
-                            <Filters></Filters>
+                            {/* <Filters></Filters> */}
                         </ul>
                     </nav>
                 </div>
             </div>
 
-            <div className="lg:pl-72">
+            <div className="lg:pl-8">
                 <div className="sticky top-0 z-40 lg:mx-auto lg:max-w-7xl lg:px-8">
                     <div
                         className="flex h-16 items-center gap-x-4 border-b border-gray-200 bg-white px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-0 lg:shadow-none">
@@ -269,8 +269,8 @@ export default function Results({children}) {
                     </div>
                 </div>
 
-                <main className="py-10">
-                    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <main className="py-2">
+                    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-2">
                         {children}
                     </div>
                 </main>
