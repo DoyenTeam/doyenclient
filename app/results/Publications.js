@@ -31,7 +31,7 @@ export default async function Publications({searchTerm}) {
 
     return (
         <div className="py-2 lg:col-span-2 lg:mt-0 xl:col-span-3">
-            <PDFDownloader experts={experts}></PDFDownloader>
+            <PDFDownloader experts={experts} searchTerm={searchTerm}></PDFDownloader>
             <Table experts={experts} searchTerm={searchTerm} />
         </div>
     );

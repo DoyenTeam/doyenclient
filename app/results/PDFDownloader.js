@@ -1,9 +1,9 @@
 "use client"
 
-import {Document, Page, StyleSheet, Text, pdf} from "@react-pdf/renderer";
+import {Document, Page, StyleSheet, View, Text, pdf} from "@react-pdf/renderer";
 import React from "react";
 import {saveAs} from 'file-saver';
-import {use} from 'react';
+import {use, Fragment} from 'react';
 
 /**
  * This is the basic styling provided by react-pdf. TODO: change it according to the client's needs
@@ -30,8 +30,8 @@ const styles = StyleSheet.create({
         fontFamily: 'Times-Roman'
     },
     text: {
-        margin: 12,
-        fontSize: 14,
+        margin: 8,
+        fontSize: 8,
         textAlign: 'justify',
         fontFamily: 'Times-Roman'
     },
@@ -54,12 +54,18 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         color: 'grey',
     },
+    rowView: {
+        display: 'flex', flexDirection: 'row', borderTop: '1px solid #EEE', paddingTop: 8, paddingBottom: 8, textAlign: "center"
+    }
 });
+
+const tableHeaders = { "headers" : ["Name", "Identifier", "Relevancy Score", "Publication Count"]};
+const tableHeadersJSON = { "headers" : ["Name", "Identifier", "RelevancySum", "PublicationsCount"]}
 
 /**
  * Create a PDF document that is then rendered when the download button is clicked by the user.
  */
-function pdfExportDoc(experts) {
+function pdfExportDoc(experts, searchTerm) {
     return (
         <Document>
             <Page>
@@ -67,21 +73,31 @@ function pdfExportDoc(experts) {
                     Experts Found
                 </Text>
                 <Text style={styles.subtitle}>
-                    Query:
+                    Query: {searchTerm}
                 </Text>
-                {experts.map((expert) => (
-                    <Text style={styles.text}>
-                        {expert.Name}
-                    </Text>
-                ))}
+
+                <Fragment>
+                    <View style={styles.rowView}>
+                        {tableHeaders["headers"].map((c) => <Text style={{
+                            width: `${200 / tableHeaders["headers"].length}%`
+                        }}>{c}</Text>)}
+                    </View>
+                    {experts.map((rowData) => <>
+                        <View style={styles.rowView}>
+                            {tableHeadersJSON["headers"].map((c) =>
+                                <Text style={{ width: `${200 / tableHeadersJSON["headers"].length}%` }}>{rowData[c]}</Text>
+                            )}
+                        </View>
+                    </>)}
+                </Fragment>
             </Page>
         </Document>
     )
 }
 
-const generatePdfDocument = async (experts) => {
+const generatePdfDocument = async (experts, searchTerm) => {
     const blob = pdf((
-        pdfExportDoc(experts)
+        pdfExportDoc(experts, searchTerm)
     )).toBlob();
     return blob;
 };
@@ -95,9 +111,9 @@ const saveStuff = (blob) => {
  * component is used in the Publications component. Because of its interactivity it is a client component, however,
  * it uses async functions since pdf's can take some time to create.
  */
-export default function PDFDownloader({experts}) {
+export default function PDFDownloader({experts, searchTerm}) {
     // For PDF Creation
-    const bl = use(generatePdfDocument(experts))
+    const bl = use(generatePdfDocument(experts, searchTerm))
 
     return (
         <div>
