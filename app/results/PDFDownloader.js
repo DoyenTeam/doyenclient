@@ -95,6 +95,7 @@ function pdfExportDoc(experts, searchTerm) {
     )
 }
 
+// used to create the pdf document from expert the information given
 const generatePdfDocument = async (experts, searchTerm) => {
     const blob = pdf((
         pdfExportDoc(experts, searchTerm)
@@ -102,9 +103,11 @@ const generatePdfDocument = async (experts, searchTerm) => {
     return blob;
 };
 
-const saveStuff = (blob) => {
-    saveAs(blob, "doyen-expert.pdf")
+// creates a pdf file and saves it locally for the user
+const saveStuff = (blob, seachTerm) => {
+    saveAs(blob, `doyen-expert-${seachTerm}.pdf`)
 }
+
 
 /**
  * The downloader allows the user to obtain a pdf with all the results from the query to the doyen API. This
@@ -117,8 +120,7 @@ export default function PDFDownloader({experts, searchTerm}) {
 
     return (
         <div>
-            <div className={"py-2"}>
-                <button onClick={() => saveStuff(bl)}
+                <button onClick={() => saveStuff(bl, searchTerm)}
                         className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                     <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg"
                          viewBox="0 0 20 20">
@@ -126,7 +128,6 @@ export default function PDFDownloader({experts, searchTerm}) {
                     </svg>
                     <span>Export List</span>
                 </button>
-            </div>
         </div>
     )
 }

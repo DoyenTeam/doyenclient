@@ -4,6 +4,7 @@ import PDFDownloader from "@/app/results/PDFDownloader";
 import {Document, Page, pdf, StyleSheet, Text} from "@react-pdf/renderer";
 import {saveAs} from "file-saver"
 import Table from "./Table";
+import SaveSearch from "@/app/results/SaveSearch";
 
 
 /**
@@ -31,8 +32,11 @@ export default async function Publications({searchTerm}) {
 
     return (
         <div className="py-2 lg:col-span-2 lg:mt-0 xl:col-span-3">
-            <PDFDownloader experts={experts} searchTerm={searchTerm}></PDFDownloader>
+            <div className={"py-2 flex space-x-4"}>
+                <PDFDownloader experts={experts} searchTerm={searchTerm}></PDFDownloader>
+                <SaveSearch searchTerm={searchTerm}></SaveSearch>
+            </div>
             <Table experts={experts} searchTerm={searchTerm} />
         </div>
-    );
+    )
 }

@@ -34,7 +34,7 @@ export default function Home() {
 
   const navigation = [
     {name: 'Home', href: '/', icon: HomeIcon, hide: false},
-    {name: 'Previous Exports', href: '#', icon: FolderIcon, hide: !session},
+    {name: 'Saved Exports', href: '/savedexports', icon: FolderIcon, hide: !session},
   ]
 
   return (

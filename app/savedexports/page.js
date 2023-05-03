@@ -1,39 +1,38 @@
 "use client"
 
-import Link from 'next/link';
-import React, {Fragment, useState} from 'react'
+import {Fragment, useState} from 'react'
 import Filters from "@/app/Filters";
 import {Dialog, Menu, Transition} from '@headlessui/react'
 import {
     Bars3Icon,
     Cog6ToothIcon,
-    FolderIcon,
+    UsersIcon,
     HomeIcon,
-    XMarkIcon,
-} from '@heroicons/react/24/outline';
+    FolderIcon,
+    XMarkIcon
+} from '@heroicons/react/24/outline'
 import {ChevronDownIcon} from '@heroicons/react/20/solid'
-import SearchBar from '../SearchBar';
+import Search from "@/app/Search";
 import {signOut, useSession} from "next-auth/react";
-
-const addToQuery = () => {
-    console.log("clicked on the button")
-}
-
-const userNavigation = [
-    {name: 'Sign out', href: '#'},
-];
+import {useRouter} from "next/navigation";
+import {useCollection} from "react-firebase-hooks/firestore";
+import {orderBy, query, collection} from "firebase/firestore";
+import {db} from "@/firebase";
+import SimpleTable from "@/app/savedexports/simpleTable";
+import Link from "next/link";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
 /**
- * The results page uses similar components as the home page. The Search Bar and filters are repositioned but
- * otherwise remain the same. Most of the real estate on this page is for the results list where experts are shown.
- * This is called the Publications component and is where the list is created and then imported here.
+ * The Home component is shown in the homepage. It uses the Search and Filters components to create the homepage.
+ * While this is a client component, it houses server components that will render faster.
  */
-export default function Results({children}) {
-    const [sidebarOpen, setSidebarOpen] = useState(false)
+export default function SavedExport() {
+
+    //controls the UI when the screen is too small for the sidebar navigation
+    const [sidebarOpen, setSidebarOpen] = useState(false);
 
     // is the user logged in?
     const {data : session} = useSession();
@@ -41,7 +40,13 @@ export default function Results({children}) {
     const navigation = [
         {name: 'Home', href: '/', icon: HomeIcon, hide: false},
         {name: 'Saved Exports', href: '/savedexports', icon: FolderIcon, hide: !session},
-    ];
+    ]
+
+    // obtain savedExports from firebase
+    const [savedExports, loading, error] = useCollection(
+        session && query(collection(db, "users", session.user.email, "savedExports"),
+            orderBy("createdAt", "desc"))
+    )
 
     return (
         <div>
@@ -93,7 +98,7 @@ export default function Results({children}) {
                                         <img
                                             className="h-8 w-auto"
                                             src="/logo.png"
-                                            alt="Doyen"
+                                            alt="Your Company"
                                         />
                                     </div>
                                     <nav className="flex flex-1 flex-col">
@@ -133,8 +138,8 @@ export default function Results({children}) {
             </Transition.Root>
 
             {/* Static sidebar for desktop */}
-            <div className="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-50 lg:flex-col">
-                {/* Sidebar component */}
+            <div className="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-60 lg:flex-col">
+                {/* Sidebar component, swap this element with another sidebar if you like */}
                 <div className="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white px-6 pb-4">
                     <div className="flex h-16 shrink-0 items-center">
                         <img
@@ -172,6 +177,7 @@ export default function Results({children}) {
                             </li>
                             <li>
                                 <div className="text-xs font-semibold leading-6 text-gray-400"></div>
+
                             </li>
                             {/* <Filters></Filters> */}
                         </ul>
@@ -179,7 +185,7 @@ export default function Results({children}) {
                 </div>
             </div>
 
-            <div className="lg:pl-8">
+            <div className="lg:pl-72">
                 <div className="sticky top-0 z-40 lg:mx-auto lg:max-w-7xl lg:px-8">
                     <div
                         className="flex h-16 items-center gap-x-4 border-b border-gray-200 bg-white px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-0 lg:shadow-none">
@@ -195,10 +201,10 @@ export default function Results({children}) {
                         {/* Separator */}
                         <div className="h-6 w-px bg-gray-200 lg:hidden" aria-hidden="true"/>
 
-                        <div className="flex flex-1 gap-x-4 lg:gap-x-6">
-                            <div className="flex-grow items-center">
-                                {/* <SearchBar className="relative w-full"></SearchBar> */}
-                            </div>
+                        <div className="flex flex-1 gap-x-4 self-stretch lg:gap-x-6">
+                            <form className="relative flex flex-1" action="#" method="GET">
+
+                            </form>
                             <div className="flex items-center gap-x-4 lg:gap-x-6">
 
                                 {/* Separator */}
@@ -217,11 +223,11 @@ export default function Results({children}) {
                                                 alt=""
                                             />
                                             <span className="hidden lg:flex lg:items-center">
-                                                <span className="ml-4 text-sm font-semibold leading-6 text-gray-900" aria-hidden="true">
-                                                    {session.user.name}
-                                                </span>
-                                                <ChevronDownIcon className="ml-2 h-5 w-5 text-gray-400" aria-hidden="true"/>
-                                             </span>
+                      <span className="ml-4 text-sm font-semibold leading-6 text-gray-900" aria-hidden="true">
+                        {session.user.name}
+                      </span>
+                      <ChevronDownIcon className="ml-2 h-5 w-5 text-gray-400" aria-hidden="true"/>
+                    </span>
                                         </Menu.Button>
                                         <Transition
                                             as={Fragment}
@@ -247,17 +253,49 @@ export default function Results({children}) {
                                     </Menu>
                                 )
                                 }
+
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <main className="py-2">
-                    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-2">
-                        {children}
+                <main className="py-4">
+                    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                        <div class="flex flex-col">
+                            <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+                                <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+                                    <div class="overflow-hidden">
+                                        <table className="min-w-full text-left text-sm font-light">
+                                            <thead class="border-b font-medium dark:border-neutral-500">
+                                                <tr>
+                                                    <th scope="col" className="px-6 py-4">User</th>
+                                                    <th scope="col" className="px-6 py-4">Date </th>
+                                                    <th scope="col" className="px-6 py-4">Search Term</th>
+                                                    <th scope="col" className="px-6 py-4">Link</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+
+                                                {savedExports && savedExports.docs.map( doc => (
+                                                    <tr class="border-b dark:border-neutral-500">
+                                                        <td className="whitespace-nowrap px-6 py-4">{doc.get("userId")}</td>
+                                                        <td className="whitespace-nowrap px-6 py-4"> {doc.get("createdAt").toDate().toDateString()} </td>
+                                                        <td className="whitespace-nowrap px-6 py-4">{doc.get("savedExport")}</td>
+                                                        <td className="whitespace-nowrap px-6 py-4 font-medium text-blue-600">
+                                                            <Link href={`/results?q=${encodeURI(doc.get("savedExport"))}`}>
+                                                                open
+                                                            </Link>
+                                                        </td>
+                                                    </tr>
+                                                ))}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </main>
-
             </div>
         </div>
     )
