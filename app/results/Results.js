@@ -13,15 +13,12 @@ import {
 } from '@heroicons/react/24/outline';
 import {ChevronDownIcon} from '@heroicons/react/20/solid'
 import SearchBar from '../SearchBar';
+import {signOut, useSession} from "next-auth/react";
 
 const addToQuery = () => {
     console.log("clicked on the button")
 }
 
-const navigation = [
-    {name: 'Home', href: '/', icon: HomeIcon, current: true},
-    {name: 'Previous Exports', href: '#', icon: FolderIcon, current: false},
-];
 const userNavigation = [
     {name: 'Sign out', href: '#'},
 ];
@@ -38,6 +35,13 @@ function classNames(...classes) {
 export default function Results({children}) {
     const [sidebarOpen, setSidebarOpen] = useState(false)
 
+    // is the user logged in?
+    const {data : session} = useSession();
+
+    const navigation = [
+        {name: 'Home', href: '/', icon: HomeIcon, hide: false},
+        {name: 'Previous Exports', href: '#', icon: FolderIcon, hide: !session},
+    ];
 
     return (
         <div>
@@ -98,44 +102,26 @@ export default function Results({children}) {
                                                 <ul role="list" className="-mx-2 space-y-1">
                                                     {navigation.map((item) => (
                                                         <li key={item.name}>
-                                                            <a
-                                                                href={item.href}
-                                                                className={classNames(
-                                                                    item.current
-                                                                        ? 'bg-gray-50 text-indigo-600'
-                                                                        : 'text-gray-700 hover:text-indigo-600 hover:bg-gray-50',
-                                                                    'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
-                                                                )}
-                                                            >
-                                                                <item.icon
+                                                            {!item.hide ? (
+                                                                <a
+                                                                    href={item.href}
                                                                     className={classNames(
-                                                                        item.current ? 'text-indigo-600' : 'text-gray-400 group-hover:text-indigo-600',
-                                                                        'h-6 w-6 shrink-0'
+                                                                        item.current
+                                                                            ? 'bg-gray-50 text-indigo-600'
+                                                                            : 'text-gray-700 hover:text-indigo-600 hover:bg-gray-50',
+                                                                        'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
                                                                     )}
-                                                                    aria-hidden="true"
-                                                                />
-                                                                {item.name}
-                                                            </a>
+                                                                >
+                                                                    <item.icon
+                                                                        className={ 'text-indigo-600 h-6 w-6 shrink-0'}
+                                                                        aria-hidden="true"
+                                                                    />
+                                                                    {item.name}
+                                                                </a>
+                                                            ) : (<div></div>)}
                                                         </li>
                                                     ))}
                                                 </ul>
-                                            </li>
-                                            <li>
-                                                <div className="text-xs font-semibold leading-6 text-gray-400">Filters
-                                                </div>
-                                                <Filters/>
-                                            </li>
-                                            <li className="mt-auto">
-                                                <a
-                                                    href="#"
-                                                    className="group -mx-2 flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50 hover:text-indigo-600"
-                                                >
-                                                    <Cog6ToothIcon
-                                                        className="h-6 w-6 shrink-0 text-gray-400 group-hover:text-indigo-600"
-                                                        aria-hidden="true"
-                                                    />
-                                                    Settings
-                                                </a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -163,24 +149,23 @@ export default function Results({children}) {
                                 <ul role="list" className="-mx-2 space-y-1">
                                     {navigation.map((item) => (
                                         <li key={item.name}>
-                                            <a
-                                                href={item.href}
-                                                className={classNames(
-                                                    item.current
-                                                        ? 'bg-gray-50 text-indigo-600'
-                                                        : 'text-gray-700 hover:text-indigo-600 hover:bg-gray-50',
-                                                    'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
-                                                )}
-                                            >
-                                                <item.icon
+                                            {!item.hide ? (
+                                                <a
+                                                    href={item.href}
                                                     className={classNames(
-                                                        item.current ? 'text-indigo-600' : 'text-gray-400 group-hover:text-indigo-600',
-                                                        'h-6 w-6 shrink-0'
+                                                        item.current
+                                                            ? 'bg-gray-50 text-indigo-600'
+                                                            : 'text-gray-700 hover:text-indigo-600 hover:bg-gray-50',
+                                                        'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
                                                     )}
-                                                    aria-hidden="true"
-                                                />
-                                                {item.name}
-                                            </a>
+                                                >
+                                                    <item.icon
+                                                        className={ 'text-indigo-600 h-6 w-6 shrink-0'}
+                                                        aria-hidden="true"
+                                                    />
+                                                    {item.name}
+                                                </a>
+                                            ) : (<div></div>)}
                                         </li>
                                     ))}
                                 </ul>
@@ -220,50 +205,48 @@ export default function Results({children}) {
                                 <div className="hidden lg:block lg:h-6 lg:w-px lg:bg-gray-200" aria-hidden="true"/>
 
                                 {/* Profile dropdown */}
-                                <Menu as="div" className="relative">
-                                    <Menu.Button className="-m-1.5 flex items-center p-1.5">
-                                        <span className="sr-only">Open user menu</span>
-                                        <img
-                                            className="h-8 w-8 rounded-full bg-gray-50"
-                                            src="https://randomuser.me/api/portraits/men/92.jpg"
-                                            alt=""
-                                        />
-                                        <span className="hidden lg:flex lg:items-center">
-                                            <span className="ml-4 text-sm font-semibold leading-6 text-gray-900" aria-hidden="true">
-                                                Alan Pham
-                                            </span>
-                                            <ChevronDownIcon className="ml-2 h-5 w-5 text-gray-400" aria-hidden="true"/>
-                                        </span>
-                                    </Menu.Button>
-                                    <Transition
-                                        as={Fragment}
-                                        enter="transition ease-out duration-100"
-                                        enterFrom="transform opacity-0 scale-95"
-                                        enterTo="transform opacity-100 scale-100"
-                                        leave="transition ease-in duration-75"
-                                        leaveFrom="transform opacity-100 scale-100"
-                                        leaveTo="transform opacity-0 scale-95"
-                                    >
-                                        <Menu.Items
-                                            className="absolute right-0 z-10 mt-2.5 w-32 origin-top-right rounded-md bg-white py-2 shadow-lg ring-1 ring-gray-900/5 focus:outline-none">
-                                            {userNavigation.map((item) => (
-                                                <Menu.Item key={item.name}>
-                                                    {({active}) => (
-                                                        <a
-                                                            href={item.href}
-                                                            className={classNames(
-                                                                active ? 'bg-gray-50' : '',
-                                                                'block px-3 py-1 text-sm leading-6 text-gray-900'
-                                                            )}
-                                                        >
-                                                            {item.name}
-                                                        </a>
-                                                    )}
+                                {!session ? (
+                                    <div></div>
+                                ) : (
+                                    <Menu as="div" className="relative">
+                                        <Menu.Button className="-m-1.5 flex items-center p-1.5">
+                                            <span className="sr-only">Open user menu</span>
+                                            <img
+                                                className="h-8 w-8 rounded-full bg-gray-50"
+                                                src={session.user.image}
+                                                alt=""
+                                            />
+                                            <span className="hidden lg:flex lg:items-center">
+                                                <span className="ml-4 text-sm font-semibold leading-6 text-gray-900" aria-hidden="true">
+                                                    {session.user.name}
+                                                </span>
+                                                <ChevronDownIcon className="ml-2 h-5 w-5 text-gray-400" aria-hidden="true"/>
+                                             </span>
+                                        </Menu.Button>
+                                        <Transition
+                                            as={Fragment}
+                                            enter="transition ease-out duration-100"
+                                            enterFrom="transform opacity-0 scale-95"
+                                            enterTo="transform opacity-100 scale-100"
+                                            leave="transition ease-in duration-75"
+                                            leaveFrom="transform opacity-100 scale-100"
+                                            leaveTo="transform opacity-0 scale-95"
+                                        >
+                                            <Menu.Items
+                                                className="absolute right-0 z-10 mt-2.5 w-32 origin-top-right rounded-md bg-white py-2 shadow-lg ring-1 ring-gray-900/5 focus:outline-none">
+                                                <Menu.Item key={"signout"}>
+                                                    <button
+                                                        onClick={() => signOut()}
+                                                        className={'block px-3 py-1 text-sm leading-6 text-gray-900'}
+                                                    >
+                                                        Sign Out
+                                                    </button>
                                                 </Menu.Item>
-                                            ))}
-                                        </Menu.Items>
-                                    </Transition>
-                                </Menu>
+                                            </Menu.Items>
+                                        </Transition>
+                                    </Menu>
+                                )
+                                }
                             </div>
                         </div>
                     </div>
