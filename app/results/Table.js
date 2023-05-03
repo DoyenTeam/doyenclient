@@ -153,10 +153,11 @@ export default function Table({experts, searchTerm}) {
 
     // function to apply filters to the table
     function applyFilters(filters, expert) {
-        const { expertScore, publicationsCount } = filters;
+        const { expertScore, publicationsCount, citationsCount } = filters;
       
         if (expertScore && expert.RelevancySum <= expertScore) return false;
         if (publicationsCount && expert.PublicationsCount <= publicationsCount) return false;
+        if (citationsCount && expert.CitationsCount <= citationsCount) return false;
       
         return true;
     }
@@ -228,7 +229,7 @@ export default function Table({experts, searchTerm}) {
                                 title="Publications"
                                 options={[
                                     { label: "All", value: null },
-                                    { label: "2+", value: 1 },
+                                    { label: "2+", value: 2 },
                                     { label: "3+", value: 3 },
                                     { label: "5+", value: 5 },
                                 ]}
@@ -237,6 +238,22 @@ export default function Table({experts, searchTerm}) {
                                     setFilters((prevFilters) => ({
                                         ...prevFilters,
                                         publicationsCount: value,
+                                    }))
+                                }
+                            />
+                            <Filter
+                                title="Citations"
+                                options={[
+                                    { label: "All", value: null },
+                                    { label: "2+", value: 2 },
+                                    { label: "5+", value: 5 },
+                                    { label: "10+", value: 10 },
+                                ]}
+                                selectedValue={filters.citationsCount}
+                                onChange={(value) =>
+                                    setFilters((prevFilters) => ({
+                                        ...prevFilters,
+                                        citationsCount: value,
                                     }))
                                 }
                             />
@@ -262,6 +279,27 @@ export default function Table({experts, searchTerm}) {
                                     <span className="ml-2">
                                         <Arrow active={sortConfig && sortConfig.key === "PublicationsCount" && sortConfig.direction === "ascending"} direction="ascending" />
                                         <Arrow active={sortConfig && sortConfig.key === "PublicationsCount" && sortConfig.direction === "descending"} direction="descending" />
+                                    </span>
+                                </th>
+                                <th className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer" onClick={() => requestSort("CitationsCount")}>
+                                    <span># of Relevant Citations</span>
+                                    <span className="ml-2">
+                                        <Arrow
+                                        active={
+                                            sortConfig &&
+                                            sortConfig.key === "CitationsCount" &&
+                                            sortConfig.direction === "ascending"
+                                        }
+                                        direction="ascending"
+                                        />
+                                        <Arrow
+                                        active={
+                                            sortConfig &&
+                                            sortConfig.key === "CitationsCount" &&
+                                            sortConfig.direction === "descending"
+                                        }
+                                        direction="descending"
+                                        />
                                     </span>
                                 </th>
                                 <th className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">View on PubMed</th>
@@ -290,6 +328,7 @@ export default function Table({experts, searchTerm}) {
                                         </td>
                                         <td className="px-4 py-3 whitespace-nowrap text-center">{expert.RelevancySum}</td>
                                         <td className="px-4 py-3 whitespace-nowrap text-center">{expert.PublicationsCount}</td>
+                                        <td className="px-4 py-3 whitespace-nowrap text-center">{expert.CitationsCount}</td>
                                         <td className="px-4 py-2 whitespace-nowrap text-center">
                                             <button
                                                 className="text-indigo-600 hover:text-indigo-900"
