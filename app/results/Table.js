@@ -48,7 +48,7 @@ export default function Table({experts, searchTerm}) {
     // state to manage collaborators data
     const [collaboratorsData, setCollaboratorsData] = useState({});
     // state to manage filters
-    const [filters, setFilters] = useState({ expertScore: null, publicationsCount: null });
+    const [filters, setFilters] = useState({ experts: null, expertScore: null, publicationsCount: null, citationsCount: null, });
     const [showFilters, setShowFilters] = useState(false);
     const [filtersVisible, setFiltersVisible] = useState(false);
     // items per page
@@ -153,8 +153,9 @@ export default function Table({experts, searchTerm}) {
 
     // function to apply filters to the table
     function applyFilters(filters, expert) {
-        const { expertScore, publicationsCount, citationsCount } = filters;
+        const { experts, expertScore, publicationsCount, citationsCount } = filters;
       
+        if (experts === "knownCollaborators" && !expert.Identifier) return false;
         if (expertScore && expert.RelevancySum <= expertScore) return false;
         if (publicationsCount && expert.PublicationsCount <= publicationsCount) return false;
         if (citationsCount && expert.CitationsCount <= citationsCount) return false;
@@ -209,8 +210,19 @@ export default function Table({experts, searchTerm}) {
                 {filtersVisible && (
                     <>
                         <div className="ml-6">
+                            <Filter 
+                                title="Experts"
+                                options={[
+                                    { label: "All", value: null},
+                                    { label: "Has Known Colaborators", value: "knownCollaborators" }
+                                ]}
+                                selectedValue={filters.experts}
+                                onChange={(value) => 
+                                    setFilters({ ...filters, experts: value})
+                                }
+                            />
                             <Filter
-                                title="Expert Score"
+                                title="Score"
                                 options={[
                                     { label: "All", value: null },
                                     { label: "5+", value: 5 },
@@ -229,9 +241,9 @@ export default function Table({experts, searchTerm}) {
                                 title="Publications"
                                 options={[
                                     { label: "All", value: null },
-                                    { label: "2+", value: 2 },
-                                    { label: "3+", value: 3 },
-                                    { label: "5+", value: 5 },
+                                    { label: "2+", value: 1 },
+                                    { label: "3+", value: 2 },
+                                    { label: "5+", value: 4 },
                                 ]}
                                 selectedValue={filters.publicationsCount}
                                 onChange={(value) =>
@@ -245,9 +257,9 @@ export default function Table({experts, searchTerm}) {
                                 title="Citations"
                                 options={[
                                     { label: "All", value: null },
-                                    { label: "2+", value: 2 },
-                                    { label: "5+", value: 5 },
-                                    { label: "10+", value: 10 },
+                                    { label: "2+", value: 1 },
+                                    { label: "5+", value: 4 },
+                                    { label: "10+", value: 9 },
                                 ]}
                                 selectedValue={filters.citationsCount}
                                 onChange={(value) =>
@@ -326,7 +338,7 @@ export default function Table({experts, searchTerm}) {
                                                 <span className="font-bold">{expert.Name}</span>
                                             </div>
                                         </td>
-                                        <td className="px-4 py-3 whitespace-nowrap text-center">{expert.RelevancySum}</td>
+                                        <td className="px-4 py-3 whitespace-nowrap text-center">{parseFloat(expert.RelevancySum).toFixed(2)}</td>
                                         <td className="px-4 py-3 whitespace-nowrap text-center">{expert.PublicationsCount}</td>
                                         <td className="px-4 py-3 whitespace-nowrap text-center">{expert.CitationsCount}</td>
                                         <td className="px-4 py-2 whitespace-nowrap text-center">
