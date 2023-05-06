@@ -199,7 +199,7 @@ export default function Table({experts, searchTerm}) {
     // displays sortable, paginated table of experts, allows users to sort & filter table by expert score & relevant publications, and provides link to view publications on PubMed
     return (
         <div className="py-2 lg:col-span-2 lg:mt-0 xl:col-span-3">
-            <h2 className="text-2xl mb-4">Showing experts in: " {searchTerm}"</h2>
+            <h2 className="text-2xl mb-4">Showing experts in: <span className="text-indigo-700 font-semibold">" {searchTerm}"</span></h2>
             <div className="flex flex-wrap items-center mb-1 bg-gray-50 p-2">
                 <button
                     onClick={() => setFiltersVisible(!filtersVisible)}
@@ -214,7 +214,7 @@ export default function Table({experts, searchTerm}) {
                                 title="Experts"
                                 options={[
                                     { label: "All", value: null},
-                                    { label: "Has Known Colaborators", value: "knownCollaborators" }
+                                    { label: "Has Known Collaborators", value: "knownCollaborators" }
                                 ]}
                                 selectedValue={filters.experts}
                                 onChange={(value) => 
@@ -278,7 +278,7 @@ export default function Table({experts, searchTerm}) {
                     <table className="min-w-full divide-y divide-gray-200">
                         <thead className="bg-gray-50">
                             <tr>
-                                <th className="pl-14 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Expert Name</th>
+                                <th className="pl-24 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Expert Name</th>
                                 <th data-testid="expert-score-header" className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer" onClick={() => requestSort("RelevancySum")}>
                                     <span data-testid="expert-score-header">Expert Score</span>
                                     <span className="ml-2">
